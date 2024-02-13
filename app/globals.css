@@ -20,7 +20,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   font-family: monospace !important;
-  overflow-y: unset;
+  overflow-y: hidden;
   overflow-x: hidden;
   background: linear-gradient(
       to bottom,
@@ -69,4 +69,8 @@ body {
 }
 .text-color{
   color:rgb(136 145 176);
+}
+
+.tabs-content{
+background-color: transparent !important;
 }
