@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="./134310734.png" />
+        <link rel="icon" href="/twitterWhite.png" />
       </head>
       <body className={raleway.className}>{children}</body>
     </html>
