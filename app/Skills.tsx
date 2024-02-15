@@ -78,7 +78,7 @@ const Skills = () => {
     ]
     return (
         Skills.map((skills)=>(
-            <div className='  cursor-pointer rounded-lg border-[0.5px] border-opacity-40  border-gray-400 w-[130px] flex justify-around gap-2 items-center m-3  flex-wrap hover:bg-slate-800 p-2 transition-all duration-200 ' >
+            <div className=' text-slate-300 cursor-pointer rounded-lg border-[0.5px] border-opacity-40  border-gray-400 w-[130px] flex justify-around gap-2 items-center m-3  flex-wrap hover:bg-slate-800 p-2 transition-all duration-200 ' >
                 <div className='rounded-md m-aut '>  <img src={skills.imgURL} width={24} alt="" /></div> <div>{skills.Name}</div>
             </div>
             ))
