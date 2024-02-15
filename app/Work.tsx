@@ -8,7 +8,7 @@ const Work = () => {
             <div className='flex flex-col  justify-center m-auto md:flex-row' >
                 {/* PROJECT 1 */}
                 {/* <Link href={'https://greenmind-store-ecommerce.vercel.app/'}> */}
-                    <div className='border-slate-700  border w-[330px] min-h-[300px] h-[505px] m-3 p-1 hover:bg-slate-900 duration-300 transition-all cursor-pointer  ' >
+                    <div className='border-slate-700   border w-[330px] min-h-[300px] h-[505px] m-3 p-1 hover:bg-slate-900 duration-300 transition-all cursor-pointer  ' >
                         <div className='text-[17px] text-slate-300 p-4 pb-2 text-center flex justify-center gap-2 ' >
                             <span>Greendmind E-Commerce Store </span><span><a target='blank' href="https://greenmind-store-ecommerce.vercel.app/"><img className='pt-1' width={18} src="link.png" alt="" /></a></span>
                         </div>
@@ -18,16 +18,16 @@ const Work = () => {
                         </div>
                         <div className='m-2 text-lg ml-4 text-slate-300 mt-8'>TECH USED </div>
                         <div className='flex flex-wrap w-[400px]' >
-                            <div className=' cursor-pointer rounded-lg border-[0.5px] border-opacity-40  border-gray-400 w-[130px] flex justify-around gap-2 items-center m-3 flex-wrap hover:bg-slate-800 p-2 transition-all duration-200 ' >
+                            <div className=' text-slate-300 cursor-pointer rounded-lg border-[0.5px] border-opacity-40  border-gray-400 w-[130px] flex justify-around gap-2 items-center m-3 flex-wrap hover:bg-slate-800 p-2 transition-all duration-200 ' >
                                 <div className='rounded-md '>  <img src={"/nextjs.png"} width={24} alt="" /></div> <div>{"Next JS"}</div>
                             </div>
-                            <div className=' cursor-pointer rounded-lg border-[0.5px] border-opacity-40  border-gray-400 w-[130px] flex justify-around gap-2 items-center m-3 flex-wrap hover:bg-slate-800 p-2 transition-all duration-200 ' >
+                            <div className=' text-slate-300 cursor-pointer rounded-lg border-[0.5px] border-opacity-40  border-gray-400 w-[130px] flex justify-around gap-2 items-center m-3 flex-wrap hover:bg-slate-800 p-2 transition-all duration-200 ' >
                                 <div className='rounded-md '>  <img src={"/mongodb.png"} width={24} alt="" /></div> <div>{"MongoDB"}</div>
                             </div>
-                            <div className=' cursor-pointer rounded-lg border-[0.5px] border-opacity-40  border-gray-400 w-[130px] flex justify-around gap-2 items-center m-3 flex-wrap hover:bg-slate-800 p-2 transition-all duration-200 ' >
+                            <div className='text-slate-300 cursor-pointer rounded-lg border-[0.5px] border-opacity-40  border-gray-400 w-[130px] flex justify-around gap-2 items-center m-3 flex-wrap hover:bg-slate-800 p-2 transition-all duration-200 ' >
                                 <div className='rounded-md '>  <img src={"/vercel.png"} width={24} alt="" /></div> <div>{"Vercel"}</div>
                             </div>
-                            <div className=' cursor-pointer rounded-lg border-[0.5px] border-opacity-40  border-gray-400 w-[130px] flex justify-around gap-2 items-center m-3 flex-wrap hover:bg-slate-800 p-2 transition-all duration-200 ' >
+                            <div className='text-slate-300 cursor-pointer rounded-lg border-[0.5px] border-opacity-40  border-gray-400 w-[130px] flex justify-around gap-2 items-center m-3 flex-wrap hover:bg-slate-800 p-2 transition-all duration-200 ' >
                                 <div className='rounded-md '>  <img src={"/shadcn.png"} width={24} alt="" /></div> <div>{"Shadcn"}</div>
                             </div>
                         </div>
