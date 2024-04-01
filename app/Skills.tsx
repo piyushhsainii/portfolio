@@ -42,10 +42,6 @@ const Skills = () => {
             imgURL:"/prisma.png",
             Name:"Prisma"
         },   
-        {
-            imgURL:"/cloudfare.png",
-            Name:"Cloudfare"
-        },   
           {
             imgURL: "/vercel2.png",
             Name:"Vercel"
@@ -73,6 +69,10 @@ const Skills = () => {
         {
             imgURL:"/photoshop.png",
             Name:"Photoshop"
+        },   
+        {
+            imgURL:"/docker.png",
+            Name:"Docker"
         },   
        
     ]
