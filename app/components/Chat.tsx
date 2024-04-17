@@ -6,50 +6,6 @@ import {
     AccordionTrigger,
   } from "@/components/ui/accordion"
 import ChatContent from './ChatContent'
-import { GoogleGenerativeAI, HarmCategory , HarmBlockThreshold } from "@google/generative-ai"
-import { genAI } from './GoogleModel'
-import { chatbotPrompt } from './ChatBotPrompt'
-
-
-
-const safetySettings = [
-    {
-      category: HarmCategory.HARM_CATEGORY_HARASSMENT,
-      threshold: HarmBlockThreshold.BLOCK_ONLY_HIGH,
-    },
-  ];
-
-const model = genAI.getGenerativeModel({ model: "MYBOT",safetySettings});
-
-async function run() {
-    // For text-only input, use the gemini-pro model
-    const model = genAI.getGenerativeModel({ model: "gemini-pro"});
-  
-    const chat = model.startChat({
-      history: [
-        {
-          role: "user",
-          parts: [{ text: chatbotPrompt }],
-        },
-        {
-          role: "model",
-          parts: [{ text: "OK" }],
-        },
-      ],
-      generationConfig: {
-        maxOutputTokens: 100,
-      },
-    });
-  
-    const msg = "Hello, I am Piyush's Personal AI bot, how can i help you?";
-  
-    const result = await chat.sendMessage(msg);
-    const response = await result.response;
-    const text = response.text();
-    console.log(text);
-  }
-  
-    run();
 
   
 
@@ -65,8 +21,9 @@ const Chat = () => {
             </div>    
         </AccordionTrigger>
         <AccordionContent>
+          <div className='flex flex-col h-56'>
           <ChatContent />
-
+          </div>
         </AccordionContent>
       </AccordionItem>
     </Accordion>
