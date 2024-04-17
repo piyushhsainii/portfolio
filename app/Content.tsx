@@ -1,9 +1,9 @@
-import AboutMe from './AboutMe';
-import Work from './Work';
-import GitHubCalendarComponent from './GitHubCalendar';
-import TypeWriterComponent from './TypeWriterComponent';
-import FramerMotionComponent from './FramerMotionComponent';
-import Footer from './Footer';
+import AboutMe from './components/AboutMe';
+import Work from './components/Work';
+import GitHubCalendarComponent from './lib/GitHubCalendar';
+import TypeWriterComponent from './lib/TypeWriterComponent';
+import FramerMotionComponent from './lib/FramerMotionComponent';
+import Footer from './components/Footer';
 
 const Body = () => {
     return (

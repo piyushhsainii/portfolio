@@ -1,6 +1,6 @@
 import React from 'react'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import Skills from './Skills'
+import Skills from '../lib/Skills'
 
 const AboutMe = () => {
     return ( 
@@ -32,8 +32,8 @@ const AboutMe = () => {
                                 <div className='p-3' >  🧑‍💻 Resume</div>
                                 <div className='text-slate-300 px-4 py-2 flex gap-2'> <div>Download Resume</div> <img src='/download.png' width={22} className='cursor-pointer' ></img> </div>
                                 <div className='m-auto  text-center items-center flex justify-center ' >
-                        <a href="RESUME.pdf" target='blank' download={true} >
-                        <img className='h-[500px] w-[350px] ' src="Rresume.png"  alt="" />
+                        <a href="LatestCV.pdf" target='blank' download={true} >
+                        <img className='h-[500px] w-[350px] ' src="LatestCV.png"  alt="" />
                         </a>
                     </div>
                             </div>
