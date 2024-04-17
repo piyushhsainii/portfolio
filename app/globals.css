@@ -74,3 +74,17 @@ body {
 .tabs-content{
 background-color: transparent !important;
 }
+
+.chat::-webkit-scrollbar {
+  width: 0.1rem;
+}
+
+.chat::-webkit-scrollbar-track {
+  border-radius: 2rem;
+  background: transparent;
+}
+
+.chat::-webkit-scrollbar-thumb {
+  border-radius: 2rem;
+  background: transparent;
+}

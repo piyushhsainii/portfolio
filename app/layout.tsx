@@ -20,7 +20,9 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/pfp.png" />
       </head>
-      <body className={raleway.className}>{children}</body>
+      <body className={raleway.className}>
+        {children}
+        </body>
     </html>
   );
 }
