@@ -21,7 +21,6 @@ const ChatContent = () => {
     async function run() {
         // For text-only input, use the gemini-pro model
         const model = genAI.getGenerativeModel({ model: "gemini-pro" });
-
         const chat = model.startChat({
             history: [
                 {
@@ -37,7 +36,6 @@ const ChatContent = () => {
                 maxOutputTokens: 100,
             },
         });
-        
 
         const msg = message;
 
@@ -59,40 +57,42 @@ const ChatContent = () => {
     }])
 
     const [message, setMessage] = useState<string>('')
-    const [response, setResponse] = useState<string>('')
 
-    // useEffect(()=>{
-    //     run()
-    // },[message])
-    
+
     return (
         <>
-            {/* <ChatTexts /> */}
-            <div className='h-[280px] border-white chat  w-[280px] p-3 overflow-y-auto'>
-                <div className='h-[280px]  '>
-                    <div className='h-auto flex flex-col gap-3 text-sm '> deeksha
+            <div className='h-80  chat  w-[280px] p-3 overflow-y-auto'>
+                <div className='  '>
+                    <div className='h-auto flex flex-col  gap-3 text-sm '>
 
                         {text.map((mess) =>
-                            <div className='flex flex-col'>
-                                {mess.role === "model" ? <div className='justify-end'>  <img src="/pfp.png" className='w-[26px] h-[26px] m-1 mx-2' alt="" />  {mess.text} </div> : null}
-                                {mess.role === "user" ? <div className='justify-start'>    <img src="/pfp.png" className='w-[26px] h-[26px] m-1 mx-2' alt="" />   {mess.text}  </div> : null}
+                            <div className='flex flex-col' >
+                                {mess.role === "model" ? <div className=' flex justify-start items-center '>
+                                    <img src="/pfp.png" className='w-[26px] h-[26px] m-1 mx-2' alt="" />
+                                    <div className='bg-white rounded-md text-black px-2 p-1 text-sm' >{mess.text}</div> </div> : null}
+                                {mess.role === "user" ? <div className=' flex justify-end items-center'>
+                                    <div className='bg-blue-600 rounded-md text-white px-2 p-1 text-sm'>  {mess.text}</div>
+                                    <img src="/pfp.png" className='w-[26px] h-[26px] m-1 mx-2' alt="" />   </div> : null}
                             </div>)}
                     </div>
                 </div>
             </div>
-            <div className='w-full m-auto p-1 border border-slate-300 border-opacity-20'>
+            <div className='w-full'>
                 <textarea autoFocus name=""
                     onKeyDown={(e) => {
                         if (e.key === "Enter" && !e.shiftKey) {
                             //added by deeksha
                             setText((prev) => [...prev, { role: 'user', text: message }])
                             run()
+                            setMessage("")
                         }
                     }}
                     value={message}
+                    placeholder='ask me something about this portfolio?'
                     onChange={(e) => setMessage(e.target.value)}
-                    style={{ resize: "none" }} className='text-white bg-transparent w-[95%] h-[100%]  px-3'
-                    id="" cols={23} rows={2} />
+                    style={{ resize: "none" }}
+                    className='text-white bg-transparent mx-2 mr-4 h-[100%]  w-[95%] '
+                    id="" cols={29} rows={2} />
 
 
             </div>
