@@ -11,11 +11,12 @@ const Skills = () => {
             Name:"TypeScript"
         },
         {
-            imgURL: "/tailwind.png",
-            Name:"Tailwind "
-        },
+            imgURL:"/node-js.png",
+            Name:"Node JS"
+        }, 
+       
         {
-            imgURL: "/nextjs.png",
+            imgURL: "/next.png",
             Name:"Next JS"
         },
         {
@@ -23,13 +24,13 @@ const Skills = () => {
             Name:"React"
         },
         {
-            imgURL: "/express.png",
+            imgURL: "/expressw.png",
             Name:"Express"
         },   
         {
-            imgURL:"/node-js.png",
-            Name:"Node JS"
-        },   
+            imgURL: "/tailwind.png",
+            Name:"Redis "
+        },  
         {
             imgURL:"/mongodb.png",
             Name:"MongoDB"
@@ -38,8 +39,12 @@ const Skills = () => {
             imgURL:"/postgres.png",
             Name:"Postgres"
         },   
+         {
+            imgURL: "/tailwind.png",
+            Name:"Tailwind "
+        },  
         {
-            imgURL:"/prisma.png",
+            imgURL:"/prismaw.png",
             Name:"Prisma"
         },   
           {
@@ -70,6 +75,11 @@ const Skills = () => {
             imgURL:"/photoshop.png",
             Name:"Photoshop"
         },   
+        {
+            imgURL:"/ws.png",
+            Name:"Web Sockets"
+        },   
+        
         {
             imgURL:"/docker.png",
             Name:"Docker"
