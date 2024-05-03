@@ -21,13 +21,17 @@ const Project = (
 
     return (
         <div className='border-slate-700 my-5 m-auto   border w-[500px] min-h-[300px] h-[auto] p-1 hover:bg-slate-900 duration-300 transition-all cursor-pointer  ' >
-            <div className='text-[17px] text-slate-300 p-4 pb-2 text-center flex justify-center gap-2 ' >
+           <Link href={projectLink}>
+           <div className='text-[17px] text-slate-300 p-4 pb-2 text-center flex justify-center gap-2 ' >
                 <span className='underline'> {projectName} </span><span><a target='blank' href={projectLink}><img className='pt-1 m-auto' width={18} src={"Link2.png"} alt="" /></a></span>
             </div>
+           </Link>
             <hr className='w-[70%] mb-4 text-center m-auto text-slate-400 bg-slate-700  border-slate-600 ' />
-            <div className='w-[95%] object-cover h-[auto] m-auto  '  >
+           <Link href={projectLink} >
+           <div className='w-[95%] object-cover h-[auto] m-auto  '  >
                 <img src={projectImgLink} className='cursor-pointer m-auto opacity-75 hover:opacity-100 h-[10rem] object-cover transition-all duration-200 ' alt="" />
             </div>
+           </Link>
             <div className='m-2 text-sm ml-4 text-center text-slate-300 mt-8'>
                 {Description}
             </div>

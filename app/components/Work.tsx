@@ -50,6 +50,8 @@ const Work = () => {
                             link:"aceternity.png", name:"Aceternity"
                           },{
                             link:"docker.png", name:"Docker"
+                          },{
+                            link:"redis.png", name:"Redis"
                           },
                         ]}
                       />

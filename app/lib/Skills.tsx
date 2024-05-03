@@ -28,7 +28,7 @@ const Skills = () => {
             Name:"Express"
         },   
         {
-            imgURL: "/tailwind.png",
+            imgURL: "/redis.png",
             Name:"Redis "
         },  
         {
