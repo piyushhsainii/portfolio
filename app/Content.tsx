@@ -4,6 +4,7 @@ import GitHubCalendarComponent from './lib/GitHubCalendar';
 import TypeWriterComponent from './lib/TypeWriterComponent';
 import FramerMotionComponent from './lib/FramerMotionComponent';
 import Footer from './components/Footer';
+import Acheivements from './components/Acheivements';
 
 const Body = () => {
     return (
@@ -18,6 +19,7 @@ const Body = () => {
             </div>
             <GitHubCalendarComponent />
             <AboutMe />
+            <Acheivements />
             <Work />
             {/* CONTACT */}
             {/* <div className='mt-[5rem] h-[auto]  w-[750px] border-x border-white' >
