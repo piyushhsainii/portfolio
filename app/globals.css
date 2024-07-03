@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -22,10 +22,12 @@ body {
   font-family: monospace !important;
   overflow-y: hidden;
   overflow-x: hidden;
-  background: linear-gradient(to bottom,
+  background: linear-gradient(
+      to bottom,
       transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
-
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -36,7 +38,7 @@ body {
 
 .char {
   transform: translateY(115px);
-  transition: transform .5s;
+  transition: transform 0.5s;
   line-height: 3.9rem;
 }
 
@@ -58,12 +60,12 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.790);
+  background-color: rgba(0, 0, 0, 0.79);
 }
 
 .Name-color {
   color: rgb(230, 235, 255);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .text-color {
@@ -86,4 +88,22 @@ body {
 .chat::-webkit-scrollbar-thumb {
   border-radius: 2rem;
   background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
 }

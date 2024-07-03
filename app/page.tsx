@@ -10,7 +10,7 @@ export default function Home() {
       <div className='overlay '> </div>
       <video src="/bg.mp4" loop autoPlay muted playsInline className="h-[100%] w-[100%] object-cover " ></video>
       <div className='content flex  m-auto justify-end   ' >
-        <div className='max-w-[740px] m-auto  h-[auto] ' >
+        <div className='w-full m-auto  h-[auto] ' >
           <SocialLinks />
           <MobileNavabar />
           <Content />

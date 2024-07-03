@@ -18,7 +18,7 @@ const Certificate = () => {
                 <DialogContent className=' bg-transparent border-none m-auto flex justify-center'>
                     <DialogHeader>
                         <DialogDescription>
-                            <div className='flex justify-center items-center h-[700px] w-[700px] m-auto' >
+                            <div className='flex justify-center items-center w-full p-2 md:h-[700px] md:w-[700px] m-auto' >
                                 <DialogClose>
                                     <img src="/cert.png" className='cursor-zoom-out' alt="" />
                                 </DialogClose>

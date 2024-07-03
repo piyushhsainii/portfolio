@@ -20,7 +20,7 @@ const Project = (
         }) => {
 
     return (
-        <div className='border-slate-700 my-5 m-auto   border w-[500px] min-h-[300px] h-[auto] p-1 hover:bg-slate-900 duration-300 transition-all cursor-pointer  ' >
+        <div className='border-slate-700 my-5 m-auto   border w-[370px] md:w-[500px] min-h-[300px] h-[auto] p-1 hover:bg-slate-900 duration-300 transition-all cursor-pointer  ' >
             <a href={projectLink} className='block'>
                 <div className='text-[17px] text-slate-300 p-4 pb-2 text-center flex justify-center gap-2 ' >
                     <span className='underline'> {projectName} </span>
