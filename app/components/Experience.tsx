@@ -9,10 +9,10 @@ const Experience = () => {
                 </div>
                 <div className='w-[85%] mt-10 mx-auto border md:p-2 border-opacity-70 rounded-md border-slate-500'>
                     <div className='flex items-center justify-between'>
-                        <li className='font-bold text-lg m-3'>  Vexio - Remote Intern </li>
+                        <li className='font-bold text-lg m-3 text-white'>  Vexio - Remote Intern </li> 
                         <div className='px-2 text-slate-400'>  Jun 2024 - present </div>
                     </div>
-                    <div className='mx-4 px-5 text-base'>
+                    <div className='mx-4 px-5 text-base text-white'> 
                         Frontend Developer
                     </div>
                 </div>
@@ -21,4 +21,4 @@ const Experience = () => {
     )
 }
 
-export default Experience
+export default Experience;
