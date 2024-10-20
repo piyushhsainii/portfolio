@@ -55,7 +55,7 @@ const Work = () => {
           ]}
         />
 
-        <Project
+        {/* <Project
           projectName='Greendmind E-Commerce Store'
           projectImgLink='/project1.png'
           Description='Introducing Greenmind Plant Store 🙌'
@@ -67,7 +67,7 @@ const Work = () => {
             { link: "vercel.png", name: "Vercel" },
             { link: "shadcn.png", name: "Shadcn" },
           ]}
-        />
+        /> */}
 
       </div>
     </div>
