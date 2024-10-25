@@ -68,7 +68,8 @@ export default function Page() {
                 href={work.href}
                 badges={work.badges}
                 period={`${work.start} - ${work.end ?? "Present"}`}
-                description={work.description}
+                // @ts-ignore
+                description={work?.description}
               />
             </BlurFade>
           ))}
@@ -181,7 +182,8 @@ export default function Page() {
                     location={project.location}
                     dates={project.dates}
                     image={project.image}
-                    links={project.links}
+                    // @ts-ignore
+                    links={project?.links}
                   />
                 </BlurFade>
               ))}
