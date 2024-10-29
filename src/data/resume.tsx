@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { File, HomeIcon, NotebookIcon } from "lucide-react";
 import { title } from "process";
 
 export const DATA = {
@@ -21,16 +21,16 @@ export const DATA = {
     "Node.js",
     "Web Sockets",
     "Postgres",
-    "Docker",
+    "Shadcn",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "hello@example.com",
     tel: "+123456789",
     social: {
+
       GitHub: {
         name: "GitHub",
         url: "https://github.com/piyushhsainii",
@@ -52,12 +52,13 @@ export const DATA = {
 
         navbar: true,
       },
-      // Youtube: {
-      //   name: "Youtube",
-      //   url: "https://dub.sh/dillion-youtube",
-      //   icon: Icons.youtube,
-      //   navbar: true,
-      // },
+      Resume: {
+        name: "Resume",
+        url: "https://docs.google.com/document/d/1AVbBAvYYhcP8pKzFZUkrx6Or_b2AgpxcbkjyU4ywctE/edit?usp=sharing",
+        icon: Icons.googleDrive,
+
+        navbar: true,
+      },
       email: {
         name: "Send Email",
         url: "#",
@@ -74,10 +75,10 @@ export const DATA = {
       href: "#",
       badges: [],
       location: "Remote",
-      title: "Frontend Engineer",
+      title: "Frontend Engineer ( Remote ) ",
       logoUrl: "https://cdn.vexio.in/vlogo.jpeg?w=48&q=75",
-      start: "Aug 2024",
-      end: "Oct 2024",
+      start: "1 Aug 2024",
+      end: "1 Oct 2024",
 
     },
   ],
@@ -156,7 +157,7 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "100xdevs Chess Project",
+      title: "Open Source Contribution in 100xdevs Chess Project",
       dates: "Apr 19 2024",
       location: "",
       description:
