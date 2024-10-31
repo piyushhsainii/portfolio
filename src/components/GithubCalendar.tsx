@@ -1,7 +1,5 @@
 "use client"
 import GitHubCalendar from 'react-github-calendar';
-
-
 const GitHubCalendarComponent = () => {
     return (
         <div className='    md:w-[720px]     ' >
@@ -12,5 +10,4 @@ const GitHubCalendarComponent = () => {
         </div>
     )
 }
-
 export default GitHubCalendarComponent
