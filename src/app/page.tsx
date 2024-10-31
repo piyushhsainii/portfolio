@@ -1,3 +1,4 @@
+import GitHubCalendarComponent from "@/components/GithubCalendar";
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -39,6 +40,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <GitHubCalendarComponent />
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">About</h2>
