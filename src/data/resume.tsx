@@ -120,40 +120,40 @@ export const DATA = {
       video:
         "https://res.cloudinary.com/dzow59kgu/video/upload/v1729867943/pixelbrew_landingPage_ybdppe.mp4",
     },
-    {
-      title: "Horsepower Cartel",
-      href: "https://horsepower-cartel.vercel.app/",
-      dates: "Oct 2024 - Present",
-      active: true,
-      description:
-        `Introducing Horsepower Cartel 🚀  Where Luxury Meets Innovation 🙌`,
-      technologies: [
-        "Next JS",
-        "MongoDB",
-        "Vercel",
-        "Shadcn",
-        "Prisma",
-        "Aceternity",
-        "Docker",
-        "Redis",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://ai-thumbnail.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/piyushhsainii/horsepower-cartel",
-          icon: <Icons.github className="size-3" />,
+    // {
+    //   title: "Horsepower Cartel",
+    //   href: "https://horsepower-cartel.vercel.app/",
+    //   dates: "Oct 2024 - Present",
+    //   active: true,
+    //   description:
+    //     `Introducing Horsepower Cartel 🚀  Where Luxury Meets Innovation 🙌`,
+    //   technologies: [
+    //     "Next JS",
+    //     "MongoDB",
+    //     "Vercel",
+    //     "Shadcn",
+    //     "Prisma",
+    //     "Aceternity",
+    //     "Docker",
+    //     "Redis",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://ai-thumbnail.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/piyushhsainii/horsepower-cartel",
+    //       icon: <Icons.github className="size-3" />,
 
-        },
-      ],
-      image: "",
-      video:
-        "https://res.cloudinary.com/dzow59kgu/video/upload/v1729869096/horsecartel_landingpgae_mpnfeg.mp4",
-    },
+    //     },
+    //   ],
+    //   image: "",
+    //   video:
+    //     "https://res.cloudinary.com/dzow59kgu/video/upload/v1729869096/horsecartel_landingpgae_mpnfeg.mp4",
+    // },
   ],
   hackathons: [
     {
