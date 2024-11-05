@@ -94,12 +94,12 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Pixel Brew AI",
-      href: "https://ai-thumbnail.vercel.app/",
+      title: "Pixel Brew AI ",
+      // href: "https://ai-thumbnail.vercel.app/",
       dates: "Oct 2024 - Present",
       active: true,
       description:
-        `Pixel Perfect Thumbnails, Brewed by AI. This Saas model lets you generate you your own customm images with the help of PixelBrew AI`,
+        `Launching soon! - Pixel Perfect Thumbnails, Brewed by AI. This Saas model lets you generate you your own customm images with the help of PixelBrew AI`,
       technologies: [
         "React",
         "Typescript",
@@ -112,7 +112,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://ai-thumbnail.vercel.app/",
+          href: "#",
           icon: <Icons.globe className="size-3" />,
         },
       ],
