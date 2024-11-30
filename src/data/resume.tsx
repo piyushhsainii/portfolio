@@ -81,6 +81,16 @@ export const DATA = {
       end: "1 Oct 2024",
 
     },
+    {
+      company: "Freelancing",
+      href: "#",
+      badges: [],
+      location: "Remote",
+      title: "Full stack Engineer ",
+      logoUrl: "https://avatars.githubusercontent.com/u/134310734?v=4",
+      start: "1 Oct 2024",
+
+    },
   ],
   education: [
     {
