@@ -95,7 +95,7 @@ export const DATA = {
   projects: [
     {
       title: "Pixel Brew AI ",
-      href: "#",
+      href: "https://pixelbrew-ai.vercel.app/",
       dates: "Oct 2024 - Present",
       active: true,
       description:
@@ -112,7 +112,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "#",
+          href: "https://pixelbrew-ai.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
