@@ -89,6 +89,7 @@ export const DATA = {
       title: "Full stack Engineer ",
       logoUrl: "https://avatars.githubusercontent.com/u/134310734?v=4",
       start: "1 Oct 2024",
+      end: "",
 
     },
   ],
