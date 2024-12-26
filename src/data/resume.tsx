@@ -131,40 +131,67 @@ export const DATA = {
       video:
         "https://res.cloudinary.com/dzow59kgu/video/upload/v1729867943/pixelbrew_landingPage_ybdppe.mp4",
     },
-    // {
-    //   title: "Horsepower Cartel",
-    //   href: "https://horsepower-cartel.vercel.app/",
-    //   dates: "Oct 2024 - Present",
-    //   active: true,
-    //   description:
-    //     `Introducing Horsepower Cartel 🚀  Where Luxury Meets Innovation 🙌`,
-    //   technologies: [
-    //     "Next JS",
-    //     "MongoDB",
-    //     "Vercel",
-    //     "Shadcn",
-    //     "Prisma",
-    //     "Aceternity",
-    //     "Docker",
-    //     "Redis",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://ai-thumbnail.vercel.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/piyushhsainii/horsepower-cartel",
-    //       icon: <Icons.github className="size-3" />,
+    {
+      title: "Velour UI (coming soon🚀 ) ",
+      href: "https://ui.velour-ui.tech/",
+      dates: "",
+      active: true,
+      description:
+        `Free Animated & Reusable components.🙌
+      A Marketplace for developers and designers.
+      `,
+      technologies: [
+        "NodeJS",
+        "React",
+        "Framer Motion",
+        "ThreeJS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ui.velour-ui.tech/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/piyushhsainii/horsepower-cartel",
+        //   icon: <Icons.github className="size-3" />,
 
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://res.cloudinary.com/dzow59kgu/video/upload/v1729869096/horsecartel_landingpgae_mpnfeg.mp4",
-    // },
+        // },
+      ],
+      image: "https://res.cloudinary.com/dzow59kgu/image/upload/v1735200128/Screenshot_2024-12-26_133153_ct3cnp.png",
+      video:
+        "",
+    },
+    {
+      title: "Buy Me a Coffee",
+      href: "https://coffee.piyushsaini.me/",
+      dates: "25-12-24 - 26-12-2024",
+      active: true,
+      description:
+        `Buy me a coffee?🙌`,
+      technologies: [
+        "Spline",
+        "React",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://coffee.piyushsaini.me/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/piyushhsainii/horsepower-cartel",
+        //   icon: <Icons.github className="size-3" />,
+
+        // },
+      ],
+      image: "",
+      video:
+        "https://res.cloudinary.com/dzow59kgu/video/upload/v1735200006/CoffeeTemplate_uftbjt.mp4",
+    },
+
   ],
   hackathons: [
     {
