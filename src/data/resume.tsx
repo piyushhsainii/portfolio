@@ -8,8 +8,7 @@ export const DATA = {
   url: "https://dillion.io",
   location: "New Delhi, IN",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
-  description:
-    `Nerd today, Boss Tomorrow`,
+  description: `Nerd today, Boss Tomorrow`,
   summary: `A Full-Stack Developer based in Delhi. 
     I always aim for the best code quality and experience.
     Alwats excited about using new tech and AI in my projects.`,
@@ -23,14 +22,11 @@ export const DATA = {
     "Postgres",
     "Shadcn",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "hello@example.com",
     tel: "+123456789",
     social: {
-
       GitHub: {
         name: "GitHub",
         url: "https://github.com/piyushhsainii",
@@ -71,6 +67,17 @@ export const DATA = {
 
   work: [
     {
+      company: "Dream Launch Studios",
+      href: "#",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack Developer",
+      logoUrl:
+        "https://pbs.twimg.com/profile_images/1893716032113823744/EI5zkPl-_400x400.png",
+      start: "1 Jan 2025",
+      end: "1 Mar 2025",
+    },
+    {
       company: "Vexio",
       href: "#",
       badges: [],
@@ -79,7 +86,6 @@ export const DATA = {
       logoUrl: "https://cdn.vexio.in/vlogo.jpeg?w=48&q=75",
       start: "1 Aug 2024",
       end: "1 Oct 2024",
-
     },
     {
       company: "Freelancing",
@@ -90,7 +96,6 @@ export const DATA = {
       logoUrl: "https://avatars.githubusercontent.com/u/134310734?v=4",
       start: "1 Oct 2024",
       end: "",
-
     },
   ],
   education: [
@@ -98,7 +103,8 @@ export const DATA = {
       school: "BCIIT",
       href: "#",
       degree: "Bachelors in Computer Applications (BCA)",
-      logoUrl: "http://www.ipu.ac.in/style/head_foot_img/220px-usemGuru_Gobind_Singh_Indraprastha_University12.png",
+      logoUrl:
+        "http://www.ipu.ac.in/style/head_foot_img/220px-usemGuru_Gobind_Singh_Indraprastha_University12.png",
       start: "2021",
       end: "2024",
     },
@@ -109,8 +115,7 @@ export const DATA = {
       href: "https://pixelbrew-ai.vercel.app/",
       dates: "Oct 2024 - Present",
       active: true,
-      description:
-        `Launching soon! - Pixel Perfect Thumbnails, Brewed by AI. This Saas model lets you generate you your own customm images with the help of PixelBrew AI`,
+      description: `Launching soon! - Pixel Perfect Thumbnails, Brewed by AI. This Saas model lets you generate you your own customm images with the help of PixelBrew AI`,
       technologies: [
         "React",
         "Typescript",
@@ -136,16 +141,10 @@ export const DATA = {
       href: "https://ui.velour-ui.tech/",
       dates: "",
       active: true,
-      description:
-        `Free Animated & Reusable components.🙌
+      description: `Free Animated & Reusable components.🙌
       A Marketplace for developers and designers.
       `,
-      technologies: [
-        "NodeJS",
-        "React",
-        "Framer Motion",
-        "ThreeJS",
-      ],
+      technologies: ["NodeJS", "React", "Framer Motion", "ThreeJS"],
       links: [
         {
           type: "Website",
@@ -159,21 +158,17 @@ export const DATA = {
 
         // },
       ],
-      image: "https://res.cloudinary.com/dzow59kgu/image/upload/v1735200128/Screenshot_2024-12-26_133153_ct3cnp.png",
-      video:
-        "",
+      image:
+        "https://res.cloudinary.com/dzow59kgu/image/upload/v1735200128/Screenshot_2024-12-26_133153_ct3cnp.png",
+      video: "",
     },
     {
       title: "Buy Me a Coffee",
       href: "https://coffee.piyushsaini.me/",
       dates: "25-12-24 - 26-12-2024",
       active: true,
-      description:
-        `Buy me a coffee?🙌`,
-      technologies: [
-        "Spline",
-        "React",
-      ],
+      description: `Buy me a coffee?🙌`,
+      technologies: ["Spline", "React"],
       links: [
         {
           type: "Website",
@@ -191,7 +186,6 @@ export const DATA = {
       video:
         "https://res.cloudinary.com/dzow59kgu/video/upload/v1735200006/CoffeeTemplate_uftbjt.mp4",
     },
-
   ],
   hackathons: [
     {
@@ -206,10 +200,9 @@ export const DATA = {
       links: [
         {
           title: "Checkout PR",
-          href: "https://github.com/code100x/chess/pull/36"
+          href: "https://github.com/code100x/chess/pull/36",
         },
-
       ],
     },
-  ]
+  ],
 } as const;
