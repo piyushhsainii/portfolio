@@ -140,6 +140,7 @@ export const DATA = {
         },
       ],
       image: "https://res.cloudinary.com/dzow59kgu/image/upload/v1745697331/Screenshot_2025-04-27_012454_du8kbr.png",
+      video: "",
     },
     {
       title: "Pixel Brew AI ",
