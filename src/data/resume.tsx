@@ -5,14 +5,14 @@ import { title } from "process";
 export const DATA = {
   name: "Piyush Saini",
   initials: "PS",
-  url: "https://dillion.io",
+  url: "https://piyushsaini.me",
   location: "New Delhi, IN",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description: `Nerd today, Boss Tomorrow`,
   summary: `A Full-Stack Developer based in Delhi. 
     I always aim for the best code quality and experience.
     Alwats excited about using new tech and AI in my projects.`,
-  avatarUrl: "/pfp.jpg",
+  avatarUrl: "https://res.cloudinary.com/dzow59kgu/image/upload/v1745698230/WhatsApp_Image_2025-04-27_at_01.39.35_5126fa78_twfmip.jpg",
   skills: [
     "React",
     "Next.js",
@@ -67,6 +67,17 @@ export const DATA = {
 
   work: [
     {
+      company: "Alace AI",
+      href: "https://alace.ai",
+      badges: [],
+      location: "Remote",
+      title: "Founding Engineer",
+      logoUrl:
+        "https://res.cloudinary.com/dzow59kgu/image/upload/v1745697591/Screenshot_2025-04-27_012928_exblvs.png",
+      start: "1 Feb 2025",
+      end: "Present",
+    },
+    {
       company: "Dream Launch Studios",
       href: "#",
       badges: [],
@@ -111,9 +122,29 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Alace AI",
+      href: "https://alace.ai/",
+      dates: "Feb 2025 - Present",
+      active: true,
+      description: `AI that runs your ads on autopilot & Improves ROAS & CPA`,
+      technologies: [
+        "NextJS",
+        "Typescript",
+        "PostgreSQL",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://alace.ai/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://res.cloudinary.com/dzow59kgu/image/upload/v1745697331/Screenshot_2025-04-27_012454_du8kbr.png",
+    },
+    {
       title: "Pixel Brew AI ",
       href: "https://pixelbrew-ai.vercel.app/",
-      dates: "Oct 2024 - Present",
+      dates: "Oct 2024 - Dec-2024",
       active: true,
       description: `Launching soon! - Pixel Perfect Thumbnails, Brewed by AI. This Saas model lets you generate you your own customm images with the help of PixelBrew AI`,
       technologies: [
@@ -136,32 +167,32 @@ export const DATA = {
       video:
         "https://res.cloudinary.com/dzow59kgu/video/upload/v1729867943/pixelbrew_landingPage_ybdppe.mp4",
     },
-    {
-      title: "Velour UI (coming soon🚀 ) ",
-      href: "https://ui.velour-ui.tech/",
-      dates: "",
-      active: true,
-      description: `Free Animated & Reusable components.🙌
-      A Marketplace for developers and designers.
-      `,
-      technologies: ["NodeJS", "React", "Framer Motion", "ThreeJS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://ui.velour-ui.tech/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/piyushhsainii/horsepower-cartel",
-        //   icon: <Icons.github className="size-3" />,
+    // {
+    //   title: "Velour UI (coming soon🚀 ) ",
+    //   href: "https://ui.velour-ui.tech/",
+    //   dates: "",
+    //   active: true,
+    //   description: `Free Animated & Reusable components.🙌
+    //   A Marketplace for developers and designers.
+    //   `,
+    //   technologies: ["NodeJS", "React", "Framer Motion", "ThreeJS"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://ui.velour-ui.tech/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/piyushhsainii/horsepower-cartel",
+    //       icon: <Icons.github className="size-3" />,
 
-        // },
-      ],
-      image:
-        "https://res.cloudinary.com/dzow59kgu/image/upload/v1735200128/Screenshot_2024-12-26_133153_ct3cnp.png",
-      video: "",
-    },
+    //     },
+    //   ],
+    //   image:
+    //     "https://res.cloudinary.com/dzow59kgu/image/upload/v1735200128/Screenshot_2024-12-26_133153_ct3cnp.png",
+    //   video: "",
+    // },
     {
       title: "Buy Me a Coffee",
       href: "https://coffee.piyushsaini.me/",
