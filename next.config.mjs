@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
+import MiniCssExtractPlugin from "mini-css-extract-plugin";
+
 const nextConfig = {
   reactStrictMode: true,
   images: {
@@ -8,6 +9,16 @@ const nextConfig = {
         hostname: "res.cloudinary.com",
       },
     ],
+  },
+  webpack: (config, { dev, isServer }) => {
+    config.plugins.push(
+      new MiniCssExtractPlugin({
+        filename: dev ? "[name].css" : "[name].[contenthash].css",
+        chunkFilename: dev ? "[id].css" : "[id].[contenthash].css",
+      })
+    );
+
+    return config;
   },
 };
 

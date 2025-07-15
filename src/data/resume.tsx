@@ -9,10 +9,9 @@ export const DATA = {
   location: "New Delhi, IN",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description: `Nerd today, Boss Tomorrow`,
-  summary: `A Full-Stack Developer based in Delhi. 
-    I always aim for the best code quality and experience.
-    Alwats excited about using new tech and AI in my projects.`,
-  avatarUrl: "https://res.cloudinary.com/dzow59kgu/image/upload/v1745698230/WhatsApp_Image_2025-04-27_at_01.39.35_5126fa78_twfmip.jpg",
+  summary: `Full-Stack Developer from Delhi, blending clean code with big ideas. Web3 enthusiast, AI explorer, and always chasing the next tech trend. Building fast, building smart, and having fun doing it.`,
+  avatarUrl:
+    "https://res.cloudinary.com/dzow59kgu/image/upload/v1745698230/WhatsApp_Image_2025-04-27_at_01.39.35_5126fa78_twfmip.jpg",
   skills: [
     "React",
     "Next.js",
@@ -21,6 +20,9 @@ export const DATA = {
     "Web Sockets",
     "Postgres",
     "Shadcn",
+    "WEB3",
+    "Solidity",
+    "Rust",
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
@@ -73,7 +75,7 @@ export const DATA = {
       location: "Remote",
       title: "Founding Engineer",
       logoUrl:
-        "https://res.cloudinary.com/dzow59kgu/image/upload/v1745697591/Screenshot_2025-04-27_012928_exblvs.png",
+        "https://res.cloudinary.com/dzow59kgu/image/upload/v1752521374/AlaceAiLogo_gsymte.png",
       start: "1 Feb 2025",
       end: "Present",
     },
@@ -127,11 +129,7 @@ export const DATA = {
       dates: "Feb 2025 - Present",
       active: true,
       description: `AI that runs your ads on autopilot & Improves ROAS & CPA`,
-      technologies: [
-        "NextJS",
-        "Typescript",
-        "PostgreSQL",
-      ],
+      technologies: ["NextJS", "Typescript", "PostgreSQL"],
       links: [
         {
           type: "Website",
@@ -139,14 +137,99 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://res.cloudinary.com/dzow59kgu/image/upload/v1745697331/Screenshot_2025-04-27_012454_du8kbr.png",
+      image:
+        "https://res.cloudinary.com/dzow59kgu/image/upload/v1745697331/Screenshot_2025-04-27_012454_du8kbr.png",
       video: "",
+      preview: {
+        title: "Alace AI",
+        description: "AI that runs your ads on autopilot & Improves ROAS & CPA",
+        technologies: ["NextJS", "Typescript", "PostgreSQL"],
+        timePeriod: "Feb 2025 - Present",
+        link: "https://alace.ai/",
+        videoUrl: "",
+        imageUrl:
+          "https://res.cloudinary.com/dzow59kgu/image/upload/v1745697331/Screenshot_2025-04-27_012454_du8kbr.png",
+      },
+    },
+    {
+      title: "Liquid ETH",
+      href: "https://liquid-eth.vercel.app/",
+      dates: "1-06-2025 - 1-07-2025",
+      active: true,
+      description: `Secure, decentralized, and profitable ETH Staking Protocol. Start earning rewards by staking your ETH today.`,
+      technologies: ["NextJS", "Solidity", "WEB3"],
+      links: [
+        {
+          type: "Website",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://res.cloudinary.com/dzow59kgu/image/upload/v1752525947/Screenshot_2025-07-15_021504_c0qrhz.png",
+      video: "",
+      preview: {
+        title: "Liquid ETH",
+        description:
+          "Rent high-performance GPUs to run large LLMs, image generation models, and more—all via our streamlined Solana-powered dashboard. Whether you're building AI models, generating art, or crunching data,  Fast. Secure. Pay-as-you-go.",
+        technologies: ["NextJS", "Solidity", "WEB3"],
+        timePeriod: "1-06-2025 - 1-07-2025",
+        link: "https://liquid-eth.vercel.app/",
+        videoUrl: "",
+        imageUrl:
+          "https://res.cloudinary.com/dzow59kgu/image/upload/v1752525947/Screenshot_2025-07-15_021504_c0qrhz.png",
+      },
+    },
+    {
+      title: "RunPod – Decentralized GPU Power, On Demand",
+      href: "#",
+      dates: "Oct 2024 - Dec-2024",
+      active: true,
+      description: `Rent high-performance GPUs to run large LLMs, image generation models, and more—all via our streamlined Solana-powered dashboard. Whether you're building AI models, generating art, or crunching data,  Fast. Secure. Pay-as-you-go.`,
+      technologies: [
+        "React",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "NodeJS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://res.cloudinary.com/dzow59kgu/video/upload/v1752521218/FooocusWithLatestAI_z7trqo.mp4",
+      preview: {
+        title: "RunPod – Decentralized GPU Power, On Demand",
+        description:
+          "Rent high-performance GPUs to run large LLMs, image generation models, and more—all via our streamlined Solana-powered dashboard. Whether you're building AI models, generating art, or crunching data,  Fast. Secure. Pay-as-you-go.",
+        technologies: [
+          "React",
+          "Typescript",
+          "PostgreSQL",
+          "Prisma",
+          "TailwindCSS",
+          "Shadcn UI",
+          "NodeJS",
+        ],
+        timePeriod: "Oct 2024 - Dec-2024",
+        link: "#",
+        videoUrl:
+          "https://res.cloudinary.com/dzow59kgu/video/upload/v1752521218/FooocusWithLatestAI_z7trqo.mp4",
+        imageUrl: "",
+      },
     },
     {
       title: "Pixel Brew AI ",
       href: "https://pixelbrew-ai.vercel.app/",
       dates: "Oct 2024 - Dec-2024",
-      active: true,
+      active: false,
       description: `Launching soon! - Pixel Perfect Thumbnails, Brewed by AI. This Saas model lets you generate you your own customm images with the help of PixelBrew AI`,
       technologies: [
         "React",
@@ -167,33 +250,49 @@ export const DATA = {
       image: "",
       video:
         "https://res.cloudinary.com/dzow59kgu/video/upload/v1729867943/pixelbrew_landingPage_ybdppe.mp4",
+      preview: {
+        title: "Task Management App",
+        description:
+          "A collaborative task management application with real-time updates, team collaboration features, and advanced project tracking capabilities. Built with performance and scalability in mind.",
+        technologies: [
+          "Vue.js",
+          "Node.js",
+          "Socket.io",
+          "MongoDB",
+          "Express",
+          "JWT",
+        ],
+        timePeriod: "January 2024 - February 2024",
+        link: "https://example.com/task-manager",
+        videoUrl: "/placeholder-video.mp4",
+        imageUrl: "/placeholder.svg?height=500&width=600",
+      },
     },
-    // {
-    //   title: "Velour UI (coming soon🚀 ) ",
-    //   href: "https://ui.velour-ui.tech/",
-    //   dates: "",
-    //   active: true,
-    //   description: `Free Animated & Reusable components.🙌
-    //   A Marketplace for developers and designers.
-    //   `,
-    //   technologies: ["NodeJS", "React", "Framer Motion", "ThreeJS"],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://ui.velour-ui.tech/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/piyushhsainii/horsepower-cartel",
-    //       icon: <Icons.github className="size-3" />,
-
-    //     },
-    //   ],
-    //   image:
-    //     "https://res.cloudinary.com/dzow59kgu/image/upload/v1735200128/Screenshot_2024-12-26_133153_ct3cnp.png",
-    //   video: "",
-    // },
+    {
+      title: "Velour UI (coming soon🚀 ) ",
+      href: "https://ui.velour-ui.tech/",
+      dates: "",
+      active: false,
+      description: `Free Animated & Reusable components.🙌
+      A Marketplace for developers and designers.
+      `,
+      technologies: ["NodeJS", "React", "Framer Motion", "ThreeJS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://ui.velour-ui.tech/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/piyushhsainii/horsepower-cartel",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image:
+        "https://res.cloudinary.com/dzow59kgu/image/upload/v1735200128/Screenshot_2024-12-26_133153_ct3cnp.png",
+      video: "",
+    },
     {
       title: "Buy Me a Coffee",
       href: "https://coffee.piyushsaini.me/",
@@ -207,16 +306,20 @@ export const DATA = {
           href: "https://coffee.piyushsaini.me/",
           icon: <Icons.globe className="size-3" />,
         },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/piyushhsainii/horsepower-cartel",
-        //   icon: <Icons.github className="size-3" />,
-
-        // },
       ],
       image: "",
       video:
         "https://res.cloudinary.com/dzow59kgu/video/upload/v1735200006/CoffeeTemplate_uftbjt.mp4",
+      preview: {
+        title: "Buy Me a Coffee",
+        description: "Buy me a coffee?🙌",
+        technologies: ["Spline", "React"],
+        timePeriod: "January 2024 - February 2024",
+        link: "#",
+        videoUrl:
+          "https://res.cloudinary.com/dzow59kgu/video/upload/v1735200006/CoffeeTemplate_uftbjt.mp4",
+        imageUrl: "",
+      },
     },
   ],
   hackathons: [

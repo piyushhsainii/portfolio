@@ -26,6 +26,14 @@ export const metadata: Metadata = {
     siteName: `${DATA.name}`,
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: `https://res.cloudinary.com/dzow59kgu/image/upload/v1752593263/portfolioImg_fbovbd.png`, // Full URL is recommended
+        width: 1200,
+        height: 630,
+        alt: `${DATA.name} Open Graph Image`,
+      },
+    ],
   },
   robots: {
     index: true,
@@ -41,13 +49,15 @@ export const metadata: Metadata = {
   twitter: {
     title: `${DATA.name}`,
     card: "summary_large_image",
+    images: [
+      `https://res.cloudinary.com/dzow59kgu/image/upload/v1752593263/portfolioImg_fbovbd.png`,
+    ], // Twitter expects array of URLs
   },
   verification: {
     google: "",
     yandex: "",
   },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{

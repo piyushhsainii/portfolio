@@ -7,9 +7,12 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
+import { Eye } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { Dialog, DialogContent, DialogTrigger } from "./ui/dialog";
+import { ProjectShowcaseDialog } from "./ProjectsComponent";
 
 interface Props {
   title: string;
@@ -26,6 +29,15 @@ interface Props {
     href: string;
   }[];
   className?: string;
+  preview: {
+    title: string;
+    description: string;
+    technologies: string[];
+    timePeriod: string;
+    link: string;
+    imageUrl?: string;
+    videoUrl?: string;
+  };
 }
 
 export function ProjectCard({
@@ -39,6 +51,7 @@ export function ProjectCard({
   video,
   links,
   className,
+  preview,
 }: Props) {
   return (
     <Card
@@ -73,7 +86,23 @@ export function ProjectCard({
       <CardHeader className="px-2">
         <div className="space-y-1">
           <CardTitle className="mt-1 text-base">{title}</CardTitle>
-          <time className="font-sans text-xs">{dates}</time>
+          <div className=" flex justify-between items-center">
+            <time className="font-sans text-xs">{dates}</time>
+            <div>
+              <Dialog>
+                <DialogTrigger>
+                  {" "}
+                  <Eye
+                    size={18}
+                    className="brightness-75 hover:brightness-110"
+                  />
+                </DialogTrigger>
+                <DialogContent className="w-[70%] h-[80%]">
+                  <ProjectShowcaseDialog project={preview} />
+                </DialogContent>
+              </Dialog>
+            </div>
+          </div>
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>

@@ -33,7 +33,11 @@ export default function Page() {
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} className="object-cover" />
+                <AvatarImage
+                  alt={DATA.name}
+                  src={DATA.avatarUrl}
+                  className="object-cover"
+                />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
@@ -134,24 +138,28 @@ export default function Page() {
             </div>
           </BlurFade>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-            {DATA.projects.map((project, id) => (
-              <BlurFade
-                key={project.title}
-                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
-              >
-                <ProjectCard
-                  href={project.href}
+            {DATA.projects
+              .filter((project) => project.active == true)
+              .map((project, id) => (
+                <BlurFade
                   key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  dates={project.dates}
-                  tags={project.technologies}
-                  image={project.image}
-                  video={project?.video ?? ""}
-                  links={project.links}
-                />
-              </BlurFade>
-            ))}
+                  delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+                >
+                  <ProjectCard
+                    href={project.href}
+                    key={project.title}
+                    title={project.title}
+                    description={project.description}
+                    dates={project.dates}
+                    tags={project.technologies}
+                    image={project.image}
+                    video={project?.video ?? ""}
+                    links={project.links}
+                    // @ts-ignore
+                    preview={project.preview}
+                  />
+                </BlurFade>
+              ))}
           </div>
         </div>
       </section>
@@ -165,30 +173,31 @@ export default function Page() {
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   During my time in university, I contributed in open source
-                  repositories. Worked on various personal projects.
-                  Completed 0-100 course by 100xDevs.
+                  repositories. Worked on various personal projects. Completed
+                  0-100 course by 100xDevs.
                 </p>
               </div>
             </div>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {DATA && DATA.hackathons.map((project, id) => (
-                <BlurFade
-                  key={project.title + project.dates}
-                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
-                >
-                  <HackathonCard
-                    title={project.title}
-                    description={project.description}
-                    location={project.location}
-                    dates={project.dates}
-                    image={project.image}
-                    // @ts-ignore
-                    links={project?.links}
-                  />
-                </BlurFade>
-              ))}
+              {DATA &&
+                DATA.hackathons.map((project, id) => (
+                  <BlurFade
+                    key={project.title + project.dates}
+                    delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                  >
+                    <HackathonCard
+                      title={project.title}
+                      description={project.description}
+                      location={project.location}
+                      dates={project.dates}
+                      image={project.image}
+                      // @ts-ignore
+                      links={project?.links}
+                    />
+                  </BlurFade>
+                ))}
             </ul>
           </BlurFade>
         </div>
