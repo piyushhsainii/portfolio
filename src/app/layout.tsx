@@ -1,11 +1,11 @@
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -13,49 +13,27 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(DATA.url),
-  title: {
-    default: DATA.name,
-    template: `%s | ${DATA.name}`,
-  },
-  description: DATA.description,
+  title: "Piyush Saini",
+  description: "Nerd Today, Boss Tomorrow",
   openGraph: {
-    title: `${DATA.name}`,
-    description: DATA.description,
-    url: DATA.url,
-    siteName: `${DATA.name}`,
-    locale: "en_US",
-    type: "website",
+    title: "Piyush Saini",
+    description: "Nerd Today, Boss Tomorrow",
     images: [
       {
-        url: `https://res.cloudinary.com/dzow59kgu/image/upload/v1752593263/portfolioImg_fbovbd.png`, // Full URL is recommended
+        url: "https://res.cloudinary.com/dzow59kgu/image/upload/v1752593263/portfolioImg_fbovbd.png", // Relative to the public/ directory
         width: 1200,
         height: 630,
-        alt: `${DATA.name} Open Graph Image`,
+        alt: "Piyush Saini",
       },
     ],
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
   twitter: {
-    title: `${DATA.name}`,
     card: "summary_large_image",
+    title: "Piyush Saini",
+    description: "Nerd Today, Boss Tomorrow",
     images: [
-      `https://res.cloudinary.com/dzow59kgu/image/upload/v1752593263/portfolioImg_fbovbd.png`,
-    ], // Twitter expects array of URLs
-  },
-  verification: {
-    google: "",
-    yandex: "",
+      "https://res.cloudinary.com/dzow59kgu/image/upload/v1752593263/portfolioImg_fbovbd.png",
+    ],
   },
 };
 export default function RootLayout({
@@ -75,6 +53,7 @@ export default function RootLayout({
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />
+            <Analytics />
           </TooltipProvider>
         </ThemeProvider>
       </body>
