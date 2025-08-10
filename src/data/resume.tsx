@@ -152,6 +152,33 @@ export const DATA = {
       },
     },
     {
+      title: "SolMint",
+      href: "https://sol-minti.vercel.app/",
+      dates: "10-08-2025",
+      active: true,
+      description: `Mint Your Own NFT on Solana Instantly`,
+      technologies: ["NextJS", "Solana", "WEB3"],
+      links: [
+        {
+          type: "Website",
+          href: "https://sol-minti.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      video:
+        "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/NFT-CREATION-WALKTHROUGH.mp4",
+      preview: {
+        title: "Liquid ETH",
+        description:
+          "Rent high-performance GPUs to run large LLMs, image generation models, and more—all via our streamlined Solana-powered dashboard. Whether you're building AI models, generating art, or crunching data,  Fast. Secure. Pay-as-you-go.",
+        technologies: ["NextJS", "Solidity", "WEB3"],
+        timePeriod: "1-06-2025 - 1-07-2025",
+        link: "https://sol-minti.vercel.app/",
+        videoUrl:
+          "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/NFT-CREATION-WALKTHROUGH.mp4",
+      },
+    },
+    {
       title: "Liquid ETH",
       href: "https://liquid-eth.vercel.app/",
       dates: "1-06-2025 - 1-07-2025",
@@ -161,7 +188,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "#",
+          href: "https://liquid-eth.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
