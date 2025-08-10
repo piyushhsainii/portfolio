@@ -165,6 +165,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
+      image: "",
       video:
         "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/NFT-CREATION-WALKTHROUGH.mp4",
       preview: {
@@ -177,6 +178,7 @@ export const DATA = {
         videoUrl:
           "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/NFT-CREATION-WALKTHROUGH.mp4",
       },
+      imageUrl: "",
     },
     {
       title: "Liquid ETH",
