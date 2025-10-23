@@ -8,6 +8,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "res.cloudinary.com",
       },
+      {
+        protocol: "https",
+        hostname: "apneajyhbpncbciasirk.supabase.co",
+      },
     ],
   },
   webpack: (config, { dev, isServer }) => {

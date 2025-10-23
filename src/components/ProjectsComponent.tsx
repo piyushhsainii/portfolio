@@ -36,7 +36,9 @@ export function ProjectShowcaseDialog({ project }: ProjectShowcaseDialogProps) {
         {project.videoUrl ? (
           <video
             src={project.videoUrl}
-            controls
+            autoPlay
+            controls={false}
+            muted
             className="w-full h-full object-contain"
             poster={project.imageUrl}
           >

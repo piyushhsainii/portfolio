@@ -9,9 +9,9 @@ export const DATA = {
   location: "New Delhi, IN",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description: `Nerd today, Boss Tomorrow`,
-  summary: `Full-Stack Developer from Delhi, blending clean code with big ideas. Web3 enthusiast, AI explorer, and always chasing the next tech trend. Building fast, building smart, and having fun doing it.`,
+  summary: `Web3 & Solana Engineer | Founding Engineer at Alace AI. I help turn ideas into reality — from design to full-scale development. Let’s build your MVP and launch fast🚀`,
   avatarUrl:
-    "https://res.cloudinary.com/dzow59kgu/image/upload/v1745698230/WhatsApp_Image_2025-04-27_at_01.39.35_5126fa78_twfmip.jpg",
+    "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/PFP.jpg",
   skills: [
     "React",
     "Next.js",
@@ -26,8 +26,8 @@ export const DATA = {
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "sainipiyush8860@gmail.com",
+    tel: "+919953588804",
     social: {
       GitHub: {
         name: "GitHub",
@@ -52,7 +52,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://docs.google.com/document/d/1y92PQrGmzxSmFmlDuKUD9WmvbwS1MNHiSWu_91BNej8/edit?tab=t.0",
+        url: "https://drive.google.com/file/d/14iEOhXNRR_hywklWr0dGW5NbVn2lAWMQ/view?usp=sharing",
         icon: Icons.googleDrive,
 
         navbar: true,
@@ -100,16 +100,6 @@ export const DATA = {
       start: "1 Aug 2024",
       end: "1 Oct 2024",
     },
-    // {
-    //   company: "Freelancing",
-    //   href: "#",
-    //   badges: [],
-    //   location: "Remote",
-    //   title: "Full stack Engineer ",
-    //   logoUrl: "https://avatars.githubusercontent.com/u/134310734?v=4",
-    //   start: "1 Oct 2024",
-    //   end: "",
-    // },
   ],
   education: [
     {
@@ -124,6 +114,7 @@ export const DATA = {
   ],
   projects: [
     {
+      type: "AI",
       title: "Alace AI",
       href: "https://alace.ai/",
       dates: "Feb 2025 - Present",
@@ -152,6 +143,85 @@ export const DATA = {
       },
     },
     {
+      type: "WEB3",
+      title: "Rugs-Fun - On Chain Trading Game",
+      href: "https://rugs-funn.vercel.app/",
+      dates: "Sept 2025 - Oct 2025",
+      active: true,
+      description: `Trade, risk, and cash out before it rugs. rugs.fun is an on-chain crash game for degens who love the thrill of timing the perfect exit.`,
+      technologies: ["NextJS", "Typescript", "Node JS", "Web Sockets"],
+      links: [
+        {
+          type: "Website",
+          href: "https://rugs-funn.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/rugs-fun/metadataImg.png",
+      video: "",
+      preview: {
+        title: "Rugs-Fun - On Chain Trading Game",
+        description:
+          "Trade, risk, and cash out before it rugs. rugs.fun is an on-chain crash game for degens who love the thrill of timing the perfect exit",
+        technologies: ["NextJS", "Typescript", "PostgreSQL"],
+        timePeriod: "Feb 2025 - Present",
+        link: "https://rugs-funn.vercel.app",
+        videoUrl:
+          "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/rugs-fun/rugs.fun_final_video.mp4",
+        imageUrl:
+          "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/rugs-fun/metadataImg.png",
+      },
+    },
+    {
+      type: "WEB3",
+      title: "SOL-Backed Stablecoin on Solana",
+      href: "#",
+      dates: "2024 - Present",
+      active: true,
+      description:
+        "A decentralized USD-pegged stablecoin protocol on Solana. Deposit SOL as collateral, mint stablecoins, and maintain stability via oracles and liquidations.",
+      technologies: [
+        "Solana",
+        "DeFi",
+        "Stablecoin",
+        "SPL Token 2022",
+        "Pyth Oracle",
+        "Anchor",
+        "Blockchain",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/aura.jpg",
+      video: "",
+      preview: {
+        title: "SOL-Backed Stablecoin on Solana",
+        description:
+          "Deposit SOL → Mint USD-pegged stablecoins. Backed by collateral, powered by Pyth oracle pricing, secured with liquidations.",
+        technologies: [
+          "Solana",
+          "DeFi",
+          "Stablecoin",
+          "SPL Token 2022",
+          "Pyth Oracle",
+          "Anchor",
+          "Blockchain",
+        ],
+        timePeriod: "2024 - Present",
+        link: "#",
+        videoUrl: "",
+        imageUrl:
+          "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/aura.jpg",
+      },
+    },
+    {
+      type: "WEB3",
       title: "SolMint",
       href: "https://sol-minti.vercel.app/",
       dates: "10-08-2025",
@@ -181,6 +251,7 @@ export const DATA = {
       imageUrl: "",
     },
     {
+      type: "WEB3",
       title: "Liquid ETH",
       href: "https://liquid-eth.vercel.app/",
       dates: "1-06-2025 - 1-07-2025",
@@ -210,6 +281,7 @@ export const DATA = {
       },
     },
     {
+      type: "AI",
       title: "RunPod – Decentralized GPU Power, On Demand",
       href: "#",
       dates: "Oct 2024 - Dec-2024",
@@ -255,11 +327,12 @@ export const DATA = {
       },
     },
     {
+      type: "AI SaaS",
       title: "Pixel Brew AI ",
       href: "https://pixelbrew-ai.vercel.app/",
       dates: "Oct 2024 - Dec-2024",
       active: false,
-      description: `Launching soon! - Pixel Perfect Thumbnails, Brewed by AI. This Saas model lets you generate you your own customm images with the help of PixelBrew AI`,
+      description: `Launching soon! - Pixel Perfect Thumbnails, Brewed by AI. This Saas model lets you generate your own custom images with PixelBrew AI.`,
       technologies: [
         "React",
         "Typescript",
@@ -298,13 +371,13 @@ export const DATA = {
       },
     },
     {
+      type: "UI Library",
       title: "Velour UI (coming soon🚀 ) ",
       href: "https://ui.velour-ui.tech/",
       dates: "",
       active: false,
       description: `Free Animated & Reusable components.🙌
-      A Marketplace for developers and designers.
-      `,
+    A Marketplace for developers and designers.`,
       technologies: ["NodeJS", "React", "Framer Motion", "ThreeJS"],
       links: [
         {
@@ -323,6 +396,57 @@ export const DATA = {
       video: "",
     },
     {
+      type: "Design",
+      title: "Orbital AI – Web3 Powered Creative Experiences",
+      href: "https://orbital-rust-five.vercel.app/",
+      dates: "2024 - Present",
+      active: true,
+      description:
+        "Experience the next generation of Web3 creativity with Orbital AI. Generate stunning visuals, interact with dynamic content, and explore a decentralized future of digital art.",
+      technologies: [
+        "Next.js",
+        "React",
+        "Web3",
+        "Blockchain",
+        "AI Art",
+        "Canvas Animations",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://orbital-rust-five.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Twitter",
+          href: "https://twitter.com/piyushhsainii",
+          icon: <Icons.x className="size-3" />,
+        },
+      ],
+      image:
+        "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/designs-assets/orbital/orbital_metadata.png",
+      video: "",
+      preview: {
+        title: "Orbital AI – Web3 Powered Creative Experiences",
+        description:
+          "Explore dynamic Web3 creative experiences powered by Orbital AI. Generate, interact, and share AI-driven digital art.",
+        technologies: [
+          "Next.js",
+          "React",
+          "Web3",
+          "Blockchain",
+          "AI Art",
+          "Canvas Animations",
+        ],
+        timePeriod: "2024 - Present",
+        link: "https://piyushsaini.me",
+        videoUrl: "",
+        imageUrl:
+          "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/designs-assets/orbital/orbital_metadata.png",
+      },
+    },
+    {
+      type: "Design",
       title: "Buy Me a Coffee",
       href: "https://coffee.piyushsaini.me/",
       dates: "25-12-24 - 26-12-2024",
@@ -351,6 +475,7 @@ export const DATA = {
       },
     },
   ],
+
   hackathons: [
     {
       title: "Open Source Contribution in 100xdevs Chess Project",

@@ -29,7 +29,7 @@ interface Props {
     href: string;
   }[];
   className?: string;
-  preview: {
+  preview?: {
     title: string;
     description: string;
     technologies: string[];
@@ -98,7 +98,7 @@ export function ProjectCard({
                   />
                 </DialogTrigger>
                 <DialogContent className="w-[70%] h-[80%]">
-                  <ProjectShowcaseDialog project={preview} />
+                  <ProjectShowcaseDialog project={preview!} />
                 </DialogContent>
               </Dialog>
             </div>
