@@ -52,14 +52,14 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/14iEOhXNRR_hywklWr0dGW5NbVn2lAWMQ/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1y7o7VOm8oiCMGbQMr-8zYU3em1pdcBe_/view?usp=sharing",
         icon: Icons.googleDrive,
 
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "sainipiyush8860@gmail.com",
         icon: Icons.email,
 
         navbar: false,
@@ -176,7 +176,7 @@ export const DATA = {
     {
       type: "WEB3",
       title: "SOL-Backed Stablecoin on Solana",
-      href: "#",
+      href: "https://my-stable-coin.vercel.app/",
       dates: "2024 - Present",
       active: true,
       description:
@@ -193,7 +193,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "#",
+          href: "https://my-stable-coin.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -213,8 +213,8 @@ export const DATA = {
           "Anchor",
           "Blockchain",
         ],
-        timePeriod: "2024 - Present",
-        link: "#",
+        timePeriod: "",
+        link: "https://my-stable-coin.vercel.app/",
         videoUrl: "",
         imageUrl:
           "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/aura.jpg",
@@ -395,54 +395,112 @@ export const DATA = {
         "https://res.cloudinary.com/dzow59kgu/image/upload/v1735200128/Screenshot_2024-12-26_133153_ct3cnp.png",
       video: "",
     },
+    // {
+    //   type: "Design",
+    //   title: "Orbital AI – Web3 Powered Creative Experiences",
+    //   href: "https://orbital-rust-five.vercel.app/",
+    //   dates: "2024 - Present",
+    //   active: true,
+    //   description:
+    //     "Experience the next generation of Web3 creativity with Orbital AI. Generate stunning visuals, interact with dynamic content, and explore a decentralized future of digital art.",
+    //   technologies: [
+    //     "Next.js",
+    //     "React",
+    //     "Web3",
+    //     "Blockchain",
+    //     "AI Art",
+    //     "Canvas Animations",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://orbital-rust-five.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Twitter",
+    //       href: "https://twitter.com/piyushhsainii",
+    //       icon: <Icons.x className="size-3" />,
+    //     },
+    //   ],
+    //   image:
+    //     "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/designs-assets/orbital/orbital_metadata.png",
+    //   video: "",
+    //   preview: {
+    //     title: "Orbital AI – Web3 Powered Creative Experiences",
+    //     description:
+    //       "Explore dynamic Web3 creative experiences powered by Orbital AI. Generate, interact, and share AI-driven digital art.",
+    //     technologies: [
+    //       "Next.js",
+    //       "React",
+    //       "Web3",
+    //       "Blockchain",
+    //       "AI Art",
+    //       "Canvas Animations",
+    //     ],
+    //     timePeriod: "2024 - Present",
+    //     link: "https://piyushsaini.me",
+    //     videoUrl: "",
+    //     imageUrl:
+    //       "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/designs-assets/orbital/orbital_metadata.png",
+    //   },
+    // },
     {
       type: "Design",
-      title: "Orbital AI – Web3 Powered Creative Experiences",
-      href: "https://orbital-rust-five.vercel.app/",
-      dates: "2024 - Present",
+      title: "Personal Branding Template",
+      href: "https://elite-coaching-green.vercel.app/",
+      dates: "25-12-24 - 26-12-2024",
       active: true,
-      description:
-        "Experience the next generation of Web3 creativity with Orbital AI. Generate stunning visuals, interact with dynamic content, and explore a decentralized future of digital art.",
-      technologies: [
-        "Next.js",
-        "React",
-        "Web3",
-        "Blockchain",
-        "AI Art",
-        "Canvas Animations",
-      ],
+      description: `Personal Branding Template🙌`,
+      technologies: ["NextJS", "Framer Motion"],
       links: [
         {
           type: "Website",
-          href: "https://orbital-rust-five.vercel.app/",
+          href: "https://elite-coaching-green.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+      ],
+      image: "",
+      video:
+        "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/designs-assets/elite-coaching.mp4",
+      preview: {
+        title: "Personal Branding Template",
+        description: "Personal Branding Template🙌",
+        technologies: ["NextJS", "Framer Motion"],
+        timePeriod: "",
+        link: "#",
+        videoUrl:
+          "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/designs-assets/elite-coaching.mp4",
+        imageUrl: "",
+      },
+    },
+    {
+      type: "Design",
+      title: "Campaign Marketing Landing Page",
+      href: "https://climate-landing.vercel.app/",
+      dates: "",
+      active: true,
+      description: `Campaign Marketing Landing Page🙌`,
+      technologies: ["React"],
+      links: [
         {
-          type: "Twitter",
-          href: "https://twitter.com/piyushhsainii",
-          icon: <Icons.x className="size-3" />,
+          type: "Website",
+          href: "https://climate-landing.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
-      image:
-        "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/designs-assets/orbital/orbital_metadata.png",
-      video: "",
+      image: "",
+      video:
+        "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/climateLandingDemo.mp4",
       preview: {
-        title: "Orbital AI – Web3 Powered Creative Experiences",
-        description:
-          "Explore dynamic Web3 creative experiences powered by Orbital AI. Generate, interact, and share AI-driven digital art.",
-        technologies: [
-          "Next.js",
-          "React",
-          "Web3",
-          "Blockchain",
-          "AI Art",
-          "Canvas Animations",
-        ],
-        timePeriod: "2024 - Present",
-        link: "https://piyushsaini.me",
-        videoUrl: "",
-        imageUrl:
-          "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/designs-assets/orbital/orbital_metadata.png",
+        title: "Campaign Marketing Landing Page",
+        description: "Campaign Marketing Landing Page🙌",
+        technologies: ["React"],
+        timePeriod: "January 2024 - February 2024",
+        link: "#",
+        videoUrl:
+          "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/climateLandingDemo.mp4",
+        imageUrl: "",
       },
     },
     {
