@@ -6,7 +6,7 @@ export function ExperienceSection() {
   const experiences = [
     {
       period: "Feb 2025 - Nov  2025",
-      title: "Founding Engineer",
+      title: "Alace AI (Founding Engineer)",
       description:
         "Building the core infrastructure and AI systems at Alace AI. Leading full-stack development to create an autonomous advertising platform that optimizes ROAS and CPA using machine learning algorithms.",
       icon: "https://res.cloudinary.com/dzow59kgu/image/upload/v1752521374/AlaceAiLogo_gsymte.png",
@@ -15,7 +15,7 @@ export function ExperienceSection() {
     },
     {
       period: "Dec 2024 - Feb 2025",
-      title: "Full Stack Developer",
+      title: " Dream Launch (Full Stack Developer)",
       description:
         "Developed and deployed scalable web applications for Dream Launch Studios. Implemented modern frontend architectures and backend services, focusing on performance optimization and user experience.",
       icon: "https://pbs.twimg.com/profile_images/1893716032113823744/EI5zkPl-_400x400.png",
@@ -24,7 +24,7 @@ export function ExperienceSection() {
     },
     {
       period: "Aug 2024 - Oct 2024",
-      title: "Frontend Engineer",
+      title: " Vexio ( Intern Frontend Engineer)",
       description:
         "Built responsive and performant user interfaces at Vexio. Collaborated with design and backend teams to deliver seamless user experiences using modern React patterns and best practices.",
       icon: "https://cdn.vexio.in/vlogo.jpeg?w=48&q=75",

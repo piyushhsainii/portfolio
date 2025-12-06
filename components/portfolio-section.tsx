@@ -14,7 +14,7 @@ export function PortfolioSection() {
         "Trade, risk, and cash out before it rugs. An adrenaline-fueled on-chain crash game for degens who love the thrill of timing the perfect exit. Built with NextJS, TypeScript, Node.js, and Web Sockets for real-time trading.",
       tag: "WEB3 Gaming",
       category: "web3",
-      logo: "/Rugs-Funv2-1.png",
+      logo: "/Rugs-funv2-1.png",
       bgColor: "bg-[#2F81F7]",
       illustration: "/rugsfun.mp4",
       link: "https://rugs-funn.vercel.app/",
