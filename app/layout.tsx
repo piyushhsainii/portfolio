@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     siteName: "Piyush Saini Portfolio",
     images: [
       {
-        url: "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/paperfolio%20(1).png",
+        url: "/paperfolio.png",
         width: 1200,
         height: 630,
         alt: "Piyush Saini - Full-Stack Engineer",
@@ -62,9 +62,7 @@ export const metadata: Metadata = {
     description:
       "Full-Stack Engineer specializing in Web2, AI SaaS, and Web3 development. Available for full-time opportunities and freelance projects.",
     creator: "@piyushsainii",
-    images: [
-      "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/paperfolio%20(1).png",
-    ],
+    images: ["/paperfolio.png"],
   },
 
   // Additional metadata

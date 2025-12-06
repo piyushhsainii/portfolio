@@ -40,7 +40,7 @@ export function HeroSection() {
             </span>
             . Let's build your MVP and launch fast! 🚀
           </p>
-
+          {/* 
           <div className="flex flex-col sm:flex-row flex-wrap gap-4 sm:gap-7 pt-4">
             <a
               href="https://x.com/piyushsainii"
@@ -49,13 +49,13 @@ export function HeroSection() {
               <Mail className="w-5 h-5" />
               Get in touch
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex justify-center md:justify-end">
           <div className="relative w-full max-w-md aspect-square bg-[#FDB927] border-4 border-black rounded-3xl overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
             <img
-              src="https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/jacked_pfp.jpg"
+              src="/jacked_pfp.jpg"
               alt="Piyush Saini - Web3 & Solana Engineer"
               className="w-full h-full object-cover"
             />
@@ -194,7 +194,7 @@ export function AboutSection() {
         <div className="flex justify-center">
           <div className="relative w-full max-w-lg aspect-square border-[4px] border-black rounded-full overflow-hidden bg-[#FF6B6B] shadow-[-8px_8px_0px_0px_rgba(0,0,0,1)]">
             <Image
-              src="https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/jacked_pfp.jpg"
+              src="/jacked_pfp.jpg"
               alt="Piyush Saini - Web3 & Solana Engineer"
               fill
               className="object-cover"
@@ -349,10 +349,9 @@ export function PortfolioSection() {
       description:
         "Trade, risk, and cash out before it rugs. An adrenaline-fueled on-chain crash game for degens who love the thrill of timing the perfect exit. Built with NextJS, TypeScript, Node.js, and Web Sockets for real-time trading.",
       tag: "WEB3 Gaming",
-      logo: "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/rugs-fun/metadataImg.png",
+      logo: "Rugs-funv2.png",
       bgColor: "bg-[#2F81F7]",
-      illustration:
-        "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/rugs-fun/metadataImg.png",
+      illustration: "Rugs-funv2.png",
       link: "https://rugs-funn.vercel.app/",
       showOnWebsite: true,
     },
@@ -375,8 +374,7 @@ export function PortfolioSection() {
       tag: "WEB3 NFT",
       logo: null,
       bgColor: "bg-[#9945FF]",
-      illustration:
-        "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/NFT-CREATION-WALKTHROUGH.mp4",
+      illustration: "/NFT-CREATION-WALKTHROUGH.mp4",
       link: "https://sol-minti.vercel.app/",
       showOnWebsite: true,
       isVideo: true,
@@ -403,7 +401,7 @@ export function PortfolioSection() {
       illustration:
         "https://res.cloudinary.com/dzow59kgu/video/upload/v1752521218/FooocusWithLatestAI_z7trqo.mp4",
       link: "#",
-      showOnWebsite: true,
+      showOnWebsite: false,
       isVideo: true,
     },
     {
@@ -429,7 +427,7 @@ export function PortfolioSection() {
       illustration:
         "https://res.cloudinary.com/dzow59kgu/image/upload/v1735200128/Screenshot_2024-12-26_133153_ct3cnp.png",
       link: "https://ui.velour-ui.tech/",
-      showOnWebsite: true,
+      showOnWebsite: false,
     },
     {
       title: "Personal Branding Template",
@@ -441,7 +439,7 @@ export function PortfolioSection() {
       illustration:
         "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/designs-assets/elite-coaching.mp4",
       link: "https://elite-coaching-green.vercel.app/",
-      showOnWebsite: true,
+      showOnWebsite: false,
       isVideo: true,
     },
     {
@@ -454,7 +452,7 @@ export function PortfolioSection() {
       illustration:
         "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/climateLandingDemo.mp4",
       link: "https://climate-landing.vercel.app/",
-      showOnWebsite: true,
+      showOnWebsite: false,
       isVideo: true,
     },
     {
@@ -467,7 +465,7 @@ export function PortfolioSection() {
       illustration:
         "https://res.cloudinary.com/dzow59kgu/video/upload/v1735200006/CoffeeTemplate_uftbjt.mp4",
       link: "https://coffee.piyushsaini.me/",
-      showOnWebsite: true,
+      showOnWebsite: false,
       isVideo: true,
     },
   ];
