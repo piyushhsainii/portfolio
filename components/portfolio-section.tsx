@@ -72,17 +72,17 @@ export function PortfolioSection() {
       showOnWebsite: true,
       isVideo: true,
     },
-    {
-      title: "Delusion Calculator",
-      description: "",
-      tag: "",
-      category: "web2",
-      logo: null,
-      bgColor: "bg-[#627EEA]",
-      illustration: "/DelusionCalculatorHero.png",
-      link: "https://delusion-calculator.vercel.app/",
-      showOnWebsite: true,
-    },
+    // {
+    //   title: "Delusion Calculator",
+    //   description: "",
+    //   tag: "",
+    //   category: "web2",
+    //   logo: null,
+    //   bgColor: "bg-[#627EEA]",
+    //   illustration: "/DelusionCalculatorHero.png",
+    //   link: "https://delusion-calculator.vercel.app/",
+    //   showOnWebsite: true,
+    // },
     {
       title: "Liquid ETH",
       description:
