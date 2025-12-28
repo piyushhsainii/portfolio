@@ -9,8 +9,8 @@ export const PROJECTS: Project[] = [
       "AI-powered advertising platform that runs your ads on autopilot.",
     fullDescription:
       "Alace AI is an AI-powered advertising platform that continuously optimizes ad performance to improve ROAS and CPA. Built for scale with enterprise-grade infrastructure.",
-    image: "./Alace AI LandingPage V3.png",
-    video: "./alace_ai_final_preview.mp4",
+    image: "./public/Alace AI LandingPage V3.png",
+    video: "./public/alace_ai_final_preview.mp4",
     problemStatement:
       "Manual ad optimization leads to wasted budget, slow iteration, and poor campaign performance.",
     solution:
@@ -33,8 +33,8 @@ export const PROJECTS: Project[] = [
     shortDescription: "An adrenaline-fueled on-chain crash game for degens.",
     fullDescription:
       "Rugs-Fun is a real-time on-chain trading game where players must time their exit before the rug pulls. Built with WebSockets for ultra-low latency gameplay.",
-    image: "./Rugs-funv2-1.png",
-    video: "./rugsfun.mp4",
+    image: "./public/Rugs-funv2-1.png",
+    video: "./public/rugsfun.mp4",
     problemStatement:
       "Existing on-chain games lacked real-time responsiveness and excitement.",
     solution:
@@ -58,8 +58,8 @@ export const PROJECTS: Project[] = [
       "AI Social Distribution Agent for content repurposing & growth.",
     fullDescription:
       "Social Pilot transforms long-form content into platform-optimized posts, schedules distribution, and engages with audiences automatically.",
-    image: "./social-pilot-hero-preview.png",
-    video: "./social-pilot-hero-preview1.mp4",
+    image: "./public/social-pilot-hero-preview.png",
+    video: "./public/social-pilot-hero-preview1.mp4",
     problemStatement:
       "Creators struggle to distribute content consistently across platforms.",
     solution:
@@ -107,8 +107,8 @@ export const PROJECTS: Project[] = [
     shortDescription: "Personal design engineering portfolio.",
     fullDescription:
       "A design-focused portfolio showcasing projects, work experience, and achievements with strong motion and visual hierarchy.",
-    image: "/design-portfolio-prevoew.png",
-    video: "/summarywork.mp4",
+    image: "./public/design-portfolio-prevoew.png",
+    video: "./public/summarywork.mp4",
     problemStatement:
       "Need for a portfolio that balances design aesthetics with engineering depth.",
     solution: "Built a motion-rich portfolio using modern web technologies.",
@@ -179,7 +179,7 @@ export const USER_DATA = {
   description: "I build products, websites and brands",
   summary:
     "I help turn ideas into reality — from design to full-scale development. Specializing in Web2, AI SaaS, and Web3 applications🚀",
-  avatarUrl: "./bwillustration.png",
+  avatarUrl: "./public/bwillustration.png",
   skills: [
     "React",
     "Next.js",
