@@ -21,6 +21,32 @@ const App: React.FC = () => {
     setSelectedProject(null);
   }, []);
 
+  const playClickSound = useCallback(() => {
+    // Create AudioContext for click sound
+    const audioContext = new (window.AudioContext ||
+      (window as any).webkitAudioContext)();
+    const oscillator = audioContext.createOscillator();
+    const gainNode = audioContext.createGain();
+
+    oscillator.connect(gainNode);
+    gainNode.connect(audioContext.destination);
+
+    // Configure the sound
+    oscillator.frequency.value = 800; // Higher pitch for click
+    oscillator.type = "sine";
+
+    // Quick fade out for click effect
+    gainNode.gain.setValueAtTime(0.15, audioContext.currentTime);
+    gainNode.gain.exponentialRampToValueAtTime(
+      0.01,
+      audioContext.currentTime + 0.05
+    );
+
+    // Play the sound
+    oscillator.start(audioContext.currentTime);
+    oscillator.stop(audioContext.currentTime + 0.05);
+  }, []);
+
   const renderContent = useMemo(() => {
     switch (activeTab) {
       case TabType.WORK:
@@ -73,7 +99,10 @@ const App: React.FC = () => {
           {(Object.values(TabType) as TabType[]).map((tab) => (
             <button
               key={tab}
-              onClick={() => setActiveTab(tab)}
+              onClick={() => {
+                playClickSound();
+                setActiveTab(tab);
+              }}
               className={`pb-4 text-sm font-bold transition-all relative capitalize whitespace-nowrap ${
                 activeTab === tab
                   ? "text-zinc-900"

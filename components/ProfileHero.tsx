@@ -127,12 +127,6 @@ const ProfileHero: React.FC = () => {
             Years Exp
           </div>
         </div>
-        <div className="text-center space-y-1">
-          <div className="text-2xl font-bold text-[#1e293b]">5+</div>
-          <div className="text-[11px] font-bold text-[#94a3b8] uppercase tracking-wider">
-            Projects
-          </div>
-        </div>
       </div>
     </div>
   );

@@ -1,5 +1,4 @@
 import React from "react";
-import { USER_DATA } from "../constants";
 
 const Header: React.FC = () => {
   return (
