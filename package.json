@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "install": "^0.13.0",
     "lucide-react": "^0.562.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
