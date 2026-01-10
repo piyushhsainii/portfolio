@@ -36,33 +36,22 @@ const AboutSection: React.FC = () => {
           <ul className="space-y-2 text-zinc-700">
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-zinc-300 rounded-full" />
-              On-chain Gaming & DeFi
+              Founding Engineering & MVPs
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-zinc-300 rounded-full" />
-              AI Agent Infrastructure
+              AI Agent Automations
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 bg-zinc-300 rounded-full" />
+              On-chain Gaming & DeFi
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-zinc-300 rounded-full" />
               Performance Optimized Frontends
             </li>
-            <li className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 bg-zinc-300 rounded-full" />
-              Founding Engineering & MVPs
-            </li>
           </ul>
         </div>
-      </section>
-
-      <section className="p-6 bg-zinc-50 border border-zinc-100 rounded-xl">
-        <h3 className="text-sm font-semibold text-zinc-400 uppercase tracking-widest mb-3">
-          Philosophy
-        </h3>
-        <p className="text-zinc-600 italic">
-          "Build fast, learn faster. Engineering is about solving problems, not
-          just writing code. I focus on creating value at the intersection of
-          decentralization and automation."
-        </p>
       </section>
     </div>
   );

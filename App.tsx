@@ -95,7 +95,7 @@ const App: React.FC = () => {
         <ProfileHero />
 
         {/* Navigation Tabs */}
-        <nav className="flex items-center gap-8 border-b border-zinc-100 mb-10 mt-12 overflow-x-auto no-scrollbar">
+        <nav className="flex items-center gap-8 border-b border-zinc-100 mb-10  overflow-x-auto no-scrollbar">
           {(Object.values(TabType) as TabType[]).map((tab) => (
             <button
               key={tab}

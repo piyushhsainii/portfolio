@@ -71,7 +71,7 @@ const ProfileHero: React.FC = () => {
           {USER_DATA.name}
         </h1>
         <p className="text-xl text-[#64748b] font-medium tracking-tighter">
-          22, Full Stack Developer | {USER_DATA.description}
+          Full Stack Developer | {USER_DATA.description}
         </p>
       </div>
 

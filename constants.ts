@@ -1,11 +1,46 @@
 import { Project, Experience, Achievement } from "./types";
 export const PROJECTS: Project[] = [
   {
+    id: "sol-ball",
+    title: "Sol Ball",
+    type: "Web3 Game",
+    shortDescription:
+      "PvP online soccer arena where players bet on skill, not luck.",
+    fullDescription:
+      "Sol Ball is a real-time, Haxball-inspired multiplayer soccer game built on Solana. Players compete in fast-paced 3v3 matches, place skill-based bets on games, and receive instant on-chain payouts after each match. The platform combines smooth physics-based gameplay with transparent, trustless betting mechanics, creating a competitive experience where skill is the only deciding factor.",
+    image: "/metadata-preview-solball.png",
+    video: "/SolBallFinalWalkthrough.mp4",
+    problemStatement:
+      "Most online betting games rely on chance, opaque systems, or centralized control, leading to unfair outcomes, lack of transparency, and low trust among players.",
+    solution:
+      "Sol Ball introduces a skill-first multiplayer betting experience with server-authoritative gameplay and on-chain settlement. Matches are resolved purely by gameplay performance, while Solana smart contracts handle escrow, payouts, and revenue splits automatically and transparently.",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Solana",
+      "Privy",
+      "WebSockets",
+      "Node.js",
+      "PostgreSQL",
+      "TailwindCSS",
+    ],
+    role: "Founding Engineer",
+    outcomes: [
+      "Skill-based PvP betting with instant on-chain payouts",
+      "Transparent escrow and reward distribution via smart contracts",
+      "Low-latency real-time multiplayer gameplay",
+      "Scalable architecture for competitive online matches",
+    ],
+    links: {
+      live: "https://solball.vercel.app/",
+    },
+  },
+  {
     id: "alace-ai",
     title: "Alace AI",
     type: "AI",
     shortDescription:
-      "AI-powered advertising platform that runs your ads on autopilot.",
+      "Instant AI insights, custom analysis, and automated actions for better ROAS and conversions.",
     fullDescription:
       "Alace AI is an AI-powered advertising platform that continuously optimizes ad performance to improve ROAS and CPA. Built for scale with enterprise-grade infrastructure.",
     image: "/Alace AI LandingPage V3.png",
@@ -75,30 +110,65 @@ export const PROJECTS: Project[] = [
     },
   },
   {
-    id: "stablecoin",
-    title: "SOL-Backed Stablecoin",
-    type: "WEB3",
+    id: "biz-pilot",
+    title: "Biz Pilot",
+    type: "AI Automation Platform",
     shortDescription:
-      "A decentralized USD-pegged stablecoin protocol on Solana.",
+      "AI agent systems for marketing, sales, and support that automate work, increase conversions, and drive real revenue.",
     fullDescription:
-      "Users deposit SOL as collateral to mint a USD-pegged stablecoin. Stability is maintained using Pyth oracles and liquidation mechanisms.",
-    image:
-      "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/aura.jpg",
+      "BizPilot is an AI-powered agentic automation platform designed to help businesses streamline operations and drive growth across marketing, sales, and customer support. The platform deploys intelligent agents that integrate directly with existing tools such as Excel, Salesforce, WhatsApp, and analytics systems. These agents autonomously execute workflows, analyze business data, and recommend actions that improve revenue, efficiency, and customer experience without requiring teams to change how they work.",
+    image: "/bizPilotPreview.png",
+    video: "/bizPilotPreviewCompact2.mp4",
     problemStatement:
-      "Lack of transparent and capital-efficient stablecoins on Solana.",
+      "Businesses rely on fragmented tools and manual processes across marketing, sales, and support, leading to inefficiencies, slow decision-making, and missed revenue opportunities.",
     solution:
-      "Designed an over-collateralized stablecoin protocol using real-time oracle pricing.",
-    techStack: ["Solana", "Anchor", "Rust", "SPL Token 2022", "Pyth Oracle"],
-    role: "Blockchain Engineer",
+      "BizPilot introduces AI-driven agent systems that automate workflows, manage data across tools, and provide real-time decision intelligence. By embedding agents directly into existing business stacks, BizPilot enables teams to scale operations, improve responsiveness, and achieve measurable growth without adding operational complexity.",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "AI Agent Frameworks",
+      "Node.js",
+      "PostgreSQL",
+      "APIs & Webhooks",
+      "TailwindCSS",
+    ],
+    role: "Founder & Product Engineer",
     outcomes: [
-      "Stable USD peg",
-      "Secure liquidation system",
-      "Fully on-chain transparency",
+      "Automated marketing, sales, and support workflows using AI agents",
+      "Seamless integration with existing business tools and data sources",
+      "Improved lead conversion, response times, and operational efficiency",
+      "Scalable agentic systems tailored to individual business needs",
     ],
     links: {
-      live: "https://my-stable-coin.vercel.app/",
+      live: "https://biz-pilot-agent.vercel.app/",
     },
   },
+
+  // {
+  //   id: "stablecoin",
+  //   title: "SOL-Backed Stablecoin",
+  //   type: "WEB3",
+  //   shortDescription:
+  //     "A decentralized USD-pegged stablecoin protocol on Solana.",
+  //   fullDescription:
+  //     "Users deposit SOL as collateral to mint a USD-pegged stablecoin. Stability is maintained using Pyth oracles and liquidation mechanisms.",
+  //   image:
+  //     "https://apneajyhbpncbciasirk.supabase.co/storage/v1/object/public/nft-storage/aura.jpg",
+  //   problemStatement:
+  //     "Lack of transparent and capital-efficient stablecoins on Solana.",
+  //   solution:
+  //     "Designed an over-collateralized stablecoin protocol using real-time oracle pricing.",
+  //   techStack: ["Solana", "Anchor", "Rust", "SPL Token 2022", "Pyth Oracle"],
+  //   role: "Blockchain Engineer",
+  //   outcomes: [
+  //     "Stable USD peg",
+  //     "Secure liquidation system",
+  //     "Fully on-chain transparency",
+  //   ],
+  //   links: {
+  //     live: "https://my-stable-coin.vercel.app/",
+  //   },
+  // },
   {
     id: "design-portfolio",
     title: "Design Engineer Portfolio",
@@ -140,8 +210,7 @@ export const EXPERIENCES: Experience[] = [
     summary:
       "Delivered high-performance web solutions and MVPs for diverse clients.",
     technologies: ["React", "Node.js", "Solana", "Tailwind"],
-    logoUrl:
-      "https://pbs.twimg.com/profile_images/1893716032113823744/EI5zkPl-_400x400.png",
+    logoUrl: "https://www.dreamlaunch.studio/assets/Vector.svg",
   },
   {
     id: "e3",
@@ -151,7 +220,7 @@ export const EXPERIENCES: Experience[] = [
     summary:
       "Optimized frontend performance and implemented advanced UI features for a remote-first team.",
     technologies: ["React", "Typescript", "UI/UX"],
-    logoUrl: "https://cdn.vexio.in/vlogo.jpeg?w=48&q=75",
+    logoUrl: "/vexio.png",
   },
 ];
 
