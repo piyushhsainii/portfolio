@@ -5,7 +5,7 @@ export const PROJECTS: Project[] = [
     title: "ChatPilot",
     type: "AI Chatbot SaaS",
     shortDescription:
-      "Embeddable AI chatbot for websites that helps confused visitors get instant answers and convert faster.",
+      "Embeddable AI chatbot for websites and businesses that solves users simple to complex querues",
     fullDescription:
       "ChatPilot is a multi-tenant AI chatbot platform that allows businesses to deploy intelligent, customizable chatbots on their websites using a single script tag. The chatbot is designed to primarily assist anonymous visitors by answering FAQs, guiding users through products or services, and reducing drop-offs. Businesses can securely connect knowledge sources, APIs, and tools to their chatbot while maintaining strict data isolation and access control. ChatPilot progressively enhances conversations when users are authenticated, enabling deeper, personalized support for SaaS applications.",
     image: "/chat-pilot-hero-section.png",
@@ -36,6 +36,42 @@ export const PROJECTS: Project[] = [
       live: "https://chat-pilot-agent.vercel.app",
     },
   },
+  {
+    id: "Motion-Studio",
+    title: "Motion Studio",
+    type: "AI Media",
+    shortDescription:
+      " Generate launch video for your Saas. Built using remotion + Next JS",
+    fullDescription:
+      "Motion Studio is a Next.js + Remotion-based video generation system that turns structured product inputs into premium, cinematic marketing videos. It uses a scene graph, a virtual camera layer, and a motion orchestrator to avoid slideshow pacing and instead guide attention through continuous camera-led storytelling. The editor supports drafts, template variants, and deterministic text animation primitives (typewriter + word highlight), producing consistent, high-quality renders with preview-first iteration and gated high-quality exports.",
+    image: "/Motion-Studio-Hero-Preview.png",
+    video: "/Motion-Studio-Initial-walkthrough-Music.mp4",
+    problemStatement:
+      "Most product videos are slow and expensive to produce, and template-based generators often look like slideshows with hard cuts, inconsistent pacing, and low perceived quality.",
+    solution:
+      "Motion Studio generates authored-feeling motion videos from a single content form using deterministic Remotion primitives. A scene graph keeps the video structured, a virtual camera creates continuity and cinematic exploration, and reusable text animation primitives handle narrative moments and emphasis. Draft saving and credit-gated exporting ensure users never lose work and can unlock high-quality exports when ready.",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Remotion",
+      "Supabase",
+      "PostgreSQL",
+      "Node.js",
+      "CSS Modules",
+    ],
+    role: "Founding Engineer",
+    outcomes: [
+      "Scene Graph + Virtual Camera foundation enabling continuous-shot storytelling",
+      "Motion Orchestrator for centralized, state-driven animation sequencing",
+      "Reusable text animation primitives (typewriter + word highlight) integrated across templates",
+      "Draft save + resume workflow with credit-gated export UX",
+      "Template system with light/dark SaaS variants and content-aware layout selection",
+    ],
+    links: {
+      live: "",
+    },
+  },
+
   {
     id: "sol-ball",
     title: "Sol Ball",
