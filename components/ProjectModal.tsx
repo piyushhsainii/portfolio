@@ -12,11 +12,11 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 md:p-10 transition-opacity duration-200">
-      <div 
+      <div
         className="absolute inset-0 bg-zinc-900/60 backdrop-blur-sm"
         onClick={onClose}
       />
-      
+
       <div className="relative w-full max-w-4xl bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
         {/* Header */}
         <div className="flex items-center justify-between p-5 border-b border-zinc-100 bg-white sticky top-0 z-10">
@@ -26,7 +26,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
             </span>
             <h2 className="text-xl font-bold text-zinc-900">{project.title}</h2>
           </div>
-          <button 
+          <button
             onClick={onClose}
             className="p-2 hover:bg-zinc-100 rounded-full transition-colors"
           >
@@ -41,17 +41,17 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
           {/* Media Preview */}
           <div className="rounded-xl overflow-hidden bg-zinc-100 border border-zinc-200">
             {project.video ? (
-              <video 
-                src={project.video} 
-                controls 
-                autoPlay 
-                muted 
-                loop 
+              <video
+                src={project.video}
+                controls
+                autoPlay
+                muted
+                loop
                 className="w-full h-auto aspect-video object-cover"
               />
             ) : (
-              <img 
-                src={project.image} 
+              <img
+                src={project.image}
                 alt={project.title}
                 className="w-full h-auto object-cover aspect-video"
               />
@@ -62,25 +62,25 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
             <div className="md:col-span-2 space-y-8">
               <section>
                 <h3 className="text-sm font-semibold text-zinc-400 uppercase tracking-wider mb-2">Overview</h3>
-                <p className="text-zinc-700 leading-relaxed text-lg">{project.fullDescription}</p>
+                <p className="text-zinc-700 leading-relaxed text-sm">{project.fullDescription}</p>
               </section>
 
               <section>
                 <h3 className="text-sm font-semibold text-zinc-400 uppercase tracking-wider mb-2">Problem Statement</h3>
-                <p className="text-zinc-700 leading-relaxed">{project.problemStatement}</p>
+                <p className="text-zinc-700 text-sm leading-relaxed">{project.problemStatement}</p>
               </section>
 
               <section>
                 <h3 className="text-sm font-semibold text-zinc-400 uppercase tracking-wider mb-2">Solution & Approach</h3>
-                <p className="text-zinc-700 leading-relaxed">{project.solution}</p>
+                <p className="text-zinc-700 text-sm leading-relaxed">{project.solution}</p>
               </section>
 
               <section>
-                <h3 className="text-sm font-semibold text-zinc-400 uppercase tracking-wider mb-3">Key Outcomes</h3>
-                <ul className="space-y-2">
+                <h3 className="text-sm text-sm font-semibold text-zinc-400 uppercase tracking-wider mb-3">Key Outcomes</h3>
+                <ul className="">
                   {project.outcomes.map((outcome, idx) => (
                     <li key={idx} className="flex items-start gap-2 text-zinc-700">
-                      <span className="text-blue-500 mt-1.5">•</span>
+                      <span className="text-blue-500 text-sm mt-1.5">•</span>
                       <span>{outcome}</span>
                     </li>
                   ))}
@@ -88,7 +88,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
               </section>
             </div>
 
-            <div className="space-y-8">
+            <div className="space-y-2">
               <section>
                 <h3 className="text-sm font-semibold text-zinc-400 uppercase tracking-wider mb-3">Tech Stack</h3>
                 <div className="flex flex-wrap gap-2">
@@ -108,9 +108,9 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
               <section className="pt-4 border-t border-zinc-100">
                 <div className="flex flex-col gap-3">
                   {project.links.live && (
-                    <a 
-                      href={project.links.live} 
-                      target="_blank" 
+                    <a
+                      href={project.links.live}
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 w-full py-3 bg-zinc-900 text-white rounded-xl font-bold hover:bg-zinc-800 transition-colors"
                     >
@@ -121,9 +121,9 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
                     </a>
                   )}
                   {project.links.github && (
-                    <a 
-                      href={project.links.github} 
-                      target="_blank" 
+                    <a
+                      href={project.links.github}
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 w-full py-3 border border-zinc-200 text-zinc-900 rounded-xl font-bold hover:bg-zinc-50 transition-colors"
                     >

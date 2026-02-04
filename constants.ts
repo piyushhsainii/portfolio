@@ -1,6 +1,42 @@
 import { Project, Experience, Achievement } from "./types";
 export const PROJECTS: Project[] = [
   {
+    id: "chat-pilot",
+    title: "ChatPilot",
+    type: "AI Chatbot SaaS",
+    shortDescription:
+      "Embeddable AI chatbot for websites that helps confused visitors get instant answers and convert faster.",
+    fullDescription:
+      "ChatPilot is a multi-tenant AI chatbot platform that allows businesses to deploy intelligent, customizable chatbots on their websites using a single script tag. The chatbot is designed to primarily assist anonymous visitors by answering FAQs, guiding users through products or services, and reducing drop-offs. Businesses can securely connect knowledge sources, APIs, and tools to their chatbot while maintaining strict data isolation and access control. ChatPilot progressively enhances conversations when users are authenticated, enabling deeper, personalized support for SaaS applications.",
+    image: "/chat-pilot-hero-section.png",
+    video: "/chat-pilot-initial-walkthrough.mp4",
+    problemStatement:
+      "Most websites lose users because visitors are confused, overwhelmed, or unable to find answers quickly. Traditional chatbots are either rule-based, hard to configure, insecure, or require users to log in before receiving meaningful help.",
+    solution:
+      "ChatPilot provides a plug-and-play AI chatbot that works instantly for anonymous visitors and safely upgrades for authenticated users. Using a secure widget, server-side AI orchestration, and role-based access to data and tools, ChatPilot ensures visitors get helpful answers while businesses retain full control over their data, branding, and behavior.",
+    techStack: [
+      "Next.js (App Router)",
+      "TypeScript",
+      "Supabase (Postgres + RLS + Storage)",
+      "OpenAI",
+      "Edge Functions",
+      "WebSockets / Streaming",
+      "TailwindCSS",
+      "Shadow DOM Widgets",
+    ],
+    role: "Founder & Lead Engineer",
+    outcomes: [
+      "Instant AI assistance for anonymous website visitors",
+      "Secure multi-tenant chatbot architecture with strict data isolation",
+      "Embeddable widget via a single script tag",
+      "Custom branding, themes, and domain-level access control",
+      "Progressive enhancement for authenticated SaaS users",
+    ],
+    links: {
+      live: "https://chat-pilot-agent.vercel.app",
+    },
+  },
+  {
     id: "sol-ball",
     title: "Sol Ball",
     type: "Web3 Game",
@@ -81,7 +117,7 @@ export const PROJECTS: Project[] = [
       "Secure on-chain fund handling",
     ],
     links: {
-      live: "https://rugs-funn.vercel.app/",
+      live: "#",
     },
   },
   {

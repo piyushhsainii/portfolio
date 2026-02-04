@@ -95,7 +95,7 @@ const App: React.FC = () => {
         <ProfileHero />
 
         {/* Navigation Tabs */}
-        <nav className="flex items-center gap-8 border-b border-zinc-100 mb-10  overflow-x-auto no-scrollbar">
+        <nav className="flex items-center gap-8 border-b border-zinc-100 mb-10 overflow-x-auto no-scrollbar">
           {(Object.values(TabType) as TabType[]).map((tab) => (
             <button
               key={tab}
@@ -103,11 +103,10 @@ const App: React.FC = () => {
                 playClickSound();
                 setActiveTab(tab);
               }}
-              className={`pb-4 text-sm font-bold transition-all relative capitalize whitespace-nowrap ${
-                activeTab === tab
+              className={`pb-4 text-sm font-bold transition-all relative capitalize whitespace-nowrap ${activeTab === tab
                   ? "text-zinc-900"
                   : "text-[#94a3b8] hover:text-zinc-600"
-              }`}
+                }`}
             >
               {tab}
               {activeTab === tab && (
@@ -118,7 +117,7 @@ const App: React.FC = () => {
         </nav>
 
         {/* Dynamic Section Rendering */}
-        <section className="min-h-[60vh]">{renderContent}</section>
+        <section className="">{renderContent}</section>
       </main>
 
       {/* Footer */}

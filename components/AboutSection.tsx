@@ -5,10 +5,7 @@ const AboutSection: React.FC = () => {
   return (
     <div className="space-y-12 max-w-3xl">
       <section className="space-y-2">
-        <h2 className="text-sm font-semibold text-zinc-400 uppercase tracking-widest">
-          About Me
-        </h2>
-        <p className="text-xl tracking-tighter text-zinc-800 leading-relaxed font-normal">
+        <p className="text-base text-[#64748b] font-medium tracking-tighter">
           {USER_DATA.summary}
         </p>
       </section>
@@ -28,29 +25,6 @@ const AboutSection: React.FC = () => {
               </span>
             ))}
           </div>
-        </div>
-        <div>
-          <h3 className="text-sm font-semibold text-zinc-400 uppercase tracking-widest mb-4">
-            Focus Areas
-          </h3>
-          <ul className="space-y-2 text-zinc-700">
-            <li className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 bg-zinc-300 rounded-full" />
-              Founding Engineering & MVPs
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 bg-zinc-300 rounded-full" />
-              AI Agent Automations
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 bg-zinc-300 rounded-full" />
-              On-chain Gaming & DeFi
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 bg-zinc-300 rounded-full" />
-              Performance Optimized Frontends
-            </li>
-          </ul>
         </div>
       </section>
     </div>
