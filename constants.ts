@@ -8,7 +8,7 @@ export const PROJECTS: Project[] = [
       "Embeddable AI chatbot for websites and businesses that solves users simple to complex querues",
     fullDescription:
       "ChatPilot is a multi-tenant AI chatbot platform that allows businesses to deploy intelligent, customizable chatbots on their websites using a single script tag. The chatbot is designed to primarily assist anonymous visitors by answering FAQs, guiding users through products or services, and reducing drop-offs. Businesses can securely connect knowledge sources, APIs, and tools to their chatbot while maintaining strict data isolation and access control. ChatPilot progressively enhances conversations when users are authenticated, enabling deeper, personalized support for SaaS applications.",
-    image: "/chat-pilot-hero-section.png",
+    image: "/Chat-pilot-metdata.png",
     video: "/chat-pilot-initial-walkthrough.mp4",
     problemStatement:
       "Most websites lose users because visitors are confused, overwhelmed, or unable to find answers quickly. Traditional chatbots are either rule-based, hard to configure, insecure, or require users to log in before receiving meaningful help.",
@@ -33,7 +33,7 @@ export const PROJECTS: Project[] = [
       "Progressive enhancement for authenticated SaaS users",
     ],
     links: {
-      live: "https://chat-pilot-agent.vercel.app",
+      live: "https://www.chatpilot-agent.com/",
     },
   },
   {
