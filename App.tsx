@@ -1,16 +1,15 @@
-import React, { useState, useCallback, useMemo } from "react";
-import { TabType, Project } from "./types";
+import React, { useState, useCallback } from "react";
+import { Project } from "./types";
 import { PROJECTS, EXPERIENCES, USER_DATA } from "./constants";
 import Header from "./components/Header";
 import ProfileHero from "./components/ProfileHero";
-import ProjectCard from "./components/ProjectCard";
 import ProjectModal from "./components/ProjectModal";
 import ExperienceItem from "./components/ExperienceItem";
 import AboutSection from "./components/AboutSection";
 import AchievementsSection from "./components/AchievementsSection";
+import WorkProjectsSection from "./components/WorkProjectsSection";
 
 const App: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<TabType>(TabType.ABOUT);
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const handleProjectClick = useCallback((project: Project) => {
@@ -21,71 +20,6 @@ const App: React.FC = () => {
     setSelectedProject(null);
   }, []);
 
-  const playClickSound = useCallback(() => {
-    // Create AudioContext for click sound
-    const audioContext = new (window.AudioContext ||
-      (window as any).webkitAudioContext)();
-    const oscillator = audioContext.createOscillator();
-    const gainNode = audioContext.createGain();
-
-    oscillator.connect(gainNode);
-    gainNode.connect(audioContext.destination);
-
-    // Configure the sound
-    oscillator.frequency.value = 800; // Higher pitch for click
-    oscillator.type = "sine";
-
-    // Quick fade out for click effect
-    gainNode.gain.setValueAtTime(0.15, audioContext.currentTime);
-    gainNode.gain.exponentialRampToValueAtTime(
-      0.01,
-      audioContext.currentTime + 0.05
-    );
-
-    // Play the sound
-    oscillator.start(audioContext.currentTime);
-    oscillator.stop(audioContext.currentTime + 0.05);
-  }, []);
-
-  const renderContent = useMemo(() => {
-    switch (activeTab) {
-      case TabType.WORK:
-        return (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 animate-in fade-in slide-in-from-bottom-2 duration-300">
-            {PROJECTS.map((project) => (
-              <ProjectCard
-                key={project.id}
-                project={project}
-                onClick={handleProjectClick}
-              />
-            ))}
-          </div>
-        );
-      case TabType.EXPERIENCE:
-        return (
-          <div className="max-w-4xl animate-in fade-in slide-in-from-bottom-2 duration-300">
-            {EXPERIENCES.map((exp) => (
-              <ExperienceItem key={exp.id} experience={exp} />
-            ))}
-          </div>
-        );
-      case TabType.ABOUT:
-        return (
-          <div className="animate-in fade-in slide-in-from-bottom-2 duration-300">
-            <AboutSection />
-          </div>
-        );
-      case TabType.ACHIEVEMENTS:
-        return (
-          <div className="animate-in fade-in slide-in-from-bottom-2 duration-300">
-            <AchievementsSection />
-          </div>
-        );
-      default:
-        return null;
-    }
-  }, [activeTab, handleProjectClick]);
-
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -94,30 +28,47 @@ const App: React.FC = () => {
         {/* Profile Hero Section */}
         <ProfileHero />
 
-        {/* Navigation Tabs */}
-        <nav className="flex items-center gap-8 border-b border-zinc-100 mb-10 overflow-x-auto no-scrollbar">
-          {(Object.values(TabType) as TabType[]).map((tab) => (
-            <button
-              key={tab}
-              onClick={() => {
-                playClickSound();
-                setActiveTab(tab);
-              }}
-              className={`pb-4 text-sm font-bold transition-all relative capitalize whitespace-nowrap ${activeTab === tab
-                  ? "text-zinc-900"
-                  : "text-[#94a3b8] hover:text-zinc-600"
-                }`}
-            >
-              {tab}
-              {activeTab === tab && (
-                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-zinc-900 rounded-full" />
-              )}
-            </button>
-          ))}
-        </nav>
+        <section className="pt-6">
+          <div className="flex flex-col gap-16">
+            <div>
+              <AboutSection />
+            </div>
 
-        {/* Dynamic Section Rendering */}
-        <section className="">{renderContent}</section>
+            <div>
+              <div className="mb-8">
+                <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-[#0f172a]">
+                  Work experience
+                </h2>
+                <div className="mt-3 h-px bg-zinc-100" />
+              </div>
+              <div className="max-w-4xl">
+                <div className="space-y-4">
+                  {EXPERIENCES.map((exp) => (
+                    <ExperienceItem key={exp.id} experience={exp} />
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <WorkProjectsSection
+                projects={PROJECTS}
+                onProjectClick={handleProjectClick}
+                shouldAnimateOnMount
+              />
+            </div>
+
+            <div>
+              <div className="mb-8">
+                <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-[#0f172a]">
+                  Achievements
+                </h2>
+                <div className="mt-3 h-px bg-zinc-100" />
+              </div>
+              <AchievementsSection />
+            </div>
+          </div>
+        </section>
       </main>
 
       {/* Footer */}

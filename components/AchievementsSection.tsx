@@ -1,42 +1,46 @@
-
-import React from 'react';
-import { ACHIEVEMENTS } from '../constants';
+import React from "react";
+import { ACHIEVEMENTS } from "../constants";
 
 const AchievementsSection: React.FC = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-      {ACHIEVEMENTS.map(item => (
-        <div key={item.id} className="p-8 bg-white border border-zinc-200 rounded-2xl hover:border-blue-200 transition-all group flex flex-col justify-between">
-          <div className="space-y-4">
-            <div className="flex justify-between items-start mb-2">
-              <h3 className="text-xl font-bold text-zinc-900 group-hover:text-blue-600 transition-colors">
-                {item.title}
-              </h3>
-              <span className="text-sm font-bold text-[#94a3b8] bg-[#f8fafc] px-3 py-1 rounded-lg">
-                {item.year}
-              </span>
+    <div className="max-w-4xl">
+      <div className="bg-white border border-zinc-100 rounded-2xl overflow-hidden">
+        {ACHIEVEMENTS.map((item) => (
+          <div
+            key={item.id}
+            className="p-6 sm:p-7 border-b border-zinc-100 last:border-b-0"
+          >
+            <div className="flex flex-col sm:flex-row sm:items-start gap-4 sm:gap-6">
+              <div className="shrink-0">
+                <span className="inline-flex items-center px-3 py-1 rounded-full bg-zinc-50 border border-zinc-100 text-[11px] font-bold uppercase tracking-[0.18em] text-zinc-400">
+                  {item.year}
+                </span>
+              </div>
+
+              <div className="min-w-0 flex-1">
+                <div className="flex items-start justify-between gap-4">
+                  <h3 className="text-base sm:text-lg font-bold tracking-tight text-zinc-900">
+                    {item.title}
+                  </h3>
+                  {item.link && (
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="shrink-0 text-[11px] font-bold uppercase tracking-[0.18em] text-blue-700 hover:text-blue-800 transition-colors"
+                    >
+                      View
+                    </a>
+                  )}
+                </div>
+                <p className="mt-2 text-sm sm:text-base text-zinc-600 leading-relaxed">
+                  {item.context}
+                </p>
+              </div>
             </div>
-            <p className="text-zinc-500 text-base leading-relaxed">
-              {item.context}
-            </p>
           </div>
-          {item.link && (
-            <div className="pt-6">
-              <a 
-                href={item.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-700"
-              >
-                View Details
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
-            </div>
-          )}
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };

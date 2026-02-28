@@ -271,8 +271,7 @@ export const EXPERIENCES: Experience[] = [
     summary:
       "Driving the technical vision and core engineering for an AI-led ad-tech startup.",
     technologies: ["NextJS", "Typescript", "AI", "PostgreSQL"],
-    logoUrl:
-      "https://res.cloudinary.com/dzow59kgu/image/upload/v1752521374/AlaceAiLogo_gsymte.png",
+    logoUrl: "/Section1.png",
   },
   {
     id: "e2",
@@ -282,7 +281,8 @@ export const EXPERIENCES: Experience[] = [
     summary:
       "Delivered high-performance web solutions and MVPs for diverse clients.",
     technologies: ["React", "Node.js", "Solana", "Tailwind"],
-    logoUrl: "https://www.dreamlaunch.studio/assets/Vector.svg",
+    logoUrl:
+      "https://framerusercontent.com/images/rKC1LALHbNtZYkT0FyStUFiOw.png?width=199&height=126",
   },
   {
     id: "e3",
@@ -317,8 +317,9 @@ export const USER_DATA = {
   initials: "PS",
   location: "New Delhi, IN",
   description: "I build products, websites and brands",
-  summary:
-    "I help turn ideas into reality — from design to full-scale development. Specializing in Web2, AI SaaS, and Web3 applications🚀",
+  summary: `I’m a Full-Stack Developer working across Web2, Web3, and AI systems, focused on building agentic solutions and automations that solve real problems.
+
+I help turn ideas into production-ready products — handling everything from system design and frontend UX to backend architecture, blockchain integrations, and AI agents.`,
   avatarUrl: "/bwillustration.png",
   skills: [
     "React",
@@ -327,7 +328,6 @@ export const USER_DATA = {
     "Node.js",
     "Web Sockets",
     "Postgres",
-    "Shadcn",
     "WEB3",
     "Solidity",
     "Rust",
