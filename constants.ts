@@ -9,7 +9,7 @@ export const PROJECTS: Project[] = [
   fullDescription:
     "Audit Desk is a one-time, deep website diagnostics tool designed to uncover clarity gaps, conversion friction, and usability issues that quietly cost businesses leads. By analyzing structure, layout, messaging, and user flow, Audit Desk delivers an objective, easy-to-understand audit without requiring accounts, setup, or ongoing subscriptions. Each audit is securely delivered via email, allowing founders, consultants, and teams to quickly understand what’s broken, why it matters, and what to fix next.",
   image: "/audit-desk-metadata.png",
-  video: "/audit-desk-overview.mp4",
+  video: "",
   problemStatement:
     "Most websites lose potential customers due to unclear messaging, poor structure, and subtle usability issues. These problems often go unnoticed, leading businesses to spend more on ads or redesigns without understanding the real conversion blockers.",
   solution:
