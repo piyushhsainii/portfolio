@@ -88,14 +88,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               className={[
                 "font-sans text-zinc-900 transition-colors",
                 isBento ? "text-xl tracking-tight" : "text-lg",
-                "group-hover:text-blue-600",
+                "group-hover:text-blue-600 font-semibold font-sans uppercase",
               ].join(" ")}
             >
               {project.title}
             </h3>
-            <p className={isBento ? "text-zinc-500 text-sm leading-relaxed line-clamp-3 flex-1" : "text-zinc-500 text-sm line-clamp-2 flex-1"}>
+            <div className={isBento ? "text-zinc-500 text-sm leading-relaxed line-clamp-3 flex-1" : "text-zinc-500 text-lg tracking-tight line-clamp-2 flex-1"}>
               {project.shortDescription}
-            </p>
+            </div>
 
             <div className={isBento ? "flex flex-wrap gap-1.5 pt-4" : "flex flex-wrap gap-1.5 pt-4"}>
               {chips.map((tech) => (
