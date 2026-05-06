@@ -3,7 +3,7 @@ import { USER_DATA } from "../constants";
 import { ArrowBigRight, ArrowRight } from "lucide-react";
 const ProfileHero: React.FC = () => {
   return (
-    <div className="pt-12 pb-8 space-y-6">
+    <div className="pt-12 pb-8 space-y-6 ">
       <style>{`
         @keyframes glare {
           0% { left: -100%; }
@@ -34,48 +34,46 @@ const ProfileHero: React.FC = () => {
       `}</style>
 
       {/* Avatar with Status */}
-      <div className="relative inline-block">
-        <div className="w-28 h-28 rounded-full border-4 tracking-tighter border-white shadow-sm overflow-hidden bg-zinc-100">
-          <img
-            src={USER_DATA.avatarUrl}
-            alt={USER_DATA.name}
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div className="absolute bottom-2 right-2 w-5 h-5 bg-[#22c55e] border-4 border-white rounded-full" />
-      </div>
-
-      {/* Available Badge */}
-      <div>
-        <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#f0fdf4] text-[#16a34a] rounded-lg text-sm font-semibold cursor-pointer hover:bg-[#dcfce7] transition-colors">
-          Open to Work
-          <svg
-            className="w-3 h-3"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={3}
-              d="M9 5l7 7-7 7"
+      <div className="flex">
+        <div className="relative inline-block mt-7">
+          <div className="w-28 h-28 rounded-full border-4 tracking-tighter border-white shadow-sm overflow-hidden bg-zinc-100">
+            <img
+              src={USER_DATA.avatarUrl}
+              alt={USER_DATA.name}
+              className="w-full h-full object-cover"
             />
-          </svg>
-        </span>
+          </div>
+          <div className="absolute bottom-5 right-2 w-5 h-5 bg-[#22c55e] border-4 border-white rounded-full" />
+        </div>
+        <div className="space-y-2 mx-10 mt-4">
+          <div className="relative">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#f0fdf4] text-[#16a34a] rounded-lg text-sm font-semibold cursor-pointer hover:bg-[#dcfce7] transition-colors">
+              Open to Work
+              <svg
+                className="w-3 h-3"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={3}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </span>
+          </div>
+          <h1 className="text-6xl font-bold text-[#1e293b] tracking-tighter">
+            {USER_DATA.name}
+          </h1>
+          <p className="text-xl text-[#64748b] font-medium tracking-tighter">
+            Web3 Engineer | Full Stack Developer | {USER_DATA.description}
+          </p>
+        </div>
+
       </div>
 
-      {/* Name and Subtitle */}
-      <div className="space-y-2">
-        <h1 className="text-6xl font-bold text-[#1e293b] tracking-tighter">
-          {USER_DATA.name}
-        </h1>
-        <p className="text-xl text-[#64748b] font-medium tracking-tighter">
-          Full Stack Developer | {USER_DATA.description}
-        </p>
-      </div>
-
-      {/* Action Buttons */}
       <div className="flex items-center gap-3">
         <a
           href="https://x.com/piyushsainii"
@@ -126,8 +124,6 @@ const ProfileHero: React.FC = () => {
           </div>
         </div> */}
       </div>
-
-      {/* Stats Card */}
 
     </div>
   );

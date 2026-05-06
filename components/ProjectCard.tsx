@@ -87,13 +87,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             <h3
               className={[
                 "font-sans text-zinc-900 transition-colors",
-                isBento ? "text-xl tracking-tight" : "text-lg",
-                "group-hover:text-blue-600 font-semibold font-sans uppercase",
+                isBento ? "text-xl tracking-tighter" : "text-xl",
+                "group-hover:text-blue-600 font-serif font-medium ",
               ].join(" ")}
             >
               {project.title}
             </h3>
-            <div className={isBento ? "text-zinc-500 text-sm leading-relaxed line-clamp-3 flex-1" : "text-zinc-500 text-lg tracking-tight line-clamp-2 flex-1"}>
+            <div className={isBento ? "text-zinc-700 text-base leading-relaxed line-clamp-3 flex-1" : "text-zinc-700 text-lg tracking-tighter line-clamp-2 flex-1"}>
               {project.shortDescription}
             </div>
 
