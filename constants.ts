@@ -1,5 +1,6 @@
 import { Project, Experience, Achievement } from "./types";
 export const PROJECTS: Project[] = [
+ 
   {
     id: "solwill",
     title: "Solwill",
@@ -36,6 +37,44 @@ export const PROJECTS: Project[] = [
       github: "https://github.com/piyushhsainii/solwill",
     },
   },
+   {
+  id: "chainpass",
+  title: "Perp - Perpetual Futures Exchange",
+  type: "Web3",
+  shortDescription:
+    "Bilingual crypto seed round platform — invest in CPS tokens before public launch with bank or crypto payment flows.",
+  fullDescription:
+    "ChainPass is a full-stack seed round investment platform for the CPS token launch. It features a simulated investor onboarding flow with email/password auth, a live investment calculator with 300% seed multiplier projections, multi-chain crypto payment submission across 8 assets, a real-time investor dashboard with transaction history and downloadable receipts, and full English/Spanish localization with automatic browser locale detection.",
+  image: "/preview.png",
+  video: "#",
+  problemStatement:
+    "Early-stage token projects lack polished, trustworthy seed round interfaces — most rely on generic forms or manual Telegram coordination, creating friction and eroding investor confidence before launch.",
+  solution:
+    "Built a production-grade seed round platform with a guided investment flow, live token allocation calculator, multi-chain crypto payment verification, and a per-investor dashboard — all localized in English and Spanish for Latin American and global audiences.",
+  techStack: [
+    "Next.js",
+    "TypeScript",
+    "React",
+    "Tailwind CSS",
+    "Motion",
+    "Solidity",
+    "Ethers.js",
+    "PostgreSQL",
+    "JWT",
+  ],
+  role: "Sole Developer",
+  outcomes: [
+    "Bilingual platform (EN/ES) with automatic locale detection and URL-based language switching",
+    "Live investment calculator with real-time 300% seed multiplier and CPS token projection",
+    "Multi-chain crypto payment flow supporting USDT, BTC, ETH, BNB, SOL, XRP, DOGE, LTC",
+    "Investor dashboard with transaction history, status tracking, and receipt generation",
+    "On-chain allocation tracking via Solidity SeedVault contract with TGE-locked claims",
+  ],
+  links: {
+    live: "https://perp.vercel.app",
+    github: "https://github.com/piyushhsaniii/perp",
+  },
+},
   {
     id: "syncpay",
     title: "SyncPay",
@@ -98,42 +137,42 @@ export const PROJECTS: Project[] = [
       live: "https://alace.ai/",
     },
   },
-  {
-    id: "chat-pilot",
-    title: "ChatPilot",
-    type: "AI Chatbot SaaS",
-    shortDescription:
-      "Embeddable AI chatbot for websites and businesses that solves users simple to complex querues",
-    fullDescription:
-      "ChatPilot is a multi-tenant AI chatbot platform that allows businesses to deploy intelligent, customizable chatbots on their websites using a single script tag. The chatbot is designed to primarily assist anonymous visitors by answering FAQs, guiding users through products or services, and reducing drop-offs. Businesses can securely connect knowledge sources, APIs, and tools to their chatbot while maintaining strict data isolation and access control. ChatPilot progressively enhances conversations when users are authenticated, enabling deeper, personalized support for SaaS applications.",
-    image: "/Chat-pilot-metdata.png",
-    video: "/chat-pilot-initial-walkthrough.mp4",
-    problemStatement:
-      "Most websites lose users because visitors are confused, overwhelmed, or unable to find answers quickly. Traditional chatbots are either rule-based, hard to configure, insecure, or require users to log in before receiving meaningful help.",
-    solution:
-      "ChatPilot provides a plug-and-play AI chatbot that works instantly for anonymous visitors and safely upgrades for authenticated users. Using a secure widget, server-side AI orchestration, and role-based access to data and tools, ChatPilot ensures visitors get helpful answers while businesses retain full control over their data, branding, and behavior.",
-    techStack: [
-      "Next.js (App Router)",
-      "TypeScript",
-      "Supabase (Postgres + RLS + Storage)",
-      "OpenAI",
-      "Edge Functions",
-      "WebSockets / Streaming",
-      "TailwindCSS",
-      "Shadow DOM Widgets",
-    ],
-    role: "Founder & Lead Engineer",
-    outcomes: [
-      "Instant AI assistance for anonymous website visitors",
-      "Secure multi-tenant chatbot architecture with strict data isolation",
-      "Embeddable widget via a single script tag",
-      "Custom branding, themes, and domain-level access control",
-      "Progressive enhancement for authenticated SaaS users",
-    ],
-    links: {
-      live: "https://www.chatpilot-agent.com/",
-    },
-  },
+  // {
+  //   id: "chat-pilot",
+  //   title: "ChatPilot",
+  //   type: "AI Chatbot SaaS",
+  //   shortDescription:
+  //     "Embeddable AI chatbot for websites and businesses that solves users simple to complex querues",
+  //   fullDescription:
+  //     "ChatPilot is a multi-tenant AI chatbot platform that allows businesses to deploy intelligent, customizable chatbots on their websites using a single script tag. The chatbot is designed to primarily assist anonymous visitors by answering FAQs, guiding users through products or services, and reducing drop-offs. Businesses can securely connect knowledge sources, APIs, and tools to their chatbot while maintaining strict data isolation and access control. ChatPilot progressively enhances conversations when users are authenticated, enabling deeper, personalized support for SaaS applications.",
+  //   image: "/Chat-pilot-metdata.png",
+  //   video: "/chat-pilot-initial-walkthrough.mp4",
+  //   problemStatement:
+  //     "Most websites lose users because visitors are confused, overwhelmed, or unable to find answers quickly. Traditional chatbots are either rule-based, hard to configure, insecure, or require users to log in before receiving meaningful help.",
+  //   solution:
+  //     "ChatPilot provides a plug-and-play AI chatbot that works instantly for anonymous visitors and safely upgrades for authenticated users. Using a secure widget, server-side AI orchestration, and role-based access to data and tools, ChatPilot ensures visitors get helpful answers while businesses retain full control over their data, branding, and behavior.",
+  //   techStack: [
+  //     "Next.js (App Router)",
+  //     "TypeScript",
+  //     "Supabase (Postgres + RLS + Storage)",
+  //     "OpenAI",
+  //     "Edge Functions",
+  //     "WebSockets / Streaming",
+  //     "TailwindCSS",
+  //     "Shadow DOM Widgets",
+  //   ],
+  //   role: "Founder & Lead Engineer",
+  //   outcomes: [
+  //     "Instant AI assistance for anonymous website visitors",
+  //     "Secure multi-tenant chatbot architecture with strict data isolation",
+  //     "Embeddable widget via a single script tag",
+  //     "Custom branding, themes, and domain-level access control",
+  //     "Progressive enhancement for authenticated SaaS users",
+  //   ],
+  //   links: {
+  //     live: "https://www.chatpilot-agent.com/",
+  //   },
+  // },
   // {
   //   id: "sol-ball",
   //   title: "Sol Ball",
