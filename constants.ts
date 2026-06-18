@@ -38,7 +38,7 @@ export const PROJECTS: Project[] = [
     },
   },
    {
-  id: "chainpass",
+  id: "Perp",
   title: "Perp - Perpetual Futures Exchange",
   type: "Web3",
   shortDescription:
@@ -71,47 +71,47 @@ export const PROJECTS: Project[] = [
     "On-chain allocation tracking via Solidity SeedVault contract with TGE-locked claims",
   ],
   links: {
-    live: "https://perp.vercel.app",
+    live: "#",
     github: "https://github.com/piyushhsaniii/perp",
   },
 },
-  {
-    id: "syncpay",
-    title: "SyncPay",
-    type: "Web3",
-    shortDescription:
-      "Trustless on-chain payroll protocol on Solana — stream salaries every second and let employees claim what they've earned, the moment they've earned it.",
-    fullDescription:
-      "SyncPay is a Web3 employer-of-record payroll console built on Solana. Employers fund a program-controlled vault and set a pay rate in tokens per second. A StreamAccount PDA tracks every second of accrued pay — employees connect their wallet and withdraw anytime. No banks, no payroll processors, no waiting for month-end. Everything is enforced by the Anchor smart contract.",
-    image: "/syncpay-hero.png",
-    video: "/syncpay-demo.mp4",
-    problemStatement:
-      "Traditional payroll batches payments once or twice a month through banks that charge fees, delay transfers, and exclude contractors without local accounts. Workers deliver value continuously but get paid on an arbitrary cycle — often waiting 30 days for work completed on day one.",
-    solution:
-      "Built a fully on-chain salary streaming protocol using Anchor smart contracts. Employers deposit into a MasterVault PDA and create StreamAccounts with a per-second rate. Employees claim accrued earnings in a single transaction — the program calculates elapsed seconds × rate and transfers the exact amount owed, with no admin key and no privileged caller.",
-    techStack: [
-      "Next.js",
-      "TypeScript",
-      "Rust",
-      "Anchor",
-      "Solana",
-      "SPL Token-2022",
-      "Privy",
-      "Zustand",
-      "Tailwind CSS",
-    ],
-    role: "Full-Stack Developer",
-    outcomes: [
-      "End-to-end payroll flow: fund vault, create stream, accrue earnings, withdraw — all on-chain",
-      "Real-time earnings counter ticking up every second in the employee dashboard",
-      "MasterVault and StreamAccount PDAs deployed and verified on Solana devnet",
-      "Built and submitted to Solana Colosseum Frontier Hackathon",
-    ],
-    links: {
-      live: "https://sync-pay-six.vercel.app",
-      github: "https://github.com/ShubhamMewara/SyncPay",
-    },
-  },
+  // {
+  //   id: "syncpay",
+  //   title: "SyncPay",
+  //   type: "Web3",
+  //   shortDescription:
+  //     "Trustless on-chain payroll protocol on Solana — stream salaries every second and let employees claim what they've earned, the moment they've earned it.",
+  //   fullDescription:
+  //     "SyncPay is a Web3 employer-of-record payroll console built on Solana. Employers fund a program-controlled vault and set a pay rate in tokens per second. A StreamAccount PDA tracks every second of accrued pay — employees connect their wallet and withdraw anytime. No banks, no payroll processors, no waiting for month-end. Everything is enforced by the Anchor smart contract.",
+  //   image: "/syncpay-hero.png",
+  //   video: "/syncpay-demo.mp4",
+  //   problemStatement:
+  //     "Traditional payroll batches payments once or twice a month through banks that charge fees, delay transfers, and exclude contractors without local accounts. Workers deliver value continuously but get paid on an arbitrary cycle — often waiting 30 days for work completed on day one.",
+  //   solution:
+  //     "Built a fully on-chain salary streaming protocol using Anchor smart contracts. Employers deposit into a MasterVault PDA and create StreamAccounts with a per-second rate. Employees claim accrued earnings in a single transaction — the program calculates elapsed seconds × rate and transfers the exact amount owed, with no admin key and no privileged caller.",
+  //   techStack: [
+  //     "Next.js",
+  //     "TypeScript",
+  //     "Rust",
+  //     "Anchor",
+  //     "Solana",
+  //     "SPL Token-2022",
+  //     "Privy",
+  //     "Zustand",
+  //     "Tailwind CSS",
+  //   ],
+  //   role: "Full-Stack Developer",
+  //   outcomes: [
+  //     "End-to-end payroll flow: fund vault, create stream, accrue earnings, withdraw — all on-chain",
+  //     "Real-time earnings counter ticking up every second in the employee dashboard",
+  //     "MasterVault and StreamAccount PDAs deployed and verified on Solana devnet",
+  //     "Built and submitted to Solana Colosseum Frontier Hackathon",
+  //   ],
+  //   links: {
+  //     live: "https://sync-pay-six.vercel.app",
+  //     github: "https://github.com/ShubhamMewara/SyncPay",
+  //   },
+  // },
   {
     id: "alace-ai",
     title: "Alace AI",
