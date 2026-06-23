@@ -45,7 +45,7 @@ export const PROJECTS: Project[] = [
     "Rust-powered reverse proxy that gives you one URL for every LLM — bring your own keys, set cost caps, and never get surprised by a bill.",
   fullDescription:
     "LLM Gateway is an open-source reverse proxy built in Rust that sits between your application and every major LLM provider — OpenAI, Anthropic, and Google. Drop in one URL, bring your own API keys, and get hard cost caps, automatic provider fallbacks, semantic caching, and per-key rate limiting out of the box. Zero prompt storage, sub-millisecond overhead, and a consumer-grade dashboard to monitor usage in real time.",
-  image: "/llmgateway-logo.jpg",
+  image: "/LLM_PROXY_HERO.png",
   video: "/#",
   problemStatement:
     "Switching between LLM providers requires code changes, separate SDKs, and manual cost tracking. Teams routinely get surprise bills from runaway scripts, have no fallback when a provider goes down, and have to trust third-party services with their raw prompt data.",
