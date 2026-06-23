@@ -37,44 +37,80 @@ export const PROJECTS: Project[] = [
       github: "https://github.com/piyushhsainii/solwill",
     },
   },
-   {
-  id: "Perp",
-  title: "Perp - Perpetual Futures Exchange",
-  type: "Web3",
+ {
+  id: "llm-gateway",
+  title: "LLM Gateway",
+  type: "Developer Infrastructure",
   shortDescription:
-    "Bilingual crypto seed round platform — invest in CPS tokens before public launch with bank or crypto payment flows.",
+    "Rust-powered reverse proxy that gives you one URL for every LLM — bring your own keys, set cost caps, and never get surprised by a bill.",
   fullDescription:
-    "ChainPass is a full-stack seed round investment platform for the CPS token launch. It features a simulated investor onboarding flow with email/password auth, a live investment calculator with 300% seed multiplier projections, multi-chain crypto payment submission across 8 assets, a real-time investor dashboard with transaction history and downloadable receipts, and full English/Spanish localization with automatic browser locale detection.",
-  image: "/preview.png",
-  video: "#",
+    "LLM Gateway is an open-source reverse proxy built in Rust that sits between your application and every major LLM provider — OpenAI, Anthropic, and Google. Drop in one URL, bring your own API keys, and get hard cost caps, automatic provider fallbacks, semantic caching, and per-key rate limiting out of the box. Zero prompt storage, sub-millisecond overhead, and a consumer-grade dashboard to monitor usage in real time.",
+  image: "/llmgateway-logo.jpg",
+  video: "/#",
   problemStatement:
-    "Early-stage token projects lack polished, trustworthy seed round interfaces — most rely on generic forms or manual Telegram coordination, creating friction and eroding investor confidence before launch.",
+    "Switching between LLM providers requires code changes, separate SDKs, and manual cost tracking. Teams routinely get surprise bills from runaway scripts, have no fallback when a provider goes down, and have to trust third-party services with their raw prompt data.",
   solution:
-    "Built a production-grade seed round platform with a guided investment flow, live token allocation calculator, multi-chain crypto payment verification, and a per-investor dashboard — all localized in English and Spanish for Latin American and global audiences.",
+    "Built a Rust-powered reverse proxy that exposes a single OpenAI-compatible endpoint. All provider switching, key management, cost enforcement, and caching happens at the gateway layer — zero application code changes required. Smart contracts are replaced by hard budget limits enforced in-process before a request ever leaves the server.",
   techStack: [
+    "Rust",
     "Next.js",
     "TypeScript",
     "React",
     "Tailwind CSS",
-    "Motion",
-    "Solidity",
-    "Ethers.js",
-    "PostgreSQL",
-    "JWT",
+    "Bun",
   ],
   role: "Sole Developer",
   outcomes: [
-    "Bilingual platform (EN/ES) with automatic locale detection and URL-based language switching",
-    "Live investment calculator with real-time 300% seed multiplier and CPS token projection",
-    "Multi-chain crypto payment flow supporting USDT, BTC, ETH, BNB, SOL, XRP, DOGE, LTC",
-    "Investor dashboard with transaction history, status tracking, and receipt generation",
-    "On-chain allocation tracking via Solidity SeedVault contract with TGE-locked claims",
+    "Single URL drop-in replacement for OpenAI, Anthropic, and Google APIs",
+    "Sub-millisecond gateway overhead with zero prompt data stored",
+    "Hard cost caps that cut off requests the moment a budget is hit",
+    "Automatic provider fallback with zero configuration required",
+    "Consumer-grade dashboard with real-time token, cost, and latency monitoring",
+    "Open sourced on GitHub",
   ],
   links: {
-    live: "#",
-    github: "https://github.com/piyushhsaniii/perp",
+    live: "https://lllm-gateway.vercel.app/",
+    github: "https://github.com/piyushhsainii/lllm-gateway",
   },
-},
+}
+//    {
+//   id: "Perp",
+//   title: "Perp - Perpetual Futures Exchange",
+//   type: "Web3",
+//   shortDescription:
+//     "Bilingual crypto seed round platform — invest in CPS tokens before public launch with bank or crypto payment flows.",
+//   fullDescription:
+//     "ChainPass is a full-stack seed round investment platform for the CPS token launch. It features a simulated investor onboarding flow with email/password auth, a live investment calculator with 300% seed multiplier projections, multi-chain crypto payment submission across 8 assets, a real-time investor dashboard with transaction history and downloadable receipts, and full English/Spanish localization with automatic browser locale detection.",
+//   image: "/preview.png",
+//   video: "#",
+//   problemStatement:
+//     "Early-stage token projects lack polished, trustworthy seed round interfaces — most rely on generic forms or manual Telegram coordination, creating friction and eroding investor confidence before launch.",
+//   solution:
+//     "Built a production-grade seed round platform with a guided investment flow, live token allocation calculator, multi-chain crypto payment verification, and a per-investor dashboard — all localized in English and Spanish for Latin American and global audiences.",
+//   techStack: [
+//     "Next.js",
+//     "TypeScript",
+//     "React",
+//     "Tailwind CSS",
+//     "Motion",
+//     "Solidity",
+//     "Ethers.js",
+//     "PostgreSQL",
+//     "JWT",
+//   ],
+//   role: "Sole Developer",
+//   outcomes: [
+//     "Bilingual platform (EN/ES) with automatic locale detection and URL-based language switching",
+//     "Live investment calculator with real-time 300% seed multiplier and CPS token projection",
+//     "Multi-chain crypto payment flow supporting USDT, BTC, ETH, BNB, SOL, XRP, DOGE, LTC",
+//     "Investor dashboard with transaction history, status tracking, and receipt generation",
+//     "On-chain allocation tracking via Solidity SeedVault contract with TGE-locked claims",
+//   ],
+//   links: {
+//     live: "#",
+//     github: "https://github.com/piyushhsaniii/perp",
+//   },
+// },
   // {
   //   id: "syncpay",
   //   title: "SyncPay",
@@ -112,31 +148,31 @@ export const PROJECTS: Project[] = [
   //     github: "https://github.com/ShubhamMewara/SyncPay",
   //   },
   // },
-  {
-    id: "alace-ai",
-    title: "Alace AI",
-    type: "AI",
-    shortDescription:
-      "Instant AI insights, custom analysis, and automated actions for better ROAS and conversions.",
-    fullDescription:
-      "Alace AI is an AI-powered advertising platform that continuously optimizes ad performance to improve ROAS and CPA. Built for scale with enterprise-grade infrastructure.",
-    image: "/chatad.png",
-    video: "/Video_Project_2.mp4",
-    problemStatement:
-      "Manual ad optimization leads to wasted budget, slow iteration, and poor campaign performance.",
-    solution:
-      "Built an autonomous system that optimizes ads in real time using performance signals across platforms.",
-    techStack: ["NextJS", "Typescript", "PostgreSQL"],
-    role: "Founding Engineer",
-    outcomes: [
-      "Improved ROAS and CPA automatically",
-      "Reduced manual ad management effort",
-      "Scalable enterprise-ready architecture",
-    ],
-    links: {
-      live: "https://alace.ai/",
-    },
-  },
+  // {
+  //   id: "alace-ai",
+  //   title: "Alace AI",
+  //   type: "AI",
+  //   shortDescription:
+  //     "Instant AI insights, custom analysis, and automated actions for better ROAS and conversions.",
+  //   fullDescription:
+  //     "Alace AI is an AI-powered advertising platform that continuously optimizes ad performance to improve ROAS and CPA. Built for scale with enterprise-grade infrastructure.",
+  //   image: "/chatad.png",
+  //   video: "/Video_Project_2.mp4",
+  //   problemStatement:
+  //     "Manual ad optimization leads to wasted budget, slow iteration, and poor campaign performance.",
+  //   solution:
+  //     "Built an autonomous system that optimizes ads in real time using performance signals across platforms.",
+  //   techStack: ["NextJS", "Typescript", "PostgreSQL"],
+  //   role: "Founding Engineer",
+  //   outcomes: [
+  //     "Improved ROAS and CPA automatically",
+  //     "Reduced manual ad management effort",
+  //     "Scalable enterprise-ready architecture",
+  //   ],
+  //   links: {
+  //     live: "https://alace.ai/",
+  //   },
+  // },
   // {
   //   id: "chat-pilot",
   //   title: "ChatPilot",
@@ -328,40 +364,40 @@ export const PROJECTS: Project[] = [
   //     live: "https://social-pilot-agent.vercel.app/",
   //   },
   // },
-  {
-    id: "biz-pilot",
-    title: "Biz Pilot",
-    type: "AI Automation Platform",
-    shortDescription:
-      "AI agent systems for marketing, sales, and support that automate work, increase conversions, and drive real revenue.",
-    fullDescription:
-      "BizPilot is an AI-powered agentic automation platform designed to help businesses streamline operations and drive growth across marketing, sales, and customer support. The platform deploys intelligent agents that integrate directly with existing tools such as Excel, Salesforce, WhatsApp, and analytics systems. These agents autonomously execute workflows, analyze business data, and recommend actions that improve revenue, efficiency, and customer experience without requiring teams to change how they work.",
-    image: "/bizPilotPreview.png",
-    video: "/bizPilotPreviewCompact2.mp4",
-    problemStatement:
-      "Businesses rely on fragmented tools and manual processes across marketing, sales, and support, leading to inefficiencies, slow decision-making, and missed revenue opportunities.",
-    solution:
-      "BizPilot introduces AI-driven agent systems that automate workflows, manage data across tools, and provide real-time decision intelligence. By embedding agents directly into existing business stacks, BizPilot enables teams to scale operations, improve responsiveness, and achieve measurable growth without adding operational complexity.",
-    techStack: [
-      "Next.js",
-      "TypeScript",
-      "AI Agent Frameworks",
-      "Node.js",
-      "PostgreSQL",
-      "APIs & Webhooks",
-      "TailwindCSS",
-    ],
-    role: "Founder & Product Engineer",
-    outcomes: [
-      "Automated marketing, sales, and support workflows using AI agents",
-      "Seamless integration with existing business tools and data sources",
-      "Improved lead conversion, response times, and operational efficiency",
-      "Scalable agentic systems tailored to individual business needs",
-    ],
-    links: {
-      live: "https://biz-pilot-agent.vercel.app/",
-    },
-  },
+  // {
+  //   id: "biz-pilot",
+  //   title: "Biz Pilot",
+  //   type: "AI Automation Platform",
+  //   shortDescription:
+  //     "AI agent systems for marketing, sales, and support that automate work, increase conversions, and drive real revenue.",
+  //   fullDescription:
+  //     "BizPilot is an AI-powered agentic automation platform designed to help businesses streamline operations and drive growth across marketing, sales, and customer support. The platform deploys intelligent agents that integrate directly with existing tools such as Excel, Salesforce, WhatsApp, and analytics systems. These agents autonomously execute workflows, analyze business data, and recommend actions that improve revenue, efficiency, and customer experience without requiring teams to change how they work.",
+  //   image: "/bizPilotPreview.png",
+  //   video: "/bizPilotPreviewCompact2.mp4",
+  //   problemStatement:
+  //     "Businesses rely on fragmented tools and manual processes across marketing, sales, and support, leading to inefficiencies, slow decision-making, and missed revenue opportunities.",
+  //   solution:
+  //     "BizPilot introduces AI-driven agent systems that automate workflows, manage data across tools, and provide real-time decision intelligence. By embedding agents directly into existing business stacks, BizPilot enables teams to scale operations, improve responsiveness, and achieve measurable growth without adding operational complexity.",
+  //   techStack: [
+  //     "Next.js",
+  //     "TypeScript",
+  //     "AI Agent Frameworks",
+  //     "Node.js",
+  //     "PostgreSQL",
+  //     "APIs & Webhooks",
+  //     "TailwindCSS",
+  //   ],
+  //   role: "Founder & Product Engineer",
+  //   outcomes: [
+  //     "Automated marketing, sales, and support workflows using AI agents",
+  //     "Seamless integration with existing business tools and data sources",
+  //     "Improved lead conversion, response times, and operational efficiency",
+  //     "Scalable agentic systems tailored to individual business needs",
+  //   ],
+  //   links: {
+  //     live: "https://biz-pilot-agent.vercel.app/",
+  //   },
+  // },
 
   // {
   //   id: "stablecoin",
