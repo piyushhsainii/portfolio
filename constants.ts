@@ -1,6 +1,38 @@
 import { Project, Experience, Achievement } from "./types";
 export const PROJECTS: Project[] = [
  
+ {
+  id: "roomsketch",
+  title: "RoomSketch",
+  type: "Product / Web App",
+  shortDescription:
+    "Browser-based floor plan editor with a live, synced 3D preview — draw a wall, watch it appear in 3D instantly, then walk through the space before anything's built.",
+  image: "/room-sketch-hero.jpeg",
+  video: "/initial-hero-video.mp4",
+  problemStatement:
+    "Turning a floor plan into something a client can actually picture usually means stitching together a CAD tool, a separate 3D renderer, and a lot of manual re-modeling every time a wall moves. There's no single tool where the 2D plan and the 3D model stay in sync as you draw, and walking through the space before it's built typically means a completely separate rendering pipeline.",
+  solution:
+    "Built a node-based floor plan editor where every wall, door, window, and stair is real geometry the moment it's drawn — rendered live in a resizable split view next to the 2D canvas, with no re-modeling or export step. Layered in a materials system (60+ finishes across walls, floors, doors, and furniture), a first-person Walk Mode for exploring the space at eye level, and shareable links so clients can open the model on any device with no plugin.",
+  techStack: [
+    "Next.js",
+    "TypeScript",
+    "React",
+    "Three.js",
+    "Tailwind CSS",
+    "Supabase",
+  ],
+  role: "Sole Developer",
+  outcomes: [
+    "Real-time synced 2D floor plan editor and 3D scene, zero re-modeling step",
+    "60+ materials across walls, floors, doors, and furniture, applied per room",
+    "First-person Walk Mode plus Orbit and Top-down camera views",
+    "Shareable client links — opens on any device, no plugin required",
+    "Currently pre-launch, building in public with an open waitlist",
+  ],
+  links: {
+    live: "https://roomsketch.vercel.app/",
+  },
+}
   {
     id: "solwill",
     title: "Solwill",
@@ -37,42 +69,42 @@ export const PROJECTS: Project[] = [
       github: "https://github.com/piyushhsainii/solwill",
     },
   },
- {
-  id: "llm-gateway",
-  title: "LLM Gateway",
-  type: "Developer Infrastructure",
-  shortDescription:
-    "Rust-powered reverse proxy that gives you one URL for every LLM — bring your own keys, set cost caps, and never get surprised by a bill.",
-  fullDescription:
-    "LLM Gateway is an open-source reverse proxy built in Rust that sits between your application and every major LLM provider — OpenAI, Anthropic, and Google. Drop in one URL, bring your own API keys, and get hard cost caps, automatic provider fallbacks, semantic caching, and per-key rate limiting out of the box. Zero prompt storage, sub-millisecond overhead, and a consumer-grade dashboard to monitor usage in real time.",
-  image: "/LLM_PROXY_HERO.png",
-  video: "/#",
-  problemStatement:
-    "Switching between LLM providers requires code changes, separate SDKs, and manual cost tracking. Teams routinely get surprise bills from runaway scripts, have no fallback when a provider goes down, and have to trust third-party services with their raw prompt data.",
-  solution:
-    "Built a Rust-powered reverse proxy that exposes a single OpenAI-compatible endpoint. All provider switching, key management, cost enforcement, and caching happens at the gateway layer — zero application code changes required. Smart contracts are replaced by hard budget limits enforced in-process before a request ever leaves the server.",
-  techStack: [
-    "Rust",
-    "Next.js",
-    "TypeScript",
-    "React",
-    "Tailwind CSS",
-    "Bun",
-  ],
-  role: "Sole Developer",
-  outcomes: [
-    "Single URL drop-in replacement for OpenAI, Anthropic, and Google APIs",
-    "Sub-millisecond gateway overhead with zero prompt data stored",
-    "Hard cost caps that cut off requests the moment a budget is hit",
-    "Automatic provider fallback with zero configuration required",
-    "Consumer-grade dashboard with real-time token, cost, and latency monitoring",
-    "Open sourced on GitHub",
-  ],
-  links: {
-    live: "https://lllm-gateway.vercel.app/",
-    github: "https://github.com/piyushhsainii/lllm-gateway",
-  },
-}
+//  {
+//   id: "llm-gateway",
+//   title: "LLM Gateway",
+//   type: "Developer Infrastructure",
+//   shortDescription:
+//     "Rust-powered reverse proxy that gives you one URL for every LLM — bring your own keys, set cost caps, and never get surprised by a bill.",
+//   fullDescription:
+//     "LLM Gateway is an open-source reverse proxy built in Rust that sits between your application and every major LLM provider — OpenAI, Anthropic, and Google. Drop in one URL, bring your own API keys, and get hard cost caps, automatic provider fallbacks, semantic caching, and per-key rate limiting out of the box. Zero prompt storage, sub-millisecond overhead, and a consumer-grade dashboard to monitor usage in real time.",
+//   image: "/LLM_PROXY_HERO.png",
+//   video: "/#",
+//   problemStatement:
+//     "Switching between LLM providers requires code changes, separate SDKs, and manual cost tracking. Teams routinely get surprise bills from runaway scripts, have no fallback when a provider goes down, and have to trust third-party services with their raw prompt data.",
+//   solution:
+//     "Built a Rust-powered reverse proxy that exposes a single OpenAI-compatible endpoint. All provider switching, key management, cost enforcement, and caching happens at the gateway layer — zero application code changes required. Smart contracts are replaced by hard budget limits enforced in-process before a request ever leaves the server.",
+//   techStack: [
+//     "Rust",
+//     "Next.js",
+//     "TypeScript",
+//     "React",
+//     "Tailwind CSS",
+//     "Bun",
+//   ],
+//   role: "Sole Developer",
+//   outcomes: [
+//     "Single URL drop-in replacement for OpenAI, Anthropic, and Google APIs",
+//     "Sub-millisecond gateway overhead with zero prompt data stored",
+//     "Hard cost caps that cut off requests the moment a budget is hit",
+//     "Automatic provider fallback with zero configuration required",
+//     "Consumer-grade dashboard with real-time token, cost, and latency monitoring",
+//     "Open sourced on GitHub",
+//   ],
+//   links: {
+//     live: "https://lllm-gateway.vercel.app/",
+//     github: "https://github.com/piyushhsainii/lllm-gateway",
+//   },
+// }
 //    {
 //   id: "Perp",
 //   title: "Perp - Perpetual Futures Exchange",
