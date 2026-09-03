@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Project } from "../types";
 
@@ -35,10 +34,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <div
           onClick={() => onClick(project)}
           className={[
-            "group cursor-pointer overflow-hidden flex flex-col h-full",
+            "group cursor-pointer overflow-hidden flex flex-col h-full bg-white",
             isBento
-              ? "bg-white border border-zinc-100 rounded-[28px] shadow-sm hover:shadow-xl transition-shadow duration-200"
-              : "bg-white border border-zinc-200 rounded-xl hover:shadow-lg transition-all duration-200 hover:-translate-y-1",
+              ? "rounded-[28px] shadow-[0_10px_30px_-10px_rgba(24,24,27,0.15)] hover:shadow-[0_18px_40px_-12px_rgba(24,24,27,0.25)] transition-shadow duration-200"
+              : "rounded-[20px] shadow-[0_8px_24px_-10px_rgba(24,24,27,0.15)] hover:shadow-[0_16px_34px_-10px_rgba(24,24,27,0.22)] transition-all duration-200 hover:-translate-y-1",
           ].join(" ")}
           role="button"
           tabIndex={0}
@@ -62,13 +61,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 ].join(" ")}
               />
             ) : (
-              <div className="w-full h-full flex items-center justify-center bg-zinc-200 text-zinc-400 font-bold uppercase tracking-widest text-xs">
+              <div className="w-full h-full flex items-center justify-center bg-zinc-200 text-zinc-400 font-medium uppercase tracking-tight text-xs">
                 Preview Available
               </div>
             )}
 
             <div className="absolute top-3 left-3">
-              <span className="px-2 py-1 bg-white/90 backdrop-blur shadow-sm text-[10px] font-bold text-zinc-900 rounded uppercase">
+              <span className="px-2.5 py-1 bg-white/90 backdrop-blur shadow-[0_4px_10px_-4px_rgba(24,24,27,0.2)] text-[10px] font-medium text-zinc-900 rounded-full uppercase">
                 {project.type}
               </span>
             </div>
@@ -87,13 +86,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             <h3
               className={[
                 "font-sans text-zinc-900 transition-colors",
-                isBento ? "text-xl tracking-tighter" : "text-xl",
+                isBento ? "text-xl tracking-tight" : "text-xl",
                 "group-hover:text-blue-600 font-serif font-medium ",
               ].join(" ")}
             >
               {project.title}
             </h3>
-            <div className={isBento ? "text-zinc-700 text-base leading-relaxed line-clamp-3 flex-1" : "text-zinc-700 text-lg tracking-tighter line-clamp-2 flex-1"}>
+            <div className={isBento ? "text-zinc-700 text-base leading-relaxed line-clamp-3 flex-1" : "text-zinc-700 text-lg tracking-tight line-clamp-2 flex-1"}>
               {project.shortDescription}
             </div>
 
@@ -102,17 +101,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 <span
                   key={tech}
                   className={[
-                    "px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider rounded",
-                    isBento
-                      ? "bg-zinc-50 border border-zinc-100 text-zinc-500"
-                      : "bg-zinc-50 border border-zinc-100 text-zinc-400",
+                    "px-2.5 py-1 text-[10px] font-medium uppercase tracking-wider rounded-full",
+                    "bg-[#f4f5f6] text-zinc-500",
                   ].join(" ")}
                 >
                   {tech}
                 </span>
               ))}
               {isBento && remainingChipCount > 0 && (
-                <span className="px-2 py-0.5 bg-zinc-50 border border-zinc-100 text-[10px] font-semibold text-zinc-500 uppercase tracking-wider rounded">
+                <span className="px-2.5 py-1 bg-[#f4f5f6] text-[10px] font-medium text-zinc-500 uppercase tracking-wider rounded-full">
                   +{remainingChipCount}
                 </span>
               )}
@@ -120,10 +117,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
             {isBento && (
               <div className="pt-5 flex items-center justify-between">
-                <span className="text-xs font-bold uppercase tracking-[0.18em] text-zinc-400">
+                <span className="text-xs font-medium uppercase tracking-tight text-zinc-400">
                   View project
                 </span>
-                <span className="w-10 h-10 rounded-full border border-zinc-100 bg-white flex items-center justify-center transition-transform duration-200 group-hover:translate-x-0.5">
+                <span className="w-10 h-10 rounded-full bg-white shadow-[0_4px_12px_-4px_rgba(24,24,27,0.18)] flex items-center justify-center transition-transform duration-200 group-hover:translate-x-0.5">
                   <svg
                     className="w-4 h-4 text-zinc-700"
                     fill="none"

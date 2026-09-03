@@ -480,18 +480,9 @@ export const PROJECTS: Project[] = [
 
 export const EXPERIENCES: Experience[] = [
   {
-    id: "e0",
-    company: "Pesito",
-    role: "Founding Engineer",
-    duration: "Present",
-    summary: "Delivering Security and Performance as a Rust Engineer",
-    technologies: ["rust", "web3", "Solana"],
-    logoUrl: "/pesito.jpg",
-  },
-  {
     id: "e1",
     company: "Alace AI",
-    role: "Founding Engineer",
+    role: "Full Stack Engineer",
     duration: "Feb 2025 - Oct- 2025",
     summary:
       "Driving the technical vision and core engineering for an AI-led ad-tech startup.",

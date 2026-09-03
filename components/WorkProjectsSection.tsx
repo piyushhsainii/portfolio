@@ -42,7 +42,7 @@ const WorkProjectsSection: React.FC<WorkProjectsSectionProps> = ({
     <div>
       <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-8">
         <div>
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-[#0f172a]">
+          <h2 className="text-2xl sm:text-3xl font-medium tracking-tight text-[#0f172a]">
             Work projects
           </h2>
         </div>
@@ -62,11 +62,11 @@ const WorkProjectsSection: React.FC<WorkProjectsSectionProps> = ({
       </div>
 
       {!expanded && projects.length > 4 && (
-        <div className="mt-6">
+        <div className="mt-8 flex justify-center">
           <button
             type="button"
             onClick={() => setExpanded(true)}
-            className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.22em] text-zinc-400 hover:text-zinc-700 transition-colors"
+            className="inline-flex items-center gap-2 px-5 py-2.5 bg-white rounded-full text-xs font-medium uppercase tracking-tight text-zinc-500 shadow-[0_6px_18px_-6px_rgba(24,24,27,0.18)] hover:shadow-[0_8px_22px_-6px_rgba(24,24,27,0.25)] hover:text-zinc-700 transition-all"
           >
             View more
             <svg

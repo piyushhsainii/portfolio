@@ -7,10 +7,10 @@ interface ExperienceItemProps {
 
 const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience }) => {
   return (
-    <div className="group bg-white border border-zinc-100 rounded-2xl p-4 hover:shadow-sm transition-shadow">
+    <div className="group bg-white rounded-[24px] p-4 shadow-[0_8px_24px_-8px_rgba(24,24,27,0.12)] hover:shadow-[0_14px_32px_-8px_rgba(24,24,27,0.18)] transition-shadow duration-200">
       <div className="flex flex-col sm:flex-row sm:items-start gap-5">
         <div className="shrink-0">
-          <div className="w-12 h-12 rounded-2xl border border-zinc-100 bg-white flex items-center justify-center shadow-sm overflow-hidden">
+          <div className="w-12 h-12 rounded-2xl bg-white flex items-center justify-center shadow-[0_4px_12px_-4px_rgba(24,24,27,0.15)] overflow-hidden">
             {experience.logoUrl ? (
               <img
                 src={experience.logoUrl}
@@ -37,7 +37,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience }) => {
             </span>
 
             <div className="shrink-0">
-              <span className="inline-flex items-center px-3  rounded-full bg-zinc-50 border border-zinc-100 text-[11px] font-bold uppercase tracking-[0.18em] text-zinc-400">
+              <span className="inline-flex items-center px-3 py-1 rounded-full bg-[#f4f5f6] text-[11px] font-bold uppercase tracking-[0.18em] text-zinc-400">
                 {experience.duration}
               </span>
             </div>
@@ -51,7 +51,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience }) => {
             {experience.technologies.map((tech) => (
               <span
                 key={tech}
-                className="px-3 py-1 bg-white border border-zinc-100 text-[11px] font-bold text-zinc-500 rounded-full"
+                className="px-3 py-1 bg-[#f4f5f6] text-[11px] font-bold text-zinc-500 rounded-full"
               >
                 {tech}
               </span>

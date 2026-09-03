@@ -12,14 +12,14 @@ const AboutSection: React.FC = () => {
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
-          <h3 className="text-xs font-bold text-zinc-400 uppercase tracking-[0.22em] mb-3">
+          <h3 className="text-xs font-medium text-zinc-400 uppercase tracking-tight mb-3">
             Core Skills
           </h3>
-          <div className="flex flex-nowrap gap-2  py-1">
+          <div className="flex flex-wrap gap-2 py-1">
             {USER_DATA.skills.map((skill) => (
               <span
                 key={skill}
-                className="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-full border border-blue-100 whitespace-nowrap"
+                className="px-3 py-1.5 bg-white text-zinc-700 text-xs font-medium rounded-full shadow-[0_4px_12px_-4px_rgba(24,24,27,0.12)] whitespace-nowrap"
               >
                 {skill}
               </span>
