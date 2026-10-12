@@ -5,21 +5,21 @@ const AboutSection: React.FC = () => {
   return (
     <div className="space-y-10 max-w-3xl">
       <section className="space-y-2">
-        <p className="text-sm sm:text-base text-[#64748b] font-medium tracking-tight">
+        <p className="text-base leading-8 text-zinc-600 sm:text-lg">
           {USER_DATA.summary}
         </p>
       </section>
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
-          <h3 className="text-xs font-medium text-zinc-400 uppercase tracking-tight mb-3">
+          <h3 className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-zinc-500">
             Core Skills
           </h3>
           <div className="flex flex-wrap gap-2 py-1">
             {USER_DATA.skills.map((skill) => (
               <span
                 key={skill}
-                className="px-3 py-1.5 bg-white text-zinc-700 text-xs font-medium rounded-full shadow-[0_4px_12px_-4px_rgba(24,24,27,0.12)] whitespace-nowrap"
+                className="whitespace-nowrap rounded-full border border-zinc-200 bg-white px-3 py-1.5 text-xs font-medium text-zinc-700"
               >
                 {skill}
               </span>

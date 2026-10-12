@@ -16,18 +16,18 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
         onClick={onClose}
       />
 
-      <div className="relative w-full max-w-4xl bg-[#f4f5f6] rounded-[32px] shadow-[0_30px_70px_-15px_rgba(24,24,27,0.35)] overflow-hidden flex flex-col max-h-[90vh]">
+      <div className="relative flex max-h-[90vh] w-full max-w-5xl flex-col overflow-hidden rounded-[28px] border border-zinc-200 bg-[#f4f4f2] font-sans shadow-[0_30px_80px_-24px_rgba(0,0,0,0.45)]">
         {/* Header */}
-        <div className="flex items-center justify-between p-5 border-b border-white/70 bg-[#f4f5f6]/90 backdrop-blur-md sticky top-0 z-10">
+        <div className="sticky top-0 z-10 flex items-center justify-between border-b border-zinc-200 bg-[#f4f4f2]/95 p-6 backdrop-blur-md">
           <div className="flex items-center gap-3">
-            <span className="px-2.5 py-1 bg-white text-[10px] font-medium text-zinc-500 rounded-full uppercase shadow-[0_2px_6px_-2px_rgba(24,24,27,0.15)]">
+            <span className="rounded-full border border-zinc-200 bg-white px-3 py-1 text-[10px] font-bold uppercase tracking-[0.16em] text-zinc-500">
               {project.type}
             </span>
-            <h2 className="text-xl font-medium text-zinc-900">{project.title}</h2>
+            <h2 className="text-2xl font-semibold tracking-[-0.04em] text-black">{project.title}</h2>
           </div>
           <button
             onClick={onClose}
-            className="p-2 bg-white rounded-full shadow-[0_2px_8px_-2px_rgba(24,24,27,0.15)] hover:shadow-[0_4px_12px_-2px_rgba(24,24,27,0.22)] transition-shadow"
+            className="rounded-full border border-zinc-200 bg-white p-2 text-zinc-500 transition hover:border-black hover:text-black"
           >
             <svg className="w-5 h-5 text-zinc-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -36,9 +36,9 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
         </div>
 
         {/* Content */}
-        <div className="overflow-y-auto p-4 sm:p-8 space-y-8">
+        <div className="space-y-8 overflow-y-auto p-6 sm:p-8">
           {/* Media Preview */}
-          <div className="rounded-[24px] overflow-hidden bg-zinc-100 shadow-[0_10px_30px_-10px_rgba(24,24,27,0.2)]">
+          <div className="overflow-hidden rounded-[24px] border border-zinc-200 bg-zinc-100">
             {project.video ? (
               <video
                 src={project.video}
@@ -52,35 +52,34 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-auto object-cover aspect-video"
+                className={`w-full h-auto aspect-video ${project.id === "roomsketch" ? "bg-zinc-100 object-contain" : "object-cover"}`}
               />
             )}
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="md:col-span-2 space-y-8">
-              <section className="bg-white rounded-[20px] p-5 shadow-[0_6px_20px_-10px_rgba(24,24,27,0.15)]">
-                <h3 className="text-sm font-medium text-zinc-400 uppercase tracking-wider mb-2">Overview</h3>
-                <p className="text-zinc-700 leading-relaxed text-sm">{project.fullDescription}</p>
+              <section className="rounded-[24px] border border-zinc-200 bg-white p-6">
+                <h3 className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-zinc-500">Overview</h3>
+                <p className="text-sm leading-7 text-zinc-600">{project.fullDescription}</p>
               </section>
 
-              <section className="bg-white rounded-[20px] p-5 shadow-[0_6px_20px_-10px_rgba(24,24,27,0.15)]">
-                <h3 className="text-sm font-medium text-zinc-400 uppercase tracking-wider mb-2">Problem Statement</h3>
-                <p className="text-zinc-700 text-sm leading-relaxed">{project.problemStatement}</p>
+              <section className="rounded-[24px] border border-zinc-200 bg-white p-6">
+                <h3 className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-zinc-500">Problem Statement</h3>
+                <p className="text-sm leading-7 text-zinc-600">{project.problemStatement}</p>
               </section>
 
-              <section className="bg-white rounded-[20px] p-5 shadow-[0_6px_20px_-10px_rgba(24,24,27,0.15)]">
-                <h3 className="text-sm font-medium text-zinc-400 uppercase tracking-wider mb-2">Solution & Approach</h3>
-                <p className="text-zinc-700 text-sm leading-relaxed">{project.solution}</p>
+              <section className="rounded-[24px] border border-zinc-200 bg-white p-6">
+                <h3 className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-zinc-500">Solution & Approach</h3>
+                <p className="text-sm leading-7 text-zinc-600">{project.solution}</p>
               </section>
 
-              <section className="bg-white rounded-[20px] p-5 shadow-[0_6px_20px_-10px_rgba(24,24,27,0.15)]">
-                <h3 className="text-sm font-medium text-zinc-400 uppercase tracking-wider mb-3">Key Outcomes</h3>
+              <section className="rounded-[24px] border border-zinc-200 bg-white p-6">
+                <h3 className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-zinc-500">Key Outcomes</h3>
                 <ul className="space-y-1.5">
                   {project.outcomes.map((outcome, idx) => (
                     <li key={idx} className="flex items-start gap-2 text-zinc-700 text-sm">
-                      <span className="text-blue-500 text-sm mt-1">•</span>
-                      <span>{outcome}</span>
+                      <span className="mt-1 text-black">•</span><span className="text-sm leading-6 text-zinc-600">{outcome}</span>
                     </li>
                   ))}
                 </ul>
@@ -88,20 +87,20 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
             </div>
 
             <div className="space-y-4">
-              <section className="bg-white rounded-[20px] p-5 shadow-[0_6px_20px_-10px_rgba(24,24,27,0.15)]">
-                <h3 className="text-sm font-medium text-zinc-400 uppercase tracking-wider mb-3">Tech Stack</h3>
+              <section className="rounded-[24px] border border-zinc-200 bg-white p-6">
+                <h3 className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-zinc-500">Tech Stack</h3>
                 <div className="flex flex-wrap gap-2">
                   {project.techStack.map(tech => (
-                    <span key={tech} className="px-3 py-1 bg-[#f4f5f6] text-zinc-600 text-xs font-medium rounded-full">
+                    <span key={tech} className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-medium text-zinc-600">
                       {tech}
                     </span>
                   ))}
                 </div>
               </section>
 
-              <section className="bg-white rounded-[20px] p-5 shadow-[0_6px_20px_-10px_rgba(24,24,27,0.15)]">
-                <h3 className="text-sm font-medium text-zinc-400 uppercase tracking-wider mb-2">Role</h3>
-                <p className="text-zinc-800 font-medium text-sm">{project.role}</p>
+              <section className="rounded-[24px] border border-zinc-200 bg-white p-6">
+                <h3 className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-zinc-500">Role</h3>
+                <p className="text-sm font-semibold text-black">{project.role}</p>
               </section>
 
               <section className="space-y-3">
@@ -110,7 +109,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
                     href={project.links.live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 w-full py-3 bg-zinc-900 text-white rounded-full font-medium shadow-[0_10px_24px_-8px_rgba(24,24,27,0.4)] hover:bg-zinc-800 transition-colors"
+                    className="flex w-full items-center justify-center gap-2 rounded-full bg-black py-3 text-sm font-bold text-white transition hover:bg-zinc-800"
                   >
                     Live Demo
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -123,7 +122,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
                     href={project.links.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 w-full py-3 bg-white text-zinc-900 rounded-full font-medium shadow-[0_6px_18px_-6px_rgba(24,24,27,0.2)] hover:shadow-[0_8px_22px_-6px_rgba(24,24,27,0.28)] transition-shadow"
+                    className="flex w-full items-center justify-center gap-2 rounded-full border border-zinc-300 bg-white py-3 text-sm font-bold text-black transition hover:border-black"
                   >
                     GitHub Repo
                   </a>

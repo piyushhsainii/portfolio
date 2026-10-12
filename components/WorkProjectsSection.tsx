@@ -42,20 +42,20 @@ const WorkProjectsSection: React.FC<WorkProjectsSectionProps> = ({
     <div>
       <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-8">
         <div>
-          <h2 className="text-2xl sm:text-3xl font-medium tracking-tight text-[#0f172a]">
-            Work projects
+          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-zinc-400">A few things I’ve made</p>
+          <h2 className="text-3xl font-semibold tracking-[-0.05em] text-black sm:text-4xl">
+            Products, made real.
           </h2>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+      <div className="grid grid-cols-1 gap-9 md:grid-cols-2 md:gap-x-6 md:gap-y-11">
         {visibleProjects.map((project, idx) => (
           <ProjectCard
             key={project.id}
             project={project}
             onClick={onProjectClick}
-            variant="bento"
-            className={getBentoOffsetClassName(idx)}
+            variant="portfolio"
             {...withReveal(idx)}
           />
         ))}
@@ -66,7 +66,7 @@ const WorkProjectsSection: React.FC<WorkProjectsSectionProps> = ({
           <button
             type="button"
             onClick={() => setExpanded(true)}
-            className="inline-flex items-center gap-2 px-5 py-2.5 bg-white rounded-full text-xs font-medium uppercase tracking-tight text-zinc-500 shadow-[0_6px_18px_-6px_rgba(24,24,27,0.18)] hover:shadow-[0_8px_22px_-6px_rgba(24,24,27,0.25)] hover:text-zinc-700 transition-all"
+            className="inline-flex items-center gap-2 rounded-full border border-zinc-300 bg-white px-5 py-2.5 text-xs font-bold uppercase tracking-[0.16em] text-zinc-600 transition hover:border-black hover:text-black"
           >
             View more
             <svg

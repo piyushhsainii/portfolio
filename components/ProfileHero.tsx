@@ -44,11 +44,11 @@ const ProfileHero: React.FC = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="absolute bottom-5 right-2 w-5 h-5 bg-[#22c55e] border-4 border-white rounded-full shadow-sm" />
+          <div className="absolute bottom-5 right-2 w-5 h-5 bg-black border-4 border-white rounded-full shadow-sm" />
         </div>
         <div className="space-y-2 mx-10 mt-4">
           <div className="relative">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-emerald-50 to-emerald-100/70 text-[#16a34a] rounded-full text-sm font-semibold cursor-pointer shadow-[0_4px_14px_-4px_rgba(22,163,74,0.25)] hover:shadow-[0_6px_18px_-4px_rgba(22,163,74,0.35)] transition-shadow">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-zinc-100 text-zinc-700 rounded-full text-sm font-semibold cursor-pointer transition-colors hover:bg-zinc-200">
               Open to Work
               <svg
                 className="w-3 h-3"
@@ -79,7 +79,7 @@ const ProfileHero: React.FC = () => {
         <a
           href="https://x.com/piyushsainii"
           target="_blank"
-          className="cta-glare group flex items-center gap-4 bg-[#1e293b] text-white px-6 py-4 rounded-full hover:bg-zinc-800 transition-all active:scale-95 shadow-[0_14px_30px_-8px_rgba(30,41,59,0.45)]"
+            className="cta-glare group flex items-center gap-4 bg-black text-white px-6 py-4 rounded-full hover:bg-zinc-800 transition-all active:scale-95 shadow-[0_14px_30px_-8px_rgba(0,0,0,0.35)]"
         >
           <span className="font-bold text-lg">Get in touch</span>
           <ArrowRight className="transition-transform duration-200 ease-out group-hover:translate-x-2 group-hover:scale-110" />

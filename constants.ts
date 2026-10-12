@@ -8,7 +8,7 @@ export const PROJECTS: Project[] = [
       "Browser-based floor plan editor with a live, synced 3D preview — draw a wall, watch it appear in 3D instantly, then walk through the space before anything's built.",
     fullDescription:
       "Built a node-based floor plan editor where every wall, door, window, and stair is real geometry the moment it's drawn — rendered live in a resizable split view next to the 2D canvas, with no re-modeling or export step. Layered in a materials system (60+ finishes across walls, floors, doors, and furniture), a first-person Walk Mode for exploring the space at eye level, and shareable links so clients can open the model on any device with no plugin.",
-    image: "/room-sketch-hero.jpeg",
+    image: "/roomsketch-preview.png",
     video: "/initial-hero-video.mp4",
     problemStatement:
       "Turning a floor plan into something a client can actually picture usually means stitching together a CAD tool, a separate 3D renderer, and a lot of manual re-modeling every time a wall moves. There's no single tool where the 2D plan and the 3D model stay in sync as you draw, and walking through the space before it's built typically means a completely separate rendering pipeline.",
@@ -536,7 +536,7 @@ export const USER_DATA = {
   summary: `I’m a Full-Stack Developer working across Web2, Web3, and AI systems, focused on building agentic solutions and automations that solve real problems.
 
 I help turn ideas into production-ready products — handling everything from system design and frontend UX to backend architecture, blockchain integrations, and AI agents.`,
-  avatarUrl: "/bwillustration.png",
+  avatarUrl: "/piyush-saini-portrait.png",
   skills: [
     "React",
     "Next.js",
@@ -552,6 +552,7 @@ I help turn ideas into production-ready products — handling everything from sy
     github: "https://github.com/piyushhsainii",
     linkedin: "https://www.linkedin.com/in/piyushhsainii",
     x: "https://x.com/piyushsainii",
+    contra: "https://contra.com/piyush_saini_b73lgtdo/work?r=piyushhsainii",
     resume:
       "https://drive.google.com/file/d/1y7o7VOm8oiCMGbQMr-8zYU3em1pdcBe_/view?usp=sharing",
   },

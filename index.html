@@ -23,7 +23,7 @@
     <title>Piyush Saini | Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="icon" href="/bwillustration.png" />
+    <link rel="icon" type="image/png" href="/piyush-saini-portrait.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
@@ -32,21 +32,9 @@
     <style>
       body {
         font-family: "Plus Jakarta Sans", sans-serif;
-        background-color: #fafafa;
+        background-color: #ffffff;
         color: #18181b;
-        background-image:
-          linear-gradient(
-            to right,
-            rgba(15, 23, 42, 0.035) 1px,
-            transparent 1px
-          ),
-          linear-gradient(
-            to bottom,
-            rgba(15, 23, 42, 0.035) 1px,
-            transparent 1px
-          );
-        background-size: 56px 56px;
-        background-attachment: fixed;
+        background-image: none;
       }
 
       @keyframes ps-reveal-up {
@@ -82,6 +70,13 @@
       .no-scrollbar {
         -ms-overflow-style: none; /* IE and Edge */
         scrollbar-width: none; /* Firefox */
+      }
+      .work-scroll { scrollbar-width: thin; scrollbar-color: #d4d4d8 transparent; }
+      .work-scroll::-webkit-scrollbar { width: 8px; }
+      .work-scroll::-webkit-scrollbar-thumb { background: #d4d4d8; border-radius: 999px; border: 2px solid #fff; }
+      @media (max-width: 1023px) {
+        .portfolio-shell { height: auto; overflow: visible; }
+        .work-scroll { height: auto; overflow: visible; }
       }
     </style>
     <script type="importmap">
