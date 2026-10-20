@@ -1,0 +1,1456 @@
+{
+  "brand": "STRANDVALE",
+  "brand_status": "Provisional fictional name; not trademark or domain clearance",
+  "market": "US / English / USD — confirmed by user",
+  "phase": "Selected packaging; 18 exploratory creatives complete; results pending",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "AAD / Hair loss versus shedding",
+      "url": "https://www.aad.org/public/diseases/hair-loss/insider/shedding",
+      "scope": "Dermatology education; not evidence for our product."
+    },
+    {
+      "id": "S02",
+      "title": "FDA / Cosmetic, drug or both?",
+      "url": "https://www.fda.gov/cosmetics/cosmetics-laws-regulations/it-cosmetic-drug-or-both-or-it-soap",
+      "scope": "US intended-use classification guidance; legal assessment still needed."
+    },
+    {
+      "id": "S03",
+      "title": "The Ordinary / Multi-Peptide Serum for Hair Density",
+      "url": "https://theordinary.com/en-us/multi-peptide-serum-for-hair-density-hair-scalp-treatment-100434.html",
+      "scope": "Official competitor claims and product presentation, not transferable proof."
+    },
+    {
+      "id": "S04",
+      "title": "Divi / Scalp Serum",
+      "url": "https://www.diviofficial.com/products/scalp-serum",
+      "scope": "Official brand page; distinguish self-assessment findings from clinical endpoints."
+    },
+    {
+      "id": "S05",
+      "title": "Vegamour / GRO Hair Serum",
+      "url": "https://vegamour.com/products/gro-hair-serum",
+      "scope": "Official brand page; consumer-perception study and routine positioning."
+    },
+    {
+      "id": "S06",
+      "title": "r/finehair / Ordinary Hair Serum",
+      "url": "https://www.reddit.com/r/finehair/comments/1wey3gm/ordinary_hair_serum/",
+      "scope": "Self-selected anecdotes; geography and identities unverified; conflicting experiences."
+    },
+    {
+      "id": "S07",
+      "title": "r/Ulta / Scalp serums recommendations",
+      "url": "https://www.reddit.com/r/Ulta/comments/1tv59n9/scalp_serums_recommendations/",
+      "scope": "Anecdotes about texture, application, scent and price; not representative research."
+    },
+    {
+      "id": "S08",
+      "title": "r/Haircare / Greasiness when applying serum",
+      "url": "https://www.reddit.com/r/Haircare/comments/1u28t6e/how_to_avoid_hair_getting_greasy_when_using_scalp/",
+      "scope": "Application-language research; comments are not verified usage instructions."
+    },
+    {
+      "id": "S09",
+      "title": "Meta Engineering / Andromeda retrieval system",
+      "url": "https://engineering.fb.com/2024/12/02/production-engineering/meta-andromeda-advantage-automation-next-gen-personalized-ads-retrieval-engine/",
+      "scope": "Official technical explanation; no universal public creative-similarity threshold or grouping guarantee established."
+    },
+    {
+      "id": "S10",
+      "title": "Meta Business / Creative diversification",
+      "url": "https://www.facebook.com/business/news/demystifying-creative-diversification",
+      "scope": "Direct request returned login / temporary-block page. Article content not relied upon."
+    }
+  ],
+  "insights": [
+    [
+      "R01",
+      "Define the concern before promising a solution.",
+      "AAD distinguishes shedding from hair loss.",
+      "The project must distinguish concern education from evidence that STRANDVALE reduces hair fall. Sudden or concerning changes belong in appropriate clinical evaluation, not a universal serum pitch.",
+      "S01",
+      "Unaware / Problem aware"
+    ],
+    [
+      "R02",
+      "The category name can imply more than the product proves.",
+      "FDA identifies restored-hair-growth claims as an example that can establish drug intended use.",
+      "Use neutral SCALP SERUM on exploratory packs; classify the actual formula and claims before any anti-hair-fall or regrowth promise.",
+      "S02",
+      "All stages"
+    ],
+    [
+      "R03",
+      "Finish and residue are purchase objections.",
+      "Forum shoppers ask about greasiness and disagree about their experience.",
+      "Research sensory acceptance and realistic use. Do not call the fictional formula non-greasy, water-based or fast-absorbing without evidence.",
+      "S06 / S07",
+      "Problem aware / Product aware"
+    ],
+    [
+      "R04",
+      "Application is part of the buying decision.",
+      "Discussion includes getting serum onto scalp lines and fitting it into a routine.",
+      "Compare a familiar dropper, controlled pump and precision nozzle as packaging hypotheses. Actual dose delivery and application require tests.",
+      "S07 / S08",
+      "Solution aware"
+    ],
+    [
+      "R05",
+      "Evidence language needs its own scrutiny.",
+      "Divi and Vegamour publish results with study qualifications on their product pages.",
+      "A skeptical buyer needs to know what was measured and how. Competitor studies cannot substantiate STRANDVALE or predict our outcomes.",
+      "S04 / S05",
+      "Solution aware / Product aware"
+    ],
+    [
+      "R06",
+      "Ingredient literacy competes with outcome uncertainty.",
+      "The Ordinary foregrounds ingredient technologies and appearance positioning; forum shoppers ask what a serum is for.",
+      "Make own ingredient and intended-use facts easy to inspect after the formula exists. An ingredient name alone is not finished-product efficacy.",
+      "S03 / S07",
+      "Solution aware"
+    ],
+    [
+      "R07",
+      "A premium pack does not establish value.",
+      "A forum shopper raises a price objection alongside oily-finish concerns.",
+      "Investigate price against amount, verified dose and repeat cost. A 30 mL mockup does not establish a month of use.",
+      "S07",
+      "Most aware"
+    ]
+  ],
+  "personas": [
+    [
+      "P01",
+      "The concern-led first-time serum shopper",
+      "Primary / education first",
+      "Notices a change and is comparing what to do next.",
+      "Unclear whether the concern is shedding, breakage or hair loss; big promises make the choice harder.",
+      "Respect the concern; explain category limits and offer clear facts rather than amplify fear.",
+      "Clear intended use and a sensible next step; no present efficacy reason to choose this fictional serum.",
+      "Why this formula, and what can it realistically do?",
+      "R01 / R02",
+      "No diagnosis, hair-loss cure or delayed clinical evaluation."
+    ],
+    [
+      "P02",
+      "The serum switcher who dislikes residue",
+      "Primary / sensory proof required",
+      "Has tried a scalp product that conflicts with styling or wash-day preferences.",
+      "A product that feels greasy or leaves residue can disrupt the routine.",
+      "Show the task conflict without shaming appearance or asserting the viewer has a condition.",
+      "Potentially relevant only if actual sensory and usability testing supports it.",
+      "Will it change how my roots look or feel?",
+      "R03 / R04",
+      "No non-greasy, no-buildup or extra-wash-day promise yet."
+    ],
+    [
+      "P03",
+      "The proof-first comparison shopper",
+      "Primary / evidence required",
+      "Has seen hair-serum promises and checks what supports them before switching.",
+      "Clinical-sounding language and ingredient lists do not always answer what changed or how it was measured.",
+      "Make the unanswered comparison concrete; avoid dismissing treatments or competitors.",
+      "A transparent evidence and ingredient presentation, once available.",
+      "Is this consumer opinion, an instrument measurement or a controlled study?",
+      "R05 / R06",
+      "No clinical badge, dermatologist endorsement or borrowed study result."
+    ],
+    [
+      "P04",
+      "The application-frustrated routine builder",
+      "Secondary / usability hypothesis",
+      "Already wants a scalp product but struggles to place it where intended or maintain a routine.",
+      "Dropper handling, parting and getting liquid onto hair rather than scalp can feel fiddly.",
+      "Focus on the application task, not an invented missed-dose consequence.",
+      "A suitable applicator may help; prove compatibility, output and actual usability first.",
+      "How much comes out, where does it go, and how often is it used?",
+      "R04",
+      "No calibrated dose or faster application claim from a rendering."
+    ],
+    [
+      "P05",
+      "The ingredient-and-scent cautious shopper",
+      "Secondary / formulation gated",
+      "Checks fragrance, ingredient lists and instructions before trying a leave-on scalp product.",
+      "A beautiful pack does not answer suitability or scent questions.",
+      "Explain the information gap without diagnosing sensitivity.",
+      "Clear verified ingredient and fragrance disclosure.",
+      "What is in it, and what are the actual precautions?",
+      "R06 / R03",
+      "No fragrance-free, hypoallergenic or universally safe claim."
+    ],
+    [
+      "P06",
+      "The repeat-cost evaluator",
+      "Secondary / offer gated",
+      "Compares ongoing cost before committing to another routine.",
+      "A small bottle can conceal an unknown duration and repeat expense.",
+      "Make quantity, dose and terms transparent; no invented savings.",
+      "A credible cost-of-use calculation only after actual directions and pricing exist.",
+      "How long does it last, what is the delivered price, and is renewal optional?",
+      "R07",
+      "No 30-day supply, subscription saving or guarantee yet."
+    ],
+    [
+      "P07",
+      "The shopper expecting treatment for a specific hair-loss cause",
+      "Research-only / not an initial ad audience",
+      "Seeks a solution for diagnosed, sudden, medication-related or postpartum changes.",
+      "The underlying cause and product classification matter.",
+      "Do not turn a clinical concern into fear-led sales copy.",
+      "No appropriate treatment claim is established for STRANDVALE.",
+      "Is this a cosmetic routine or an indicated treatment?",
+      "R01 / R02",
+      "Clinical evaluation and product-specific evidence required; no health-sensitive targeting."
+    ]
+  ],
+  "language": [
+    [
+      "Does the serum feel greasy?",
+      "S06",
+      "Texture hesitation, not a claim about our product."
+    ],
+    [
+      "didn’t want anything with a goopy feel to it",
+      "S06",
+      "Original excerpt uses a straight apostrophe; wording normalized typographically only."
+    ],
+    [
+      "watery in consistency and non sticky",
+      "S06",
+      "One user’s description; not a formulation or sensory fact for STRANDVALE."
+    ],
+    [
+      "won’t leave my hair oily",
+      "S07",
+      "Desired finish; must be tested on the actual product."
+    ],
+    [
+      "really don’t wanna spend 48 dollars",
+      "S07",
+      "A personal historical price objection, not a current competitor price."
+    ],
+    [
+      "Is it for growth or just scalp health?",
+      "S07",
+      "Category-purpose confusion; do not adopt the implied medical benefit."
+    ],
+    [
+      "Does it have any kind of scent to it?",
+      "S07",
+      "Fragrance disclosure question."
+    ],
+    [
+      "go straight to scalp lines",
+      "S07",
+      "Application language; not our directions."
+    ],
+    [
+      "application method impacts how oily it gets",
+      "S07",
+      "A commenter’s explanation, not a verified causal claim."
+    ],
+    [
+      "my scalp is dry at times",
+      "S08",
+      "Self-reported experience; not a condition to infer in an ad."
+    ],
+    [
+      "a light, even layer on the scalp",
+      "S08",
+      "Routine language; not a verified dose instruction."
+    ],
+    [
+      "When is the best time to use these products (AM/PM)?",
+      "S08",
+      "Timing uncertainty; own directions remain unknown."
+    ]
+  ],
+  "competitors": [
+    [
+      "The Ordinary",
+      "Ingredient-led density/appearance framing; amber dropper and technical label.",
+      "Ingredient detail and use instructions.",
+      "A clearer explanation of what an actual formula can and cannot establish.",
+      "S03"
+    ],
+    [
+      "Divi",
+      "Scalp-first routine, ingredient story and premium bottle.",
+      "Published study qualifiers and user self-assessment claims.",
+      "Explain proof type without borrowing another product’s result.",
+      "S04"
+    ],
+    [
+      "Vegamour",
+      "Daily ritual, hair-appearance/shedding positioning and premium range.",
+      "Consumer-perception study with disclosed duration and sample.",
+      "Make cost, routine and expectation transparent; not proven category whitespace.",
+      "S05"
+    ]
+  ],
+  "awareness": [
+    [
+      "Unaware",
+      "Does not yet distinguish routine care from a treatment claim.",
+      "Education about category purpose; no diagnosis or fear.",
+      "Top"
+    ],
+    [
+      "Problem aware",
+      "Has an application, finish or decision frustration.",
+      "Recognize the task; investigate what would improve it.",
+      "Top"
+    ],
+    [
+      "Solution aware",
+      "Compares serums, routines and other options.",
+      "Clarify formula, evidence and intended use; do not imply equivalence to treatment.",
+      "Mid"
+    ],
+    [
+      "Product aware",
+      "Knows STRANDVALE and wants its actual facts.",
+      "Demonstrate verified application, ingredients and finish when available.",
+      "Mid"
+    ],
+    [
+      "Most aware",
+      "Is deciding on purchase terms.",
+      "Show actual amount, delivered price and terms; no fake urgency.",
+      "Bottom"
+    ]
+  ],
+  "packaging_options": [
+    {
+      "id": "A",
+      "name": "Precision",
+      "color": "Amber + cobalt",
+      "image": "assets/packaging/option-a.png",
+      "format": "Amber glass dropper + matching carton",
+      "reason": "Familiar serum format and clear label hierarchy; a strong starting point for information-led positioning.",
+      "tradeoff": "Dropper handling and dose variability need actual usability checks.",
+      "recommendation": "Recommended starting direction"
+    },
+    {
+      "id": "B",
+      "name": "Ritual",
+      "color": "Frosted ivory + plum",
+      "image": "assets/packaging/option-b.png",
+      "format": "Frosted pump + matching carton",
+      "reason": "A softer premium beauty direction that can sit alongside an established routine.",
+      "tradeoff": "Pump output, viscosity compatibility and reaching the scalp are untested.",
+      "recommendation": "Choose for a softer beauty identity"
+    },
+    {
+      "id": "C",
+      "name": "Target",
+      "color": "Forest green + ivory",
+      "image": "assets/packaging/option-c.png",
+      "format": "Precision nozzle + matching carton",
+      "reason": "Makes application hardware a visible design decision, responding to placement questions.",
+      "tradeoff": "Flow control, sealing and usability are design hypotheses, not proven advantages.",
+      "recommendation": "Choose for a more applicator-led identity"
+    }
+  ],
+  "selected_packaging": "A",
+  "hooks": [
+    {
+      "id": "C01-V1",
+      "headline": "Hair care has a scalp chapter.",
+      "support": "Know where each product belongs.",
+      "cta": "Explore scalp care"
+    },
+    {
+      "id": "C01-V2",
+      "headline": "A routine starts with better questions.",
+      "support": "Start with purpose, then product.",
+      "cta": "Explore scalp care"
+    },
+    {
+      "id": "C01-V3",
+      "headline": "Before another bottle, understand the category.",
+      "support": "Scalp care is a category to understand.",
+      "cta": "Explore scalp care"
+    },
+    {
+      "id": "C02-V1",
+      "headline": "The finish matters. So does wash day.",
+      "support": "Ask about residue before adding a serum.",
+      "cta": "Explore the routine"
+    },
+    {
+      "id": "C02-V2",
+      "headline": "A new step should fit the routine.",
+      "support": "Texture. Timing. Application. Ask first.",
+      "cta": "Explore the routine"
+    },
+    {
+      "id": "C02-V3",
+      "headline": "If residue decides it, start with questions.",
+      "support": "Explore the finish before making promises.",
+      "cta": "Explore the routine"
+    },
+    {
+      "id": "C03-V1",
+      "headline": "One claim. What kind of evidence?",
+      "support": "Perception, measurement or controlled comparison?",
+      "cta": "Read the checklist"
+    },
+    {
+      "id": "C03-V2",
+      "headline": "Read beyond the ingredient headline.",
+      "support": "Ingredient names are not finished-product results.",
+      "cta": "Read the checklist"
+    },
+    {
+      "id": "C03-V3",
+      "headline": "If proof matters, ask what changed.",
+      "support": "Check method, timeframe and product tested.",
+      "cta": "Read the checklist"
+    },
+    {
+      "id": "C04-V1",
+      "headline": "Meet the dropper. Read the details.",
+      "support": "Amber bottle. Cream label. Cobalt identity.",
+      "cta": "Explore the product"
+    },
+    {
+      "id": "C04-V2",
+      "headline": "A closer look before the first drop.",
+      "support": "Explore the selected 30 mL scalp-serum concept.",
+      "cta": "Explore the product"
+    },
+    {
+      "id": "C04-V3",
+      "headline": "Know the bottle before the routine.",
+      "support": "Product details first. Assumptions last.",
+      "cta": "Explore the product"
+    },
+    {
+      "id": "C05-V1",
+      "headline": "“Does the serum feel greasy?”",
+      "support": "Real category question. Not a STRANDVALE review.",
+      "cta": "Explore the questions"
+    },
+    {
+      "id": "C05-V2",
+      "headline": "Scalp care is a styling decision, too.",
+      "support": "Category discussion raises finish and routine questions.",
+      "cta": "Explore the questions"
+    },
+    {
+      "id": "C05-V3",
+      "headline": "The routine question deserves an answer.",
+      "support": "Ask about texture, timing and application.",
+      "cta": "Explore the questions"
+    },
+    {
+      "id": "C06-V1",
+      "headline": "Your first bottle. A better way to begin.",
+      "support": "Scalp Serum · 30 mL",
+      "cta": "Claim your first bottle"
+    },
+    {
+      "id": "C06-V2",
+      "headline": "Start with one. Stay in control.",
+      "support": "One 30 mL bottle. No subscription.",
+      "cta": "Get started for $29"
+    },
+    {
+      "id": "C06-V3",
+      "headline": "Make room for scalp care.",
+      "support": "Your first STRANDVALE bottle, thoughtfully priced.",
+      "cta": "Shop your first bottle"
+    }
+  ],
+  "creative_variations": [
+    {
+      "id": "C01-V1",
+      "concept": "C01",
+      "variation": "V1",
+      "name": "C01_Curiosity_P01_Candidroutinephotograph_V1",
+      "headline": "Hair care has a scalp chapter.",
+      "support": "Know where each product belongs.",
+      "on_image_cta": "Explore scalp care",
+      "cta": "Learn More",
+      "primary": "Haircare includes different products for different purposes. Before adding a scalp serum, understand its intended use and what evidence supports it.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Top",
+      "awareness": "Unaware",
+      "persona": "P01",
+      "angle": "Curiosity / category understanding",
+      "offer": "Explore the scalp-serum category",
+      "evidence": [
+        "R01",
+        "R02"
+      ],
+      "format": "Candid routine photograph",
+      "scene": "sunlit overhead bathroom shelf with ordinary brush, towel and a closed selected bottle, honest imperfect phone-photo aesthetic, upper left caption area; no loose hair or dramatic shedding",
+      "hypothesis": "Does category education create relevant exploration without implying a treatment?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 3,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional product; no efficacy claim",
+      "source": "assets/campaign/source/C01-V1.png",
+      "master": "assets/campaign/masters/C01-V1-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C01-V1-600x750.webp",
+      "story": "assets/campaign/stories/C01-V1-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P01; Unaware; angle Curiosity / category understanding. Distinct format: Candid routine photograph. Visual scene and composition: sunlit overhead bathroom shelf with ordinary brush, towel and a closed selected bottle, honest imperfect phone-photo aesthetic, upper left caption area; no loose hair or dramatic shedding. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"Hair care has a scalp chapter.\". Exact supporting text: \"Know where each product belongs.\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Explore scalp care →\".  Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C01-V2",
+      "concept": "C01",
+      "variation": "V2",
+      "name": "C01_Curiosity_P01_Editorialroutinediagram_V2",
+      "headline": "A routine starts with better questions.",
+      "support": "Start with purpose, then product.",
+      "on_image_cta": "Explore scalp care",
+      "cta": "Learn More",
+      "primary": "More steps are not automatically a better routine. Start by understanding where a product belongs and what it can actually claim.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Top",
+      "awareness": "Unaware",
+      "persona": "P01",
+      "angle": "Curiosity / category understanding",
+      "offer": "Explore the scalp-serum category",
+      "evidence": [
+        "R01",
+        "R02"
+      ],
+      "format": "Editorial routine diagram",
+      "scene": "graphic editorial diagram on ivory paper using only SCALP and LENGTHS as two chapter labels, a simple abstract flowing line joins them; selected bottle small at lower right, large text right-aligned, flat graphic paper style",
+      "hypothesis": "Does category education create relevant exploration without implying a treatment?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8.4,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 4,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional product; no efficacy claim",
+      "source": "assets/campaign/source/C01-V2.png",
+      "master": "assets/campaign/masters/C01-V2-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C01-V2-600x750.webp",
+      "story": "assets/campaign/stories/C01-V2-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P01; Unaware; angle Curiosity / category understanding. Distinct format: Editorial routine diagram. Visual scene and composition: graphic editorial diagram on ivory paper using only SCALP and LENGTHS as two chapter labels, a simple abstract flowing line joins them; selected bottle small at lower right, large text right-aligned, flat graphic paper style. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"A routine starts with better questions.\". Exact supporting text: \"Start with purpose, then product.\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Explore scalp care →\".  Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C01-V3",
+      "concept": "C01",
+      "variation": "V3",
+      "name": "C01_Curiosity_P01_Papercollageexplainer_V3",
+      "headline": "Before another bottle, understand the category.",
+      "support": "Scalp care is a category to understand.",
+      "on_image_cta": "Explore scalp care",
+      "cta": "Learn More",
+      "primary": "A scalp-serum label is a starting point, not the whole explanation. Explore the STRANDVALE concept and the questions behind it.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Top",
+      "awareness": "Unaware",
+      "persona": "P01",
+      "angle": "Curiosity / category understanding",
+      "offer": "Explore the scalp-serum category",
+      "evidence": [
+        "R01",
+        "R02"
+      ],
+      "format": "Paper collage explainer",
+      "scene": "tactile magazine collage of clean paper panels, a mirror edge, comb and selected bottle photograph integrated as a cutout, cobalt paper accent and cream background; large block type center and much smaller support in lower-left panel",
+      "hypothesis": "Does category education create relevant exploration without implying a treatment?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 3,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional product; no efficacy claim",
+      "source": "assets/campaign/source/C01-V3.png",
+      "master": "assets/campaign/masters/C01-V3-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C01-V3-600x750.webp",
+      "story": "assets/campaign/stories/C01-V3-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P01; Unaware; angle Curiosity / category understanding. Distinct format: Paper collage explainer. Visual scene and composition: tactile magazine collage of clean paper panels, a mirror edge, comb and selected bottle photograph integrated as a cutout, cobalt paper accent and cream background; large block type center and much smaller support in lower-left panel. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"Before another bottle, understand the category.\". Exact supporting text: \"Scalp care is a category to understand.\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Explore scalp care →\".  Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C02-V1",
+      "concept": "C02",
+      "variation": "V1",
+      "name": "C02_Problemagitation_P02_Nativebathroommoment_V1",
+      "headline": "The finish matters. So does wash day.",
+      "support": "Ask about residue before adding a serum.",
+      "on_image_cta": "Explore the routine",
+      "cta": "Learn More",
+      "primary": "A new scalp product can change how a routine feels. Ask about residue, application and use instructions before committing; the fictional STRANDVALE formula is not verified.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Top",
+      "awareness": "Problem aware",
+      "persona": "P02",
+      "angle": "Problem agitation / routine compatibility",
+      "offer": "Inspect the serum concept and the questions to ask",
+      "evidence": [
+        "R03",
+        "R04"
+      ],
+      "format": "Native bathroom moment",
+      "scene": "candid warm bathroom counter seen through mirror edge, cropped hand holding selected closed bottle next to folded towel, ordinary calm routine, photo fills canvas and headline in wide ivory caption bar; no hair-loss imagery",
+      "hypothesis": "Does recognizing routine friction create more qualified consideration than a generic product introduction?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 3,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional product; no efficacy claim",
+      "source": "assets/campaign/source/C02-V1.png",
+      "master": "assets/campaign/masters/C02-V1-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C02-V1-600x750.webp",
+      "story": "assets/campaign/stories/C02-V1-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P02; Problem aware; angle Problem agitation / routine compatibility. Distinct format: Native bathroom moment. Visual scene and composition: candid warm bathroom counter seen through mirror edge, cropped hand holding selected closed bottle next to folded towel, ordinary calm routine, photo fills canvas and headline in wide ivory caption bar; no hair-loss imagery. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"The finish matters. So does wash day.\". Exact supporting text: \"Ask about residue before adding a serum.\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Explore the routine →\".  Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C02-V2",
+      "concept": "C02",
+      "variation": "V2",
+      "name": "C02_Problemagitation_P02_Sculpturalweekly-plannerposter_V2",
+      "headline": "A new step should fit the routine.",
+      "support": "Texture. Timing. Application. Ask first.",
+      "on_image_cta": "Explore the routine",
+      "cta": "Learn More",
+      "primary": "If an extra step does not fit the day, it can be hard to keep. Look at texture, timing and application together before choosing a product.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Top",
+      "awareness": "Problem aware",
+      "persona": "P02",
+      "angle": "Problem agitation / routine compatibility",
+      "offer": "Inspect the serum concept and the questions to ask",
+      "evidence": [
+        "R03",
+        "R04"
+      ],
+      "format": "Sculptural weekly-planner poster",
+      "scene": "sculptural cobalt-blue blank weekly planner made of folded paper steps, no false schedule or instructions, selected bottle on one step, high contrast cream typography on blue; geometric vertical composition",
+      "hypothesis": "Does recognizing routine friction create more qualified consideration than a generic product introduction?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8.4,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 4,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional product; no efficacy claim",
+      "source": "assets/campaign/source/C02-V2.png",
+      "master": "assets/campaign/masters/C02-V2-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C02-V2-600x750.webp",
+      "story": "assets/campaign/stories/C02-V2-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P02; Problem aware; angle Problem agitation / routine compatibility. Distinct format: Sculptural weekly-planner poster. Visual scene and composition: sculptural cobalt-blue blank weekly planner made of folded paper steps, no false schedule or instructions, selected bottle on one step, high contrast cream typography on blue; geometric vertical composition. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"A new step should fit the routine.\". Exact supporting text: \"Texture. Timing. Application. Ask first.\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Explore the routine →\".  Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C02-V3",
+      "concept": "C02",
+      "variation": "V3",
+      "name": "C02_Problemagitation_P02_Candidgetting-readyphotograph_V3",
+      "headline": "If residue decides it, start with questions.",
+      "support": "Explore the finish before making promises.",
+      "on_image_cta": "Explore the routine",
+      "cta": "Learn More",
+      "primary": "For shoppers who compare a serum’s finish as well as its label: those are useful questions. No non-greasy or styling result is claimed for this concept.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Top",
+      "awareness": "Problem aware",
+      "persona": "P02",
+      "angle": "Problem agitation / routine compatibility",
+      "offer": "Inspect the serum concept and the questions to ask",
+      "evidence": [
+        "R03",
+        "R04"
+      ],
+      "format": "Candid getting-ready photograph",
+      "scene": "cropped back view of an adult with ordinary healthy-looking hair getting ready at dressing table, selected bottle on counter, candid horizontal environmental photo set within a vertical ivory editorial frame; no face, no applying serum, no before/after or implied result",
+      "hypothesis": "Does recognizing routine friction create more qualified consideration than a generic product introduction?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 3,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional product; no efficacy claim",
+      "source": "assets/campaign/source/C02-V3.png",
+      "master": "assets/campaign/masters/C02-V3-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C02-V3-600x750.webp",
+      "story": "assets/campaign/stories/C02-V3-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P02; Problem aware; angle Problem agitation / routine compatibility. Distinct format: Candid getting-ready photograph. Visual scene and composition: cropped back view of an adult with ordinary healthy-looking hair getting ready at dressing table, selected bottle on counter, candid horizontal environmental photo set within a vertical ivory editorial frame; no face, no applying serum, no before/after or implied result. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"If residue decides it, start with questions.\". Exact supporting text: \"Explore the finish before making promises.\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Explore the routine →\".  Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C03-V1",
+      "concept": "C03",
+      "variation": "V1",
+      "name": "C03_Evidenceliteracy_P03_Three-folderdecisionframework_V1",
+      "headline": "One claim. What kind of evidence?",
+      "support": "Perception, measurement or controlled comparison?",
+      "on_image_cta": "Read the checklist",
+      "cta": "Learn More",
+      "primary": "A perception questionnaire, an instrument measurement and a controlled comparison answer different questions. Check which evidence actually belongs to the finished product.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Mid",
+      "awareness": "Solution aware",
+      "persona": "P03",
+      "angle": "Evidence literacy / comparison",
+      "offer": "A checklist for reading product evidence",
+      "evidence": [
+        "R05",
+        "R06"
+      ],
+      "format": "Three-folder decision framework",
+      "scene": "three real paper folders arranged diagonally on pale gray desk, exact labels PERCEPTION / MEASUREMENT / COMPARISON only as questions or topics; selected product small beside folders, large serif headline upper right, documentary overhead camera; no fabricated reports or results",
+      "hypothesis": "Do concrete evidence questions encourage useful product-information reading?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 3,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional product; no efficacy claim",
+      "source": "assets/campaign/source/C03-V1.png",
+      "master": "assets/campaign/masters/C03-V1-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C03-V1-600x750.webp",
+      "story": "assets/campaign/stories/C03-V1-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P03; Solution aware; angle Evidence literacy / comparison. Distinct format: Three-folder decision framework. Visual scene and composition: three real paper folders arranged diagonally on pale gray desk, exact labels PERCEPTION / MEASUREMENT / COMPARISON only as questions or topics; selected product small beside folders, large serif headline upper right, documentary overhead camera; no fabricated reports or results. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"One claim. What kind of evidence?\". Exact supporting text: \"Perception, measurement or controlled comparison?\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Read the checklist →\".  Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C03-V2",
+      "concept": "C03",
+      "variation": "V2",
+      "name": "C03_Evidenceliteracy_P03_Annotatedlabeleditorial_V2",
+      "headline": "Read beyond the ingredient headline.",
+      "support": "Ingredient names are not finished-product results.",
+      "on_image_cta": "Read the checklist",
+      "cta": "Learn More",
+      "primary": "An ingredient story is not the same as finished-product evidence. Read the formula, intended use and supporting study details together when available.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Mid",
+      "awareness": "Solution aware",
+      "persona": "P03",
+      "angle": "Evidence literacy / comparison",
+      "offer": "A checklist for reading product evidence",
+      "evidence": [
+        "R05",
+        "R06"
+      ],
+      "format": "Annotated label editorial",
+      "scene": "a large close view of selected cream+cobalt carton, graceful editorial annotation lines leading to empty question space, one selected bottle in lower left; ink-on-paper diagram aesthetic, cream and amber; no invented ingredients",
+      "hypothesis": "Do concrete evidence questions encourage useful product-information reading?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8.4,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 4,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional product; no efficacy claim",
+      "source": "assets/campaign/source/C03-V2.png",
+      "master": "assets/campaign/masters/C03-V2-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C03-V2-600x750.webp",
+      "story": "assets/campaign/stories/C03-V2-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P03; Solution aware; angle Evidence literacy / comparison. Distinct format: Annotated label editorial. Visual scene and composition: a large close view of selected cream+cobalt carton, graceful editorial annotation lines leading to empty question space, one selected bottle in lower left; ink-on-paper diagram aesthetic, cream and amber; no invented ingredients. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"Read beyond the ingredient headline.\". Exact supporting text: \"Ingredient names are not finished-product results.\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Read the checklist →\".  Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C03-V3",
+      "concept": "C03",
+      "variation": "V3",
+      "name": "C03_Evidenceliteracy_P03_Newspaper-stylequestionsheet_V3",
+      "headline": "If proof matters, ask what changed.",
+      "support": "Check method, timeframe and product tested.",
+      "on_image_cta": "Read the checklist",
+      "cta": "Learn More",
+      "primary": "Ask what was measured, over what timeframe and on which product. STRANDVALE has no clinical or cosmetic efficacy results to present.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Mid",
+      "awareness": "Solution aware",
+      "persona": "P03",
+      "angle": "Evidence literacy / comparison",
+      "offer": "A checklist for reading product evidence",
+      "evidence": [
+        "R05",
+        "R06"
+      ],
+      "format": "Newspaper-style question sheet",
+      "scene": "fictional brand-owned editorial question sheet, newspaper visual hierarchy without any real publication logo, numbered questions 01 METHOD? 02 TIMEFRAME? 03 PRODUCT?; selected amber bottle overlaps lower right paper margin on cobalt surface; bold typographic journalism-like layout without endorsement",
+      "hypothesis": "Do concrete evidence questions encourage useful product-information reading?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 3,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional product; no efficacy claim",
+      "source": "assets/campaign/source/C03-V3.png",
+      "master": "assets/campaign/masters/C03-V3-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C03-V3-600x750.webp",
+      "story": "assets/campaign/stories/C03-V3-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P03; Solution aware; angle Evidence literacy / comparison. Distinct format: Newspaper-style question sheet. Visual scene and composition: fictional brand-owned editorial question sheet, newspaper visual hierarchy without any real publication logo, numbered questions 01 METHOD? 02 TIMEFRAME? 03 PRODUCT?; selected amber bottle overlaps lower right paper margin on cobalt surface; bold typographic journalism-like layout without endorsement. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"If proof matters, ask what changed.\". Exact supporting text: \"Check method, timeframe and product tested.\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Read the checklist →\".  Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C04-V1",
+      "concept": "C04",
+      "variation": "V1",
+      "name": "C04_Productdetail_P04_Product-anatomyposter_V1",
+      "headline": "Meet the dropper. Read the details.",
+      "support": "Amber bottle. Cream label. Cobalt identity.",
+      "on_image_cta": "Explore the product",
+      "cta": "Learn More",
+      "primary": "Meet the selected STRANDVALE direction: amber dropper bottle, cream label and cobalt carton. This is a 30 mL design concept; directions and formula remain to be established.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Mid",
+      "awareness": "Product aware",
+      "persona": "P04",
+      "angle": "Product detail / inspection",
+      "offer": "Selected 30 mL scalp-serum packaging concept",
+      "evidence": [
+        "R04"
+      ],
+      "format": "Product-anatomy poster",
+      "scene": "beautiful product anatomy poster: whole selected bottle centered left, matching carton right, discrete leader lines with labels DROPPER / 30 mL / CARTON; ivory background, black and cobalt typography, enough space for headline, no exploded or broken bottle",
+      "hypothesis": "Which inspection approach makes the selected product easier to recognize and understand?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 3,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional product; no efficacy claim",
+      "source": "assets/campaign/source/C04-V1.png",
+      "master": "assets/campaign/masters/C04-V1-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C04-V1-600x750.webp",
+      "story": "assets/campaign/stories/C04-V1-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P04; Product aware; angle Product detail / inspection. Distinct format: Product-anatomy poster. Visual scene and composition: beautiful product anatomy poster: whole selected bottle centered left, matching carton right, discrete leader lines with labels DROPPER / 30 mL / CARTON; ivory background, black and cobalt typography, enough space for headline, no exploded or broken bottle. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"Meet the dropper. Read the details.\". Exact supporting text: \"Amber bottle. Cream label. Cobalt identity.\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Explore the product →\".  Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C04-V2",
+      "concept": "C04",
+      "variation": "V2",
+      "name": "C04_Productdetail_P04_Candidoverheadunboxing_V2",
+      "headline": "A closer look before the first drop.",
+      "support": "Explore the selected 30 mL scalp-serum concept.",
+      "on_image_cta": "Explore the product",
+      "cta": "Learn More",
+      "primary": "A closer look at the bottle and carton helps make the product identity tangible. Applicator output and compatibility still require real testing.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Mid",
+      "awareness": "Product aware",
+      "persona": "P04",
+      "angle": "Product detail / inspection",
+      "offer": "Selected 30 mL scalp-serum packaging concept",
+      "evidence": [
+        "R04"
+      ],
+      "format": "Candid overhead unboxing",
+      "scene": "overhead realistic hand opening a sample carton with crumpled ivory tissue and selected closed bottle lying diagonally, daylight candid product-inspection style; it is a concept unboxing, not an actual customer delivery",
+      "hypothesis": "Which inspection approach makes the selected product easier to recognize and understand?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8.4,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 4,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional product; no efficacy claim",
+      "source": "assets/campaign/source/C04-V2.png",
+      "master": "assets/campaign/masters/C04-V2-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C04-V2-600x750.webp",
+      "story": "assets/campaign/stories/C04-V2-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P04; Product aware; angle Product detail / inspection. Distinct format: Candid overhead unboxing. Visual scene and composition: overhead realistic hand opening a sample carton with crumpled ivory tissue and selected closed bottle lying diagonally, daylight candid product-inspection style; it is a concept unboxing, not an actual customer delivery. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"A closer look before the first drop.\". Exact supporting text: \"Explore the selected 30 mL scalp-serum concept.\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Explore the product →\".  Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C04-V3",
+      "concept": "C04",
+      "variation": "V3",
+      "name": "C04_Productdetail_P04_Macromaterialstudy_V3",
+      "headline": "Know the bottle before the routine.",
+      "support": "Product details first. Assumptions last.",
+      "on_image_cta": "Explore the product",
+      "cta": "Learn More",
+      "primary": "The selected packaging is recognizable. Its materials, label and format are visual decisions, not evidence of protection, dosing precision or efficacy.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Mid",
+      "awareness": "Product aware",
+      "persona": "P04",
+      "angle": "Product detail / inspection",
+      "offer": "Selected 30 mL scalp-serum packaging concept",
+      "evidence": [
+        "R04"
+      ],
+      "format": "Macro material study",
+      "scene": "dramatic macro close-up of ribbed black dropper cap and amber shoulder, selected complete bottle and carton much smaller in lower right as recognition anchor, dark navy backdrop, large cream type split upper left; no liquid texture or ingredient swatch",
+      "hypothesis": "Which inspection approach makes the selected product easier to recognize and understand?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 3,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional product; no efficacy claim",
+      "source": "assets/campaign/source/C04-V3.png",
+      "master": "assets/campaign/masters/C04-V3-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C04-V3-600x750.webp",
+      "story": "assets/campaign/stories/C04-V3-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P04; Product aware; angle Product detail / inspection. Distinct format: Macro material study. Visual scene and composition: dramatic macro close-up of ribbed black dropper cap and amber shoulder, selected complete bottle and carton much smaller in lower right as recognition anchor, dark navy backdrop, large cream type split upper left; no liquid texture or ingredient swatch. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"Know the bottle before the routine.\". Exact supporting text: \"Product details first. Assumptions last.\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Explore the product →\".  Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C05-V1",
+      "concept": "C05",
+      "variation": "V1",
+      "name": "C05_Sourcedsociallistening_P02_Sourcedquestion-cardeditorial_V1",
+      "headline": "“Does the serum feel greasy?”",
+      "support": "Real category question. Not a STRANDVALE review.",
+      "on_image_cta": "Explore the questions",
+      "cta": "Learn More",
+      "primary": "“Does the serum feel greasy?” is a real question from a public category discussion. It is not a STRANDVALE review or proof of our formula’s finish.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Mid",
+      "awareness": "Solution aware",
+      "persona": "P02",
+      "angle": "Sourced social listening / objection mirror",
+      "offer": "Explore finish and routine questions",
+      "evidence": [
+        "R03",
+        "R04"
+      ],
+      "format": "Sourced question-card editorial",
+      "scene": "one oversized cream paper quote card on charcoal tabletop with large headline in black, selected amber bottle at lower left beside a folded cobalt tab; tactile editorial quotation format, source r/finehair / 1wey3gm; no avatar, stars or invented testimonial",
+      "hypothesis": "Does sourced category language improve relevance without being mistaken for an endorsement?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 3,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Category discussion; not a STRANDVALE review",
+      "source": "assets/campaign/source/C05-V1.png",
+      "master": "assets/campaign/masters/C05-V1-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C05-V1-600x750.webp",
+      "story": "assets/campaign/stories/C05-V1-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P02; Solution aware; angle Sourced social listening / objection mirror. Distinct format: Sourced question-card editorial. Visual scene and composition: one oversized cream paper quote card on charcoal tabletop with large headline in black, selected amber bottle at lower left beside a folded cobalt tab; tactile editorial quotation format, source r/finehair / 1wey3gm; no avatar, stars or invented testimonial. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"“Does the serum feel greasy?”\". Exact supporting text: \"Real category question. Not a STRANDVALE review.\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Explore the questions →\". Source line: r/finehair / 1wey3gm. NOT A STRANDVALE REVIEW. Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C05-V2",
+      "concept": "C05",
+      "variation": "V2",
+      "name": "C05_Sourcedsociallistening_P02_Lifestylepaperzine_V2",
+      "headline": "Scalp care is a styling decision, too.",
+      "support": "Category discussion raises finish and routine questions.",
+      "on_image_cta": "Explore the questions",
+      "cta": "Learn More",
+      "primary": "Public scalp-serum discussions include finish and routine concerns. We use them to identify questions, not to manufacture customer testimonials.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Mid",
+      "awareness": "Solution aware",
+      "persona": "P02",
+      "angle": "Sourced social listening / objection mirror",
+      "offer": "Explore finish and routine questions",
+      "evidence": [
+        "R03",
+        "R04"
+      ],
+      "format": "Lifestyle paper zine",
+      "scene": "soft sage-and-ivory paper zine collage with hair clip, comb and selected bottle as a realistic photographed stilllife, natural environmental horizontal crop with headline as an editorial side note; no model or claim of finish; small category discussion attribution",
+      "hypothesis": "Does sourced category language improve relevance without being mistaken for an endorsement?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8.4,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 4,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Category discussion; not a STRANDVALE review",
+      "source": "assets/campaign/source/C05-V2.png",
+      "master": "assets/campaign/masters/C05-V2-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C05-V2-600x750.webp",
+      "story": "assets/campaign/stories/C05-V2-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P02; Solution aware; angle Sourced social listening / objection mirror. Distinct format: Lifestyle paper zine. Visual scene and composition: soft sage-and-ivory paper zine collage with hair clip, comb and selected bottle as a realistic photographed stilllife, natural environmental horizontal crop with headline as an editorial side note; no model or claim of finish; small category discussion attribution. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"Scalp care is a styling decision, too.\". Exact supporting text: \"Category discussion raises finish and routine questions.\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Explore the questions →\". Category discussion / not a STRANDVALE review. Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C05-V3",
+      "concept": "C05",
+      "variation": "V3",
+      "name": "C05_Sourcedsociallistening_P02_Three-questionconversationgraphic_V3",
+      "headline": "The routine question deserves an answer.",
+      "support": "Ask about texture, timing and application.",
+      "on_image_cta": "Explore the questions",
+      "cta": "Learn More",
+      "primary": "Texture, timing and application appear in category conversations. Read actual product directions and facts before choosing; no user outcome is implied here.",
+      "feed": "Explore the STRANDVALE concept",
+      "funnel": "Mid",
+      "awareness": "Solution aware",
+      "persona": "P02",
+      "angle": "Sourced social listening / objection mirror",
+      "offer": "Explore finish and routine questions",
+      "evidence": [
+        "R03",
+        "R04"
+      ],
+      "format": "Three-question conversation graphic",
+      "scene": "architectural cream paper conversation cards floating on dark cobalt background, exact small labels TEXTURE? / TIMING? / APPLICATION?; selected bottle small at bottom left and matching carton as vertical border, diagrammatic typographic style; no chat app branding or fake people",
+      "hypothesis": "Does sourced category language improve relevance without being mistaken for an endorsement?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 3,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Category discussion; not a STRANDVALE review",
+      "source": "assets/campaign/source/C05-V3.png",
+      "master": "assets/campaign/masters/C05-V3-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C05-V3-600x750.webp",
+      "story": "assets/campaign/stories/C05-V3-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 4:5 static ad for fictional STRANDVALE scalp serum, with exact headline, support and next-step phrase already typeset. Reference image is the APPROVED packaging, not a layout template. Keep amber glass cylindrical bottle, black ribbed dropper cap, cream label with cobalt vertical stripe, serif STRANDVALE wordmark, SCALP SERUM, 30 mL / 1.0 fl oz, CONCEPT PACK and matching cream/cobalt carton. Do not redesign product. Persona P02; Solution aware; angle Sourced social listening / objection mirror. Distinct format: Three-question conversation graphic. Visual scene and composition: architectural cream paper conversation cards floating on dark cobalt background, exact small labels TEXTURE? / TIMING? / APPLICATION?; selected bottle small at bottom left and matching carton as vertical border, diagrammatic typographic style; no chat app branding or fake people. This must look fundamentally different from a generic centered bottle-on-podium ad; honor the described format and camera. Colors: cream #F4F0E7, ink #171717, cobalt #173EB0, amber product; up to one contextual muted hue. Two font families maximum: bold editorial serif for display and clean Arial-like sans for support, adapted to the specified native/editorial format. Exact headline: \"The routine question deserves an answer.\". Exact supporting text: \"Ask about texture, timing and application.\". Small STRANDVALE wordmark. Next-step phrase, clear but not a fake platform button: \"Explore the questions →\". Category discussion / not a STRANDVALE review. Small legible footer: FICTIONAL PRODUCT / CONCEPT AD. Hierarchy: headline largest, short support, beautiful recognizable product, one next step. Minimum6percent outer margins. Keep headline/support/CTA above86percentheight; bottom strip for disclosure only. No clipping or overlap. All copy crisp and correctly spelled, readable as a small feed image. Do not add other brand claims, ingredient percentages, dispensing instructions, study results, stars, ratings, testimonials, medical imagery, before/after, balding/scalp anxiety imagery, hair piles, guaranteed finish, hair-growth or anti-hair-fall benefits. No competitor marks. Product illustrations are mockups, not proof. For future9:16adaptation preserve all artwork within central safe area. Render the complete designed ad, not a blank plate."
+    },
+    {
+      "id": "C06-V1",
+      "concept": "C06",
+      "variation": "V1",
+      "name": "C06_Offerclarity_P06_High-contrastofferposter_V1",
+      "headline": "Your first bottle. A better way to begin.",
+      "support": "Scalp Serum · 30 mL",
+      "on_image_cta": "Claim your first bottle",
+      "cta": "Shop Now",
+      "primary": "Meet your first STRANDVALE bottle. Get the 30 mL scalp serum for $29 with free US shipping. One bottle, one purchase—no subscription.",
+      "feed": "Your first bottle / $29 + free shipping",
+      "funnel": "Bottom",
+      "awareness": "Most aware",
+      "persona": "P06",
+      "angle": "Introductory value / purchase control",
+      "offer": "Introductory first order: one 30 mL bottle / $29 / free US shipping / no subscription. Proposed fictional terms; tax extra.",
+      "evidence": [
+        "R07"
+      ],
+      "format": "Value-led Swiss typographic poster",
+      "scene": "flat ivory background, asymmetric Swiss graphic design: very large cobalt $29 price upper left as intentional graphic anchor, small FIRST ORDER over it, headline in compact clean bold geometric sans at top right, full bottle and carton photographed at a low three-quarter camera angle on lower right filling half height, cobalt fine rule connecting price to product, balanced open whitespace; no podium, no receipt, no bathroom props",
+      "hypothesis": "Which value, control or first-bottle framing creates the clearest qualified purchase intent?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 3,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional brand; proposed introductory offer, not live. No efficacy claim.",
+      "source": "assets/campaign/source/C06-V1-r2.png",
+      "master": "assets/campaign/masters/C06-V1-r2-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C06-V1-r2-600x750.webp",
+      "story": "assets/campaign/stories/C06-V1-r2-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Generate ONE finished premium 4:5 portrait direct-response beauty ad, all exact copy typeset. Input image is a PACKAGING IDENTITY REFERENCE ONLY, not a layout to copy. Preserve STRANDVALE amber cylindrical glass dropper bottle, black ribbed cap and bulb, cream label with vertical cobalt stripe, serif wordmark, SCALP SERUM, 30 mL / 1.0 fl oz and matching cream carton/cobalt spine. Do not redesign the pack. Commercial art direction: sophisticated modern US beauty campaign. Typography must be exceptionally polished: clean modern grotesk/geometric sans for headline (like Neue Haas or Avenir), medium weight body, optical kerning, controlled line breaks, calm spacing. Keep the brand wordmark serif only. Never use the old compressed heavy editorial serif. Price readable but not tacky giant discount splash. Only two type families. Colors cream, cobalt, charcoal and amber. Exact offer: $29 FIRST ORDER, FREE US SHIPPING, NO SUBSCRIPTION. This is a fictional proposed introductory offer, no crossed-out reference price, percentage savings, coupon, deadline, stars, reviews, expert badge, regrowth or reduced-hair-fall promise. No ingredient, finish, dosage, duration or efficacy claims. Do not print 'sample offer', 'read the terms', or 'not active' as marketing headlines. Small but readable disclosure at bottom: CONCEPT AD · PROPOSED OFFER. Keep all type inside 7 percent side margins, headline/body/CTA within top86percent height; disclosure at92percent. One next step. Product and copy must be crisp and professionally composed. Render complete artwork, not a blank image.  Visual direction: flat ivory background, asymmetric Swiss graphic design: very large cobalt $29 price upper left as intentional graphic anchor, small FIRST ORDER over it, headline in compact clean bold geometric sans at top right, full bottle and carton photographed at a low three-quarter camera angle on lower right filling half height, cobalt fine rule connecting price to product, balanced open whitespace; no podium, no receipt, no bathroom props. Exact headline with line breaks: 'Your first bottle.\\nA better way to begin.'. Exact support: Scalp Serum · 30 mL. Exact CTA: Claim your first bottle →. Include small STRANDVALE wordmark and clear offer terms $29 FIRST ORDER / FREE US SHIPPING / NO SUBSCRIPTION, shown once each. Small terms: First order only. Tax extra. No duplicate offers.",
+      "revision": "2026-10-21 / offer and typography rebuild"
+    },
+    {
+      "id": "C06-V2",
+      "concept": "C06",
+      "variation": "V2",
+      "name": "C06_Offerclarity_P06_Receipt-styleoffereditorial_V2",
+      "headline": "Start with one. Stay in control.",
+      "support": "One 30 mL bottle. No subscription.",
+      "on_image_cta": "Get started for $29",
+      "cta": "Shop Now",
+      "primary": "A first order should feel straightforward. Start with one 30 mL bottle for $29, with free US shipping and no subscription to manage.",
+      "feed": "One bottle. No subscription.",
+      "funnel": "Bottom",
+      "awareness": "Most aware",
+      "persona": "P06",
+      "angle": "Introductory value / purchase control",
+      "offer": "Introductory first order: one 30 mL bottle / $29 / free US shipping / no subscription. Proposed fictional terms; tax extra.",
+      "evidence": [
+        "R07"
+      ],
+      "format": "Tactile first-order unboxing",
+      "scene": "warm natural overhead photograph of two hands opening the approved cream/cobalt carton on a pale oak table, a single amber bottle nestled nearby on white tissue; image occupies upper 58 percent with wordmark only; bottom 42 percent a crisp ivory editorial panel, large left-aligned bold modern sans headline, a compact offer row $29 FIRST ORDER | FREE US SHIPPING, one clear solid cobalt CTA; no extra serum bottles, no other cosmetics, no receipt",
+      "hypothesis": "Which value, control or first-bottle framing creates the clearest qualified purchase intent?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8.4,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 4,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional brand; proposed introductory offer, not live. No efficacy claim.",
+      "source": "assets/campaign/source/C06-V2-r2.png",
+      "master": "assets/campaign/masters/C06-V2-r2-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C06-V2-r2-600x750.webp",
+      "story": "assets/campaign/stories/C06-V2-r2-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Generate ONE finished premium 4:5 portrait direct-response beauty ad, all exact copy typeset. Input image is a PACKAGING IDENTITY REFERENCE ONLY, not a layout to copy. Preserve STRANDVALE amber cylindrical glass dropper bottle, black ribbed cap and bulb, cream label with vertical cobalt stripe, serif wordmark, SCALP SERUM, 30 mL / 1.0 fl oz and matching cream carton/cobalt spine. Do not redesign the pack. Commercial art direction: sophisticated modern US beauty campaign. Typography must be exceptionally polished: clean modern grotesk/geometric sans for headline (like Neue Haas or Avenir), medium weight body, optical kerning, controlled line breaks, calm spacing. Keep the brand wordmark serif only. Never use the old compressed heavy editorial serif. Price readable but not tacky giant discount splash. Only two type families. Colors cream, cobalt, charcoal and amber. Exact offer: $29 FIRST ORDER, FREE US SHIPPING, NO SUBSCRIPTION. This is a fictional proposed introductory offer, no crossed-out reference price, percentage savings, coupon, deadline, stars, reviews, expert badge, regrowth or reduced-hair-fall promise. No ingredient, finish, dosage, duration or efficacy claims. Do not print 'sample offer', 'read the terms', or 'not active' as marketing headlines. Small but readable disclosure at bottom: CONCEPT AD · PROPOSED OFFER. Keep all type inside 7 percent side margins, headline/body/CTA within top86percent height; disclosure at92percent. One next step. Product and copy must be crisp and professionally composed. Render complete artwork, not a blank image.  Visual direction: warm natural overhead photograph of two hands opening the approved cream/cobalt carton on a pale oak table, a single amber bottle nestled nearby on white tissue; image occupies upper 58 percent with wordmark only; bottom 42 percent a crisp ivory editorial panel, large left-aligned bold modern sans headline, a compact offer row $29 FIRST ORDER | FREE US SHIPPING, one clear solid cobalt CTA; no extra serum bottles, no other cosmetics, no receipt. Exact headline with line breaks: 'Start with one.\\nStay in control.'. Exact support: One 30 mL bottle. No subscription.. Exact CTA: Get started for $29 →. Include small STRANDVALE wordmark and clear offer terms $29 FIRST ORDER / FREE US SHIPPING / NO SUBSCRIPTION, shown once each. Small terms: First order only. Tax extra. No duplicate offers.",
+      "revision": "2026-10-21 / offer and typography rebuild"
+    },
+    {
+      "id": "C06-V3",
+      "concept": "C06",
+      "variation": "V3",
+      "name": "C06_Offerclarity_P06_Open-cartonpurchasestilllife_V3",
+      "headline": "Make room for scalp care.",
+      "support": "Your first STRANDVALE bottle, thoughtfully priced.",
+      "on_image_cta": "Shop your first bottle",
+      "cta": "Shop Now",
+      "primary": "Ready to explore STRANDVALE? Begin with one 30 mL bottle for $29. Free US shipping. No subscription. A clear first step, on your terms.",
+      "feed": "First order / $29. Shipping included.",
+      "funnel": "Bottom",
+      "awareness": "Most aware",
+      "persona": "P06",
+      "angle": "Introductory value / purchase control",
+      "offer": "Introductory first order: one 30 mL bottle / $29 / free US shipping / no subscription. Proposed fictional terms; tax extra.",
+      "evidence": [
+        "R07"
+      ],
+      "format": "Dark luxury editorial offer",
+      "scene": "dramatic dark charcoal studio background, amber bottle very large and angled diagonally across right half with black cap still attached, matching carton behind lower right only, restrained cobalt edge light and rich natural glass detail; headline upper left in elegant medium-weight contemporary sans, no chunky serif; a refined ivory offer panel lower left reading $29 FIRST ORDER plus FREE US SHIPPING and NO SUBSCRIPTION; CTA on ivory panel bottom; generous editorial negative space, not podium or bathroom",
+      "hypothesis": "Which value, control or first-bottle framing creates the clearest qualified purchase intent?",
+      "variable": "Exploratory execution: visual premise, scene, composition, format and headline",
+      "held": "Selected packaging, persona, underlying angle, offer and primary awareness role",
+      "rating": 8,
+      "grades": {
+        "clarity": 5,
+        "relevance": 4,
+        "novelty": 3,
+        "specificity": 4,
+        "credibility": 4
+      },
+      "rating_scope": "Internal editorial review, not measured performance",
+      "proof": "Fictional brand; proposed introductory offer, not live. No efficacy claim.",
+      "source": "assets/campaign/source/C06-V3-r2.png",
+      "master": "assets/campaign/masters/C06-V3-r2-1080x1350.jpg",
+      "preview": "assets/campaign/masters/C06-V3-r2-600x750.webp",
+      "story": "assets/campaign/stories/C06-V3-r2-1080x1920.jpg",
+      "prompt": "Use case: ads-marketing. Generate ONE finished premium 4:5 portrait direct-response beauty ad, all exact copy typeset. Input image is a PACKAGING IDENTITY REFERENCE ONLY, not a layout to copy. Preserve STRANDVALE amber cylindrical glass dropper bottle, black ribbed cap and bulb, cream label with vertical cobalt stripe, serif wordmark, SCALP SERUM, 30 mL / 1.0 fl oz and matching cream carton/cobalt spine. Do not redesign the pack. Commercial art direction: sophisticated modern US beauty campaign. Typography must be exceptionally polished: clean modern grotesk/geometric sans for headline (like Neue Haas or Avenir), medium weight body, optical kerning, controlled line breaks, calm spacing. Keep the brand wordmark serif only. Never use the old compressed heavy editorial serif. Price readable but not tacky giant discount splash. Only two type families. Colors cream, cobalt, charcoal and amber. Exact offer: $29 FIRST ORDER, FREE US SHIPPING, NO SUBSCRIPTION. This is a fictional proposed introductory offer, no crossed-out reference price, percentage savings, coupon, deadline, stars, reviews, expert badge, regrowth or reduced-hair-fall promise. No ingredient, finish, dosage, duration or efficacy claims. Do not print 'sample offer', 'read the terms', or 'not active' as marketing headlines. Small but readable disclosure at bottom: CONCEPT AD · PROPOSED OFFER. Keep all type inside 7 percent side margins, headline/body/CTA within top86percent height; disclosure at92percent. One next step. Product and copy must be crisp and professionally composed. Render complete artwork, not a blank image.  Visual direction: dramatic dark charcoal studio background, amber bottle very large and angled diagonally across right half with black cap still attached, matching carton behind lower right only, restrained cobalt edge light and rich natural glass detail; headline upper left in elegant medium-weight contemporary sans, no chunky serif; a refined ivory offer panel lower left reading $29 FIRST ORDER plus FREE US SHIPPING and NO SUBSCRIPTION; CTA on ivory panel bottom; generous editorial negative space, not podium or bathroom. Exact headline with line breaks: 'Make room\\nfor scalp care.'. Exact support: Your first STRANDVALE bottle, thoughtfully priced.. Exact CTA: Shop your first bottle →. Include small STRANDVALE wordmark and clear offer terms $29 FIRST ORDER / FREE US SHIPPING / NO SUBSCRIPTION, shown once each. Small terms: First order only. Tax extra. No duplicate offers.",
+      "revision": "2026-10-21 / offer and typography rebuild"
+    }
+  ],
+  "generated_campaign_creatives": 18,
+  "packaging_approval": "User selected the amber dropper / cream and cobalt pack in chat, 20 October 2026. Visual direction only; not launch or efficacy approval.",
+  "campaign_concepts": [
+    {
+      "id": "C01",
+      "name": "The scalp chapter",
+      "persona": "P01",
+      "angle": "Curiosity / category understanding",
+      "offer": "Explore the scalp-serum category",
+      "funnel": "Top",
+      "awareness": "Unaware",
+      "evidence": [
+        "R01",
+        "R02"
+      ],
+      "baseline_format": "Candid routine photograph",
+      "hypothesis": "Does category education create relevant exploration without implying a treatment?",
+      "formats": [
+        "Candid routine photograph",
+        "Editorial routine diagram",
+        "Paper collage explainer"
+      ],
+      "status": "Speculative campaign; packaging user-selected; no performance or efficacy evidence"
+    },
+    {
+      "id": "C02",
+      "name": "The routine friction",
+      "persona": "P02",
+      "angle": "Problem agitation / routine compatibility",
+      "offer": "Inspect the serum concept and the questions to ask",
+      "funnel": "Top",
+      "awareness": "Problem aware",
+      "evidence": [
+        "R03",
+        "R04"
+      ],
+      "baseline_format": "Native bathroom moment",
+      "hypothesis": "Does recognizing routine friction create more qualified consideration than a generic product introduction?",
+      "formats": [
+        "Native bathroom moment",
+        "Sculptural weekly-planner poster",
+        "Candid getting-ready photograph"
+      ],
+      "status": "Speculative campaign; packaging user-selected; no performance or efficacy evidence"
+    },
+    {
+      "id": "C03",
+      "name": "Make the proof readable",
+      "persona": "P03",
+      "angle": "Evidence literacy / comparison",
+      "offer": "A checklist for reading product evidence",
+      "funnel": "Mid",
+      "awareness": "Solution aware",
+      "evidence": [
+        "R05",
+        "R06"
+      ],
+      "baseline_format": "Three-folder decision framework",
+      "hypothesis": "Do concrete evidence questions encourage useful product-information reading?",
+      "formats": [
+        "Three-folder decision framework",
+        "Annotated label editorial",
+        "Newspaper-style question sheet"
+      ],
+      "status": "Speculative campaign; packaging user-selected; no performance or efficacy evidence"
+    },
+    {
+      "id": "C04",
+      "name": "Know the selected bottle",
+      "persona": "P04",
+      "angle": "Product detail / inspection",
+      "offer": "Selected 30 mL scalp-serum packaging concept",
+      "funnel": "Mid",
+      "awareness": "Product aware",
+      "evidence": [
+        "R04"
+      ],
+      "baseline_format": "Product-anatomy poster",
+      "hypothesis": "Which inspection approach makes the selected product easier to recognize and understand?",
+      "formats": [
+        "Product-anatomy poster",
+        "Candid overhead unboxing",
+        "Macro material study"
+      ],
+      "status": "Speculative campaign; packaging user-selected; no performance or efficacy evidence"
+    },
+    {
+      "id": "C05",
+      "name": "What the category asks",
+      "persona": "P02",
+      "angle": "Sourced social listening / objection mirror",
+      "offer": "Explore finish and routine questions",
+      "funnel": "Mid",
+      "awareness": "Solution aware",
+      "evidence": [
+        "R03",
+        "R04"
+      ],
+      "baseline_format": "Sourced question-card editorial",
+      "hypothesis": "Does sourced category language improve relevance without being mistaken for an endorsement?",
+      "formats": [
+        "Sourced question-card editorial",
+        "Lifestyle paper zine",
+        "Three-question conversation graphic"
+      ],
+      "status": "Speculative campaign; packaging user-selected; no performance or efficacy evidence"
+    },
+    {
+      "id": "C06",
+      "name": "The first-bottle invitation",
+      "persona": "P06",
+      "angle": "Introductory value / purchase control",
+      "offer": "Introductory first order: one 30 mL bottle / $29 / free US shipping / no subscription. Proposed fictional terms; tax extra.",
+      "funnel": "Bottom",
+      "awareness": "Most aware",
+      "evidence": [
+        "R07"
+      ],
+      "baseline_format": "High-contrast offer poster",
+      "hypothesis": "Which value, control or first-bottle framing creates the clearest qualified purchase intent?",
+      "formats": [
+        "Value-led Swiss typographic poster",
+        "Tactile first-order unboxing",
+        "Dark luxury editorial offer"
+      ],
+      "status": "Speculative campaign; packaging user-selected; no performance or efficacy evidence"
+    }
+  ],
+  "concept_candidates": [
+    [
+      "C01",
+      "The scalp chapter",
+      "P01",
+      "Curiosity / category understanding",
+      "Explore the scalp-serum category",
+      "Candid routine photograph",
+      "Top",
+      "Unaware",
+      "Build"
+    ],
+    [
+      "C02",
+      "The routine friction",
+      "P02",
+      "Problem agitation / routine compatibility",
+      "Inspect the serum concept and the questions to ask",
+      "Native bathroom moment",
+      "Top",
+      "Problem aware",
+      "Build"
+    ],
+    [
+      "C03",
+      "Make the proof readable",
+      "P03",
+      "Evidence literacy / comparison",
+      "A checklist for reading product evidence",
+      "Three-folder decision framework",
+      "Mid",
+      "Solution aware",
+      "Build"
+    ],
+    [
+      "C04",
+      "Know the selected bottle",
+      "P04",
+      "Product detail / inspection",
+      "Selected 30 mL scalp-serum packaging concept",
+      "Product-anatomy poster",
+      "Mid",
+      "Product aware",
+      "Build"
+    ],
+    [
+      "C05",
+      "What the category asks",
+      "P02",
+      "Sourced social listening / objection mirror",
+      "Explore finish and routine questions",
+      "Sourced question-card editorial",
+      "Mid",
+      "Solution aware",
+      "Build"
+    ],
+    [
+      "C06",
+      "The first-bottle invitation",
+      "P06",
+      "Offer clarity / commitment",
+      "One 30 mL bottle / $29 first order / free US shipping / no subscription; tax extra. Proposed.",
+      "High-contrast offer poster",
+      "Bottom",
+      "Most aware",
+      "Build"
+    ],
+    [
+      "C07",
+      "A genuine first-use verdict",
+      "P02",
+      "Product social proof",
+      "Own tested formula",
+      "Real-user review",
+      "Mid",
+      "Product aware",
+      "Park: no genuine product, users or permissions"
+    ],
+    [
+      "C08",
+      "A verified texture demonstration",
+      "P02",
+      "Sensory evidence",
+      "Own tested formula",
+      "Real demo",
+      "Mid",
+      "Product aware",
+      "Park: no formula or finish test"
+    ],
+    [
+      "C09",
+      "The dermatologist explains",
+      "P01",
+      "Expert endorsement",
+      "Real expert collaboration",
+      "Expert video",
+      "Top",
+      "Problem aware",
+      "Park: no qualified collaborator or endorsement"
+    ],
+    [
+      "C10",
+      "Verified hair-fall outcome",
+      "P07",
+      "Treatment efficacy",
+      "Indicated verified product",
+      "Evidence-led outcome",
+      "Mid",
+      "Solution aware",
+      "Park: no formula/classification/efficacy evidence"
+    ]
+  ],
+  "sample_offer": {
+    "volume": "30 mL design assumption",
+    "base_price_usd": 29,
+    "quantity": 1,
+    "terms": "Proposed first-order offer: $29, free US shipping, no subscription; tax extra. Fictional, not live. No efficacy, duration or guarantee claim."
+  },
+  "offer_revision": "2026-10-21 / $29 first order, free US shipping, no subscription; proposed, not live"
+}

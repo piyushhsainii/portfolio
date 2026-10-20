@@ -1,0 +1,527 @@
+[
+  {
+    "path": "campaign.css",
+    "bytes": 12708,
+    "sha256": "d9f21c09aeb55a9b437783e7ea07c02a0b67e49c5eeb7562cdce4b7bc5f20b6b"
+  },
+  {
+    "path": "campaign.js",
+    "bytes": 9531,
+    "sha256": "15fe85391a7e5d6446048e9752c6f9b1acd13e2125b361a5f069f8344c1b2eeb"
+  },
+  {
+    "path": "index.html",
+    "bytes": 150801,
+    "sha256": "2e2ac04a435732c1c428984f53bb69c6cbbcd72f8dadcea59c506c3441ab3ecd"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2524,
+    "sha256": "826104e3cb34360e54d6d8b2ab8cc40936c7b7b482c9259305bce5451f217b6a"
+  },
+  {
+    "path": "STRANDVALE-creative-presentation.pdf",
+    "bytes": 11808450,
+    "sha256": "d0789c8d0b6a8468638fe9992b8283cde461595a4cce2798ff581e999e04f52f"
+  },
+  {
+    "path": "styles.css",
+    "bytes": 6871,
+    "sha256": "ca2f457b8a39d2f5382c46dc605ab32c99ae446948091d8df6ce3951b15d0faf"
+  },
+  {
+    "path": "data/ads.json",
+    "bytes": 78261,
+    "sha256": "48a714e5f224b1231acd915f0b37596983c46625e3962b6896467bb02f7e588f"
+  },
+  {
+    "path": "data/project.json",
+    "bytes": 105032,
+    "sha256": "0d5530a5412a1f275ece9f254753c7c7193bdf20f0d490c4ca4bbc9accb8d2cd"
+  },
+  {
+    "path": "production/c06-revision-notes.md",
+    "bytes": 831,
+    "sha256": "e1a6c85c514a990c260fd8bb682b4b92f1426a3b94fa1c4a86491bd5e66d916a"
+  },
+  {
+    "path": "production/campaign-prompts.json",
+    "bytes": 42721,
+    "sha256": "c7f30f2b3da67b52442ce3612b954831d318099d3f581c743cf834daad8b75c7"
+  },
+  {
+    "path": "production/packaging-prompts.md",
+    "bytes": 1256,
+    "sha256": "131b9a19cdd4535792fb511c7bbef74242cd093890f65ee67fc421379d3967a2"
+  },
+  {
+    "path": "qa/c06-revised-browser.png",
+    "bytes": 197851,
+    "sha256": "b0330be51caf78899797f873a4b35086cac40484551cf94a6b0fd99036523ada"
+  },
+  {
+    "path": "qa/c06-revised-contact.jpg",
+    "bytes": 145499,
+    "sha256": "b0591634241635113e2241a272261e22920c822f07f011758cb2f54669a5be96"
+  },
+  {
+    "path": "qa/c06-revision-validation.json",
+    "bytes": 930,
+    "sha256": "49a89f2a75774d929470bc592e8ec1fe3977e04121ee4acb38c1013a01685b33"
+  },
+  {
+    "path": "qa/campaign-contact-sheet.jpg",
+    "bytes": 409275,
+    "sha256": "6ce4b21ff5608a1b160da9c40aeaa92116391b855ec17bc9b33432b17e0c90fa"
+  },
+  {
+    "path": "qa/creative-review.md",
+    "bytes": 3183,
+    "sha256": "5efb81bf3cd5802158a94b408c84ba75bfd5a0f948042f13f80f84447f7ca83d"
+  },
+  {
+    "path": "qa/desktop-feed.png",
+    "bytes": 189713,
+    "sha256": "cf72c220a07ebf6943d45ba439f203b964204ad60d7fa6dac935939eededef87"
+  },
+  {
+    "path": "qa/mobile-feed.png",
+    "bytes": 41110,
+    "sha256": "c2a77158287b369d3b268f28df8c5200fed2eceffce3dc4b8ed8bbed6fa20634"
+  },
+  {
+    "path": "qa/packaging-desktop.png",
+    "bytes": 132653,
+    "sha256": "1e92ad75f41fc545e1ca183dd173255dbdd2d7007829db198714eb4c9eb9e5f8"
+  },
+  {
+    "path": "qa/pdf-contact.jpg",
+    "bytes": 174066,
+    "sha256": "eb363e3b7ca22502f011bfac983f0edc92d406067398ea6430955ee9875fb766"
+  },
+  {
+    "path": "qa/review.md",
+    "bytes": 1164,
+    "sha256": "1a606a6ae576fbeb7d493a93b79e8127d361fe7401138ca17052407a2cbe9a88"
+  },
+  {
+    "path": "qa/validation.json",
+    "bytes": 1117,
+    "sha256": "a1c03eae907658ba309dc9deb2e1ee812a049852c47f597d2363ee040043c26e"
+  },
+  {
+    "path": "research/research-brief.md",
+    "bytes": 17314,
+    "sha256": "811eda48b73aed48377e1e2a119f09af3f5dc05c42be3d1a992b97c1cdb40984"
+  },
+  {
+    "path": "research/sources.md",
+    "bytes": 2202,
+    "sha256": "20ba0ddfc7c4e92c56d477e74ef75d43bb1cebe4aca1799b19167120f34e54b2"
+  },
+  {
+    "path": "strategy/concept-matrix.md",
+    "bytes": 3461,
+    "sha256": "3f0c3561689f6b2049b22a5435eb8ee096150ce242e1304455afcc9204590750"
+  },
+  {
+    "path": "strategy/copy-and-hooks.md",
+    "bytes": 10054,
+    "sha256": "cffe307ceda7561dde79a2a139651c8658071f85c5214ec624bf2a7cd7000ef9"
+  },
+  {
+    "path": "strategy/follow-up-hook-bank.md",
+    "bytes": 1231,
+    "sha256": "0270ee1d0623dd63bb2ac4fdd5174cc37635a28a507fb46c3020deee037803d8"
+  },
+  {
+    "path": "strategy/offer-revision.md",
+    "bytes": 1460,
+    "sha256": "bea0a7773c8e301f1a0d8f4276c5faad0dfde35a3abc36388d60a9bdf229f937"
+  },
+  {
+    "path": "strategy/variation-and-diversity.md",
+    "bytes": 1749,
+    "sha256": "1af792765b847131cd7a6007f738ba7cda1270eec5bd178f537c80c942626fb6"
+  },
+  {
+    "path": "assets/packaging/comparison.jpg",
+    "bytes": 236732,
+    "sha256": "342a57777c15a03f191fadd49ae1baaee23dbcc8a138f6c26b11037eada3a1b2"
+  },
+  {
+    "path": "assets/packaging/option-a.png",
+    "bytes": 1963297,
+    "sha256": "e3f746e5b85f9ead418b2e58bb3c376d6452c42d9dd31a207c27440a13ab6f37"
+  },
+  {
+    "path": "assets/packaging/option-b.png",
+    "bytes": 1941914,
+    "sha256": "476f3d4074a1464856ce8547ab67e0ec557e7453cc1ffab93136221f6a3998ce"
+  },
+  {
+    "path": "assets/packaging/option-c.png",
+    "bytes": 1796050,
+    "sha256": "b7c2fba4462bd7be1477742f93ec207ccb330005aa6c2edffb06325ba117fd1f"
+  },
+  {
+    "path": "assets/campaign/masters/C01-V1-1080x1350.jpg",
+    "bytes": 369263,
+    "sha256": "aa7e05e883b45512fd83509dfa7b6e2b37fcbce81da6911b7e980c2686306283"
+  },
+  {
+    "path": "assets/campaign/masters/C01-V1-600x750.webp",
+    "bytes": 85596,
+    "sha256": "c794563de87e914923c9666b5d747b4c270cf9ad9905742cc45ebf201787dca3"
+  },
+  {
+    "path": "assets/campaign/masters/C01-V2-1080x1350.jpg",
+    "bytes": 393004,
+    "sha256": "8915852493a22982c82e19dc34167a45d6ac1d8ab140ad267be86b708ffedb0e"
+  },
+  {
+    "path": "assets/campaign/masters/C01-V2-600x750.webp",
+    "bytes": 67682,
+    "sha256": "b0154c11ce62601a285d0293ce96f8185f183eae9624c9bfb00d4048e0e267ce"
+  },
+  {
+    "path": "assets/campaign/masters/C01-V3-1080x1350.jpg",
+    "bytes": 515366,
+    "sha256": "c0bf8a5886a8e0a050cd72111ea07d1bcd240bcfd7a4468b20ffb53a51a2e936"
+  },
+  {
+    "path": "assets/campaign/masters/C01-V3-600x750.webp",
+    "bytes": 114556,
+    "sha256": "8e16945f1581279d2927dc3be2c53ca98020f1b1aed9b9b2d7976dfa489635fa"
+  },
+  {
+    "path": "assets/campaign/masters/C02-V1-1080x1350.jpg",
+    "bytes": 304608,
+    "sha256": "92f312f73630880a7d94f03c43cbe49e4efda930554fbebae62b0c6c7631a321"
+  },
+  {
+    "path": "assets/campaign/masters/C02-V1-600x750.webp",
+    "bytes": 67834,
+    "sha256": "c9ed5bd8a05c69024c9432647846cb08c9d73b721579a847f2c9f7dc04be31fa"
+  },
+  {
+    "path": "assets/campaign/masters/C02-V2-1080x1350.jpg",
+    "bytes": 328623,
+    "sha256": "628b461944cdc6b9480899676f151855478376693fd7f9e06040c8f803a8d697"
+  },
+  {
+    "path": "assets/campaign/masters/C02-V2-600x750.webp",
+    "bytes": 62320,
+    "sha256": "309438336d9d0428b58a273ceff0f7eb194b2a655680cea1b0234f9421513975"
+  },
+  {
+    "path": "assets/campaign/masters/C02-V3-1080x1350.jpg",
+    "bytes": 341710,
+    "sha256": "4e924d6b205844b911394ec842e1e6ec5b1d456463838944cd032b23714b4eb6"
+  },
+  {
+    "path": "assets/campaign/masters/C02-V3-600x750.webp",
+    "bytes": 81226,
+    "sha256": "8cee2595002e70126bd8685d199084ea9e287f7a067496f0ae80375bcf330069"
+  },
+  {
+    "path": "assets/campaign/masters/C03-V1-1080x1350.jpg",
+    "bytes": 429387,
+    "sha256": "b0cc96dd04a3d70030b61cdfdcd764835da421ab2758b328bb558501b5d0f294"
+  },
+  {
+    "path": "assets/campaign/masters/C03-V1-600x750.webp",
+    "bytes": 90180,
+    "sha256": "2e1dd32fc25dd4dd4fee1126b6228bfd2103a113e80cd9ac7738bb48ac97181a"
+  },
+  {
+    "path": "assets/campaign/masters/C03-V2-1080x1350.jpg",
+    "bytes": 385638,
+    "sha256": "f0655ffe8ccbd8b29ebf45cd8198b59d37825039b9e600175633a070cbd71cca"
+  },
+  {
+    "path": "assets/campaign/masters/C03-V2-600x750.webp",
+    "bytes": 74366,
+    "sha256": "4f43fbf358347203c8669d5f1ff567112da756270b4b54b74ee31ee55b6329df"
+  },
+  {
+    "path": "assets/campaign/masters/C03-V3-1080x1350.jpg",
+    "bytes": 473273,
+    "sha256": "16de5194d78cf63221b3171af1e9dcc8cacdb1a6138075f117843977e646941e"
+  },
+  {
+    "path": "assets/campaign/masters/C03-V3-600x750.webp",
+    "bytes": 102094,
+    "sha256": "ec689a2d1542d5ff5e2d32916a13851b92c12f2bdacad873b24468c21aa225d7"
+  },
+  {
+    "path": "assets/campaign/masters/C04-V1-1080x1350.jpg",
+    "bytes": 268414,
+    "sha256": "f2f431f08da26298e0d1b5f30f80d087cbc628d65564fe64abaaf293f8b8a6c2"
+  },
+  {
+    "path": "assets/campaign/masters/C04-V1-600x750.webp",
+    "bytes": 47040,
+    "sha256": "91f8f1ae541ade18448e0064d4e3ef1a22ad03ffdd52f74f28294ae0ab905d1e"
+  },
+  {
+    "path": "assets/campaign/masters/C04-V2-1080x1350.jpg",
+    "bytes": 409432,
+    "sha256": "1051f5a780fa4a2b094ab07cb44e23c54265b814d0cf810ad7e98204f326700d"
+  },
+  {
+    "path": "assets/campaign/masters/C04-V2-600x750.webp",
+    "bytes": 95886,
+    "sha256": "7cb378febfa2f36b06ad0df85a6b3612a5b62f78bd6662e6a4fce9d0d5b3c470"
+  },
+  {
+    "path": "assets/campaign/masters/C04-V3-1080x1350.jpg",
+    "bytes": 385912,
+    "sha256": "d61dfd45e31a32d84f84857b52204b85792f2327d3171f5528df17b0a0019115"
+  },
+  {
+    "path": "assets/campaign/masters/C04-V3-600x750.webp",
+    "bytes": 89036,
+    "sha256": "39792ec1d5d30ad37083ade0376ff2fd6132e9730cf82049a43c2e08b21d7891"
+  },
+  {
+    "path": "assets/campaign/masters/C05-V1-1080x1350.jpg",
+    "bytes": 441171,
+    "sha256": "0af03da8f35e27442bb86c7769bb704f997f9d79fd6f8de0334611d8c687c64f"
+  },
+  {
+    "path": "assets/campaign/masters/C05-V1-600x750.webp",
+    "bytes": 93704,
+    "sha256": "0796c356039b5bf154f0372ef0ba751995e88baea0d2383fc8002e8906a74226"
+  },
+  {
+    "path": "assets/campaign/masters/C05-V2-1080x1350.jpg",
+    "bytes": 471258,
+    "sha256": "4452e6669c74ec95ccab7f58a1d6f5df99294a2612e66bd712e11dd7550e9271"
+  },
+  {
+    "path": "assets/campaign/masters/C05-V2-600x750.webp",
+    "bytes": 110634,
+    "sha256": "f0df2039733bb277d6b3720876b8aecaff58431c8058089a45e1557987f67428"
+  },
+  {
+    "path": "assets/campaign/masters/C05-V3-1080x1350.jpg",
+    "bytes": 384262,
+    "sha256": "c3044e1dd8dacb7a9f318b274aba991a2c1889522df214c44d6302e48afb3c3c"
+  },
+  {
+    "path": "assets/campaign/masters/C05-V3-600x750.webp",
+    "bytes": 75714,
+    "sha256": "9b711faad71c47a0ed6872ddd654fbd063e9230280db35f8d549309cf73bd33e"
+  },
+  {
+    "path": "assets/campaign/masters/C06-V1-r2-1080x1350.jpg",
+    "bytes": 266003,
+    "sha256": "58272d573dff26049a9515bf9922a50ed42bcf40140266e1306a50aca77e87a0"
+  },
+  {
+    "path": "assets/campaign/masters/C06-V1-r2-600x750.webp",
+    "bytes": 48374,
+    "sha256": "292215da8db806c93eef1d48a1d14e25586e3b7b70895bcaf574abb52af91ef9"
+  },
+  {
+    "path": "assets/campaign/masters/C06-V2-r2-1080x1350.jpg",
+    "bytes": 333990,
+    "sha256": "fad869d0bf635f3290575585750423ce77c9aeee8ffd83d3ebdedd570f4744a8"
+  },
+  {
+    "path": "assets/campaign/masters/C06-V2-r2-600x750.webp",
+    "bytes": 74474,
+    "sha256": "deeb12ca348ea27a0dd5a950eb222a86157794e6f22b0ad689e68c113014bb37"
+  },
+  {
+    "path": "assets/campaign/masters/C06-V3-r2-1080x1350.jpg",
+    "bytes": 340904,
+    "sha256": "248f83f60642554864328a4f3a269cb79e4ae9dfb6241122e0951660fee5160a"
+  },
+  {
+    "path": "assets/campaign/masters/C06-V3-r2-600x750.webp",
+    "bytes": 77864,
+    "sha256": "38e1ced162f8d1927c763af5369ffef340acf2018bbcb9d4cdb11551b178fee0"
+  },
+  {
+    "path": "assets/campaign/source/C01-V1.png",
+    "bytes": 2126563,
+    "sha256": "3a17589a9fc0976036fce1cde73f9bab8a197d4c6517a3fbfaec351b0449f0f0"
+  },
+  {
+    "path": "assets/campaign/source/C01-V2.png",
+    "bytes": 2391993,
+    "sha256": "082ebaab2d7ba46c419d3e52fd9429e8f66d8dbbe4d9b33f9e7b41a6de82d026"
+  },
+  {
+    "path": "assets/campaign/source/C01-V3.png",
+    "bytes": 2792922,
+    "sha256": "488ee6b8e77cd9be3eed58b2e4bb42d965c326cef7989049f6acedc920ff0ab0"
+  },
+  {
+    "path": "assets/campaign/source/C02-V1.png",
+    "bytes": 1911352,
+    "sha256": "57addc3c278ce32ad0a278a5de657b3745050e9b2229d7467954ab23250ff723"
+  },
+  {
+    "path": "assets/campaign/source/C02-V2.png",
+    "bytes": 2072702,
+    "sha256": "f5e9531d84e23cd310524c54fb4bd538f7bdbffd39446809e86956c218fc24c3"
+  },
+  {
+    "path": "assets/campaign/source/C02-V3.png",
+    "bytes": 1964288,
+    "sha256": "1ab0b0026e8cc08e9c431f3486b57e191c68debf1a917a329fb84f64d7e9bc9f"
+  },
+  {
+    "path": "assets/campaign/source/C03-V1.png",
+    "bytes": 2522433,
+    "sha256": "7c50a077a36e8b90e1c9b00dfb2f160ce107eca2a12467ecf87a8864b1234d6f"
+  },
+  {
+    "path": "assets/campaign/source/C03-V2.png",
+    "bytes": 2216384,
+    "sha256": "6e9ed5534063b98abc61218bd225e16bd638d1d070e12dfe18f7bdcf5961552b"
+  },
+  {
+    "path": "assets/campaign/source/C03-V3.png",
+    "bytes": 2670193,
+    "sha256": "01982b33acf127b8d87882c5fa79f103ccc1de899f1be06615dc6249e6d8d543"
+  },
+  {
+    "path": "assets/campaign/source/C04-V1.png",
+    "bytes": 1761431,
+    "sha256": "858f0555ef083bbfb05c4fc0535ae4b27e77c053b6399dcf2626d2327d88fdbf"
+  },
+  {
+    "path": "assets/campaign/source/C04-V2.png",
+    "bytes": 2323810,
+    "sha256": "de8c954d422c94f1167ac98dd9fd24fc9b4b46db460f1e9776d3a8365ae298e9"
+  },
+  {
+    "path": "assets/campaign/source/C04-V3.png",
+    "bytes": 2187618,
+    "sha256": "e25e0998a230939c40b50acec3cddb2b4b14c317a02dfd9124975c2aecf23396"
+  },
+  {
+    "path": "assets/campaign/source/C05-V1.png",
+    "bytes": 2516678,
+    "sha256": "5f60a73f6ee9662e69a233fd3057a89eff65f03c3404a41e7d78c22090e9ec46"
+  },
+  {
+    "path": "assets/campaign/source/C05-V2.png",
+    "bytes": 2590536,
+    "sha256": "8479a8c10b98b3883741ed37f8795e597b8d7fbd380e7cba75cbe76aecb01267"
+  },
+  {
+    "path": "assets/campaign/source/C05-V3.png",
+    "bytes": 2223813,
+    "sha256": "00d3fec986ff26c78a58dcce7a48d0fd2063d95e61be09049b9049532618ff0a"
+  },
+  {
+    "path": "assets/campaign/source/C06-V1-r2.png",
+    "bytes": 1677361,
+    "sha256": "213f722e1ccf4d760ba48619c277c4bc68f7c0a8dc45a60d6275db8a26361cc9"
+  },
+  {
+    "path": "assets/campaign/source/C06-V2-r2.png",
+    "bytes": 1875243,
+    "sha256": "f4f01b3ff7239f08950f57d054ddc1f8cc4e9b40838e8d2919bbc67683cbb89a"
+  },
+  {
+    "path": "assets/campaign/source/C06-V3-r2.png",
+    "bytes": 1911380,
+    "sha256": "662b89f46431d6d0630d38585f73a261863f11d6dac7b69b8e598b813f49112d"
+  },
+  {
+    "path": "assets/campaign/stories/C01-V1-1080x1920.jpg",
+    "bytes": 304894,
+    "sha256": "fdd488bad5337c6400392652ee44c140d41949dd96a345b02cccc5cfb54d3b67"
+  },
+  {
+    "path": "assets/campaign/stories/C01-V2-1080x1920.jpg",
+    "bytes": 302742,
+    "sha256": "6ecdf6d4de746598b4cf0d7ce61f553990e3c058fa79d52a11f26e71ec70b45b"
+  },
+  {
+    "path": "assets/campaign/stories/C01-V3-1080x1920.jpg",
+    "bytes": 399002,
+    "sha256": "ddf49e3103c761886eae9da95f586a5e27945cb4104a50c3517d6ea214419236"
+  },
+  {
+    "path": "assets/campaign/stories/C02-V1-1080x1920.jpg",
+    "bytes": 262995,
+    "sha256": "4701265b4bee1da74cccd8985b297f76003b2e04b820cd2390ae06134d6b6124"
+  },
+  {
+    "path": "assets/campaign/stories/C02-V2-1080x1920.jpg",
+    "bytes": 266533,
+    "sha256": "f7a308b69026ad7826567e462ed7b575ed5a84a62ad21a63fcc02eb899138edb"
+  },
+  {
+    "path": "assets/campaign/stories/C02-V3-1080x1920.jpg",
+    "bytes": 279052,
+    "sha256": "60192d6fabd0c9e1343db506049fe5cdbe0dc7f0d0d5aa373c1d186082be19ee"
+  },
+  {
+    "path": "assets/campaign/stories/C03-V1-1080x1920.jpg",
+    "bytes": 332795,
+    "sha256": "78e61a13611c7a0ae74e11b40cb312841e0254c216adcb88306bfc6c30de43f6"
+  },
+  {
+    "path": "assets/campaign/stories/C03-V2-1080x1920.jpg",
+    "bytes": 305892,
+    "sha256": "71b6a136bb50617e9e3848adff7d83ca45e5e81dac1a3022f663592d05bbcffd"
+  },
+  {
+    "path": "assets/campaign/stories/C03-V3-1080x1920.jpg",
+    "bytes": 369035,
+    "sha256": "d79416ca71cd8a7fa85ab0072a83f2266077f27769806641037bf894bbc4448b"
+  },
+  {
+    "path": "assets/campaign/stories/C04-V1-1080x1920.jpg",
+    "bytes": 210225,
+    "sha256": "49b39be5ff737595796ebe5823edbc40cd4d869b479e6c39a7a346abfa974d43"
+  },
+  {
+    "path": "assets/campaign/stories/C04-V2-1080x1920.jpg",
+    "bytes": 335739,
+    "sha256": "6002dc6e099fb5bebcc44938b91d7c3f936cc5e2c911e06e22242062852a8f07"
+  },
+  {
+    "path": "assets/campaign/stories/C04-V3-1080x1920.jpg",
+    "bytes": 326365,
+    "sha256": "a7753157558b29fc5f3fcad210abc145b1ded90181da93161acaa809a9de377e"
+  },
+  {
+    "path": "assets/campaign/stories/C05-V1-1080x1920.jpg",
+    "bytes": 351536,
+    "sha256": "5914fa122ea2751302fbe76d967ad58e072e560157d5f60de0b0ee47d8a895a7"
+  },
+  {
+    "path": "assets/campaign/stories/C05-V2-1080x1920.jpg",
+    "bytes": 374683,
+    "sha256": "b653e63a0942ab4333861abe2eda0d57995c2a3575df3f6a69b34ea1fff081ee"
+  },
+  {
+    "path": "assets/campaign/stories/C05-V3-1080x1920.jpg",
+    "bytes": 304836,
+    "sha256": "e4d8906e04049f3d62e1cfda0b14407a4d05d20c6e0438d4dfed56fa6141e54e"
+  },
+  {
+    "path": "assets/campaign/stories/C06-V1-r2-1080x1920.jpg",
+    "bytes": 219928,
+    "sha256": "201dfc99e2b1656b32eb65950c4780adefb768ad1c963360a74a1021cf0a6719"
+  },
+  {
+    "path": "assets/campaign/stories/C06-V2-r2-1080x1920.jpg",
+    "bytes": 283612,
+    "sha256": "1b61749fb47f29f805e0fad65c1c9a0b11245e3b301575a789905bfbdaaa0948"
+  },
+  {
+    "path": "assets/campaign/stories/C06-V3-r2-1080x1920.jpg",
+    "bytes": 291251,
+    "sha256": "ef18d2e4bfc3e613ad549c6022d5dbd1dcd7f454dcd4d809dde9c718c93934b2"
+  }
+]

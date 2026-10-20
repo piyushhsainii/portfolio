@@ -3,14 +3,6 @@ import AdCreativeCaseStudy from "./AdCreativeCaseStudy";
 
 const designProjects = [
   {
-    name: "InvitePost",
-    type: "Product design · Motion",
-    description: "A warm, tactile invitation experience that makes creating a card and sharing it feel like part of the celebration.",
-    image: "/invitepost-design.png",
-    video: "/invitepost-showcase.mp4",
-    tags: ["Product UI", "Brand", "Motion"],
-  },
-  {
     name: "Loop",
     type: "SaaS website · Motion",
     description: "A dark, editorial landing page for a learning product, pairing a clear visual system with motion-led storytelling.",

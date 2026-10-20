@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "packaging_selected": "A",
+  "concepts": 6,
+  "feed_ads": 18,
+  "story_adaptations": 18,
+  "unique_source_hashes": 18,
+  "hashes_are_not_perceptual_similarity_scores": true,
+  "awareness": {
+    "Unaware": 3,
+    "Problem aware": 3,
+    "Solution aware": 6,
+    "Product aware": 3,
+    "Most aware": 3
+  },
+  "funnel": {
+    "Top": 6,
+    "Mid": 9,
+    "Bottom": 3
+  },
+  "pdf_pages": 12,
+  "missing_static_local_references": 0,
+  "duplicate_static_ids": 0,
+  "browser_checks": {
+    "desktop_width": 1440,
+    "mobile_width": 375,
+    "funnel_filter_counts": [
+      6,
+      9,
+      3,
+      18
+    ],
+    "awareness_filter_counts": [
+      3,
+      3,
+      6,
+      3,
+      3,
+      18
+    ],
+    "concept_filter_count": 3,
+    "reset_count": 18,
+    "lightbox_master_width": 1080,
+    "phone_previews_loaded": 5,
+    "economics_negative_margin_guard": "No room / N/A",
+    "horizontal_page_overflow": false
+  },
+  "limits": "Visual review is subjective; no account similarity score, platform grouping guarantee or measured performance."
+}

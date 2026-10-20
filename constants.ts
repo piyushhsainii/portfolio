@@ -1,6 +1,21 @@
 import { Project, Experience, Achievement } from "./types";
 export const PROJECTS: Project[] = [
   {
+    id: "invitepost",
+    title: "InvitePost",
+    type: "Product / Web App",
+    shortDescription: "A digital invitation experience with tactile cards, animated envelopes, and a simple way to share a celebration.",
+    fullDescription: "InvitePost brings the feeling of a physical invitation to the web. The experience combines occasion-based card designs, personal customization, and an animated envelope reveal, with sharing by link, QR, or WhatsApp.",
+    image: "/invitepost-design.png",
+    video: "/invitepost-showcase.mp4",
+    problemStatement: "Digital invitations can feel impersonal, with the details of a celebration scattered across messages. The goal was to make the invitation itself feel memorable while keeping the guest experience simple.",
+    solution: "Created a warm visual identity and a tactile card experience, with occasion selection, color customization, and envelope motion that makes opening an invitation part of the celebration.",
+    techStack: ["Product UI", "Brand", "Motion"],
+    role: "Product Design & Development",
+    outcomes: ["Occasion-based invitation designs", "Customizable card colors and finishes", "Animated envelope and card reveal", "A guest experience designed around sharing one link"],
+    links: {},
+  },
+  {
     id: "roomsketch",
     title: "RoomSketch",
     type: "Product / Web App",

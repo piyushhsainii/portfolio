@@ -1,0 +1,25 @@
+{
+  "revision": "2026-10-21",
+  "creative_ids": [
+    "C06-V1",
+    "C06-V2",
+    "C06-V3"
+  ],
+  "offer": "$29 first order / free US shipping / no subscription / tax extra",
+  "status": "Fictional proposed offer; not live",
+  "artwork_review": "Three complete replacement artworks visually inspected, including typography and final terms. No sample-offer headline, fake prior price or invented product result.",
+  "browser": {
+    "gallery_images_loaded": 3,
+    "new_versioned_paths": true,
+    "lightbox_and_download_links": "PASS",
+    "concept_count": 3,
+    "desktop_reset_count": 18,
+    "mobile_bottom_filter_count": 3,
+    "mobile_overflow": false,
+    "default_contribution": 13,
+    "default_allowable_cac": 9,
+    "default_break_even_roas": 2.23
+  },
+  "pdf": "12 pages rendered; revised offer page and all-page contact sheet inspected",
+  "performance": "No conversion improvement measured."
+}

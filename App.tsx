@@ -6,12 +6,16 @@ import ProjectModal from "./components/ProjectModal";
 import WorkProjectsSection from "./components/WorkProjectsSection";
 import ServicesSection from "./components/ServicesSection";
 import DesignWorkSection from "./components/DesignWorkSection";
+import CreativeStrategySection from "./components/CreativeStrategySection";
 
-type PortfolioPanel = "work" | "design" | "services";
+type PortfolioPanel = "work" | "design" | "strategy" | "services";
 
 const App: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
-  const [activePanel, setActivePanel] = useState<PortfolioPanel>("work");
+  const [activePanel, setActivePanel] = useState<PortfolioPanel>(() => {
+    const section = new URLSearchParams(window.location.search).get("section");
+    return section === "work" || section === "design" || section === "strategy" || section === "services" ? section : "services";
+  });
   const handleProjectClick = useCallback((project: Project) => setSelectedProject(project), []);
   const closeProjectModal = useCallback(() => setSelectedProject(null), []);
   const showWork = useCallback(() => {
@@ -35,12 +39,13 @@ const App: React.FC = () => {
             <a href={USER_DATA.contact.x} target="_blank" rel="noreferrer" className="mt-1 inline-block text-sm text-zinc-500 transition hover:text-black">@piyushsainii</a>
 
             <h1 className="mt-9 max-w-xl text-[clamp(2rem,4vw,3.35rem)] leading-[1.08] tracking-[-0.055em] text-zinc-500">I build <span className="font-semibold text-zinc-950">products and websites</span> that turn good ideas into things people love using.</h1>
-            <p className="mt-6 max-w-lg text-[15px] leading-7 text-zinc-600">From a first product idea to a polished website, I bring design, engineering, and thoughtful AI workflows together to make digital experiences useful, distinctive, and ready to grow.</p>
+            <p className="mt-6 max-w-lg text-[15px] leading-7 text-zinc-600">I bring design, engineering, and creative strategy together—from useful products and polished websites to research-led campaigns that give brands a clear direction.</p>
 
             <div className="mt-7 flex flex-wrap gap-3">
-              <a href="mailto:sainipiyush8860@gmail.com?subject=Let%E2%80%99s%20build%20something" className="inline-flex items-center gap-2 rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white transition hover:bg-zinc-700">Let’s talk <ArrowUpRight size={16} /></a>
+              <a href="https://calendly.com/sainipiyush8860/bizpilot-demo" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white transition hover:bg-zinc-700">Book my call <ArrowUpRight size={16} /></a>
               <a href="#work" onClick={(event) => { event.preventDefault(); document.getElementById("work")?.scrollIntoView({ behavior: "smooth" }); }} className="inline-flex items-center gap-2 rounded-full bg-zinc-100 px-5 py-3 text-sm font-semibold text-zinc-800 transition hover:bg-zinc-200">Explore work <ArrowDown size={15} /></a>
             </div>
+            <button type="button" onClick={() => { setActivePanel("strategy"); document.getElementById("work")?.scrollIntoView({ behavior: "smooth" }); }} className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-zinc-600 underline decoration-zinc-300 underline-offset-4 hover:text-black">Explore my creative strategy work <ArrowUpRight size={14} /></button>
           </div>
 
           <div className="mt-auto pb-3">
@@ -57,11 +62,12 @@ const App: React.FC = () => {
 
         <main id="work" className="work-scroll min-h-0 scroll-smooth px-5 py-7 sm:px-9 sm:py-9 lg:h-screen lg:overflow-y-auto lg:px-10 xl:px-14">
           <div className="sticky top-0 z-20 -mx-5 -mt-7 mb-8 border-b border-zinc-100 bg-white/95 px-5 pb-4 pt-7 backdrop-blur sm:-mx-9 sm:px-9 lg:-mx-10 lg:px-10 xl:-mx-14 xl:px-14">
-            <div className="inline-flex rounded-full bg-zinc-100 p-1 text-sm" role="tablist" aria-label="Portfolio sections">
+            <div className="flex w-fit max-w-full flex-wrap rounded-3xl bg-zinc-100 p-1 text-sm" role="tablist" aria-label="Portfolio sections">
               {([
-                ["work", "Selected work"],
-                ["design", "Design"],
                 ["services", "What I do"],
+                ["work", "Work"],
+                ["strategy", "Creative strategy"],
+                ["design", "Design"],
               ] as const).map(([panel, label]) => (
                 <button key={panel} type="button" role="tab" aria-selected={activePanel === panel} onClick={() => setActivePanel(panel)} className={`rounded-full px-5 py-2 transition-colors ${activePanel === panel ? "bg-zinc-950 font-medium text-white shadow-sm" : "text-zinc-500 hover:text-zinc-950"}`}>
                   {label}
@@ -71,7 +77,8 @@ const App: React.FC = () => {
           </div>
           {activePanel === "work" && <section id="projects" className="pb-16"><WorkProjectsSection projects={PROJECTS} onProjectClick={handleProjectClick} shouldAnimateOnMount /></section>}
           {activePanel === "design" && <section className="pb-16"><DesignWorkSection /></section>}
-          {activePanel === "services" && <section className="pb-16"><ServicesSection onShowWork={showWork} /></section>}
+          {activePanel === "strategy" && <section className="pb-16"><CreativeStrategySection /></section>}
+          {activePanel === "services" && <section className="pb-16"><ServicesSection onShowWork={showWork} onShowStrategy={() => { setActivePanel("strategy"); document.getElementById("work")?.scrollTo({ top: 0, behavior: "smooth" }); }} /></section>}
           <footer className="border-t border-zinc-200 py-8 text-sm text-zinc-500">{USER_DATA.name} · Building products and websites with care.</footer>
         </main>
       </div>

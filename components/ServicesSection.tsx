@@ -4,6 +4,15 @@ import { ArrowUpRight, Check, Clapperboard, Code2, Sparkles, X } from "lucide-re
 const services = [
   {
     number: "01",
+    icon: Sparkles,
+    title: "Creative Strategy & Campaigns",
+    description: "Turn audience research into a clear campaign direction, with distinct concepts, purposeful copy, and a plan for what to test.",
+    items: ["Category, competitor, and customer-language research", "Awareness mapping, creative concepts, and briefs", "Copy, visual direction, and testing hypotheses"],
+    action: "View sample work",
+    href: "#projects",
+  },
+  {
+    number: "02",
     icon: Clapperboard,
     title: "AI UGC & Product Videos",
     description: "Turn your product into scroll-stopping content for Instagram, TikTok, and ads — without a camera crew or influencer budget.",
@@ -12,7 +21,7 @@ const services = [
     href: "#projects",
   },
   {
-    number: "02",
+    number: "03",
     icon: Code2,
     title: "Motion & Animated Websites",
     description: "A static site doesn't hold attention. I build fast, animation-driven websites that keep visitors engaged and guide them toward action.",
@@ -21,7 +30,7 @@ const services = [
     href: "#projects",
   },
   {
-    number: "03",
+    number: "04",
     icon: Sparkles,
     title: "AI Automation & Custom Tools",
     description: "If there's a manual process eating up your time, I can build a lightweight AI tool to handle it.",
@@ -31,11 +40,16 @@ const services = [
   },
 ];
 
-const ServicesSection: React.FC<{ standalone?: boolean; onShowWork?: () => void }> = ({ standalone = false, onShowWork }) => {
+const ServicesSection: React.FC<{ standalone?: boolean; onShowWork?: () => void; onShowStrategy?: () => void }> = ({ standalone = false, onShowWork, onShowStrategy }) => {
   const [sampleOpen, setSampleOpen] = useState(false);
   const [sampleTitle, setSampleTitle] = useState("");
 
   const openSample = (title: string) => {
+    if (title === "Creative Strategy & Campaigns") {
+      if (onShowStrategy) onShowStrategy();
+      else window.location.href = "/?section=strategy";
+      return;
+    }
     setSampleTitle(title);
     setSampleOpen(true);
   };
@@ -47,7 +61,7 @@ const ServicesSection: React.FC<{ standalone?: boolean; onShowWork?: () => void 
       <p className="mt-6 text-lg leading-8 text-zinc-600">I help brands and founders stand out with AI-powered content and fast, high-impact web experiences — no long contracts, no bloated agency process.</p>
     </div>
 
-    <div className="grid gap-4 lg:grid-cols-3">
+    <div className="grid gap-4 sm:grid-cols-2">
       {services.map(({ number, icon: Icon, title, description, items, action, href }) => (
         <article key={title} className="group flex min-h-[520px] flex-col rounded-[28px] border border-zinc-200 bg-white p-7 transition duration-300 hover:-translate-y-1 hover:border-zinc-400 hover:shadow-[0_20px_60px_-32px_rgba(0,0,0,0.35)] sm:p-8">
           <div className="flex items-center justify-between text-xs font-bold tracking-[0.2em] text-zinc-400"><span>{number}</span><Icon size={21} strokeWidth={1.6} className="text-black" /></div>
@@ -59,7 +73,7 @@ const ServicesSection: React.FC<{ standalone?: boolean; onShowWork?: () => void 
       ))}
     </div>
 
-    <div className="mt-4 flex flex-col justify-between gap-6 rounded-[28px] bg-black p-8 text-white sm:flex-row sm:items-center sm:p-10"><div><p className="text-xs font-bold uppercase tracking-[0.2em] text-zinc-400">Why work with me</p><p className="mt-3 max-w-2xl text-lg leading-8 text-zinc-200">No retainers. No long onboarding. You get a sample of the actual work before you pay for the full thing.</p></div><a href="mailto:sainipiyush8860@gmail.com?subject=Let's%20work%20together" className="inline-flex shrink-0 items-center justify-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-bold text-black transition hover:bg-zinc-200">Book a call <ArrowUpRight size={16} /></a></div>
+    <div className="mt-4 flex flex-col justify-between gap-6 rounded-[28px] bg-black p-8 text-white sm:flex-row sm:items-center sm:p-10"><div><p className="text-xs font-bold uppercase tracking-[0.2em] text-zinc-400">Why work with me</p><p className="mt-3 max-w-2xl text-lg leading-8 text-zinc-200">No retainers. No long onboarding. You get a sample of the actual work before you pay for the full thing.</p></div><a href="https://calendly.com/sainipiyush8860/bizpilot-demo" target="_blank" rel="noopener noreferrer" className="inline-flex shrink-0 items-center justify-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-bold text-black transition hover:bg-zinc-200">Book a call <ArrowUpRight size={16} /></a></div>
     {sampleOpen && <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-6 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="sample-dialog-title" onMouseDown={(event) => { if (event.target === event.currentTarget) setSampleOpen(false); }}>
       <div className="w-full max-w-lg rounded-[28px] bg-white p-7 shadow-2xl sm:p-9">
         <div className="flex items-start justify-between gap-6"><div><p className="text-xs font-bold uppercase tracking-[0.2em] text-zinc-400">Sample work</p><h2 id="sample-dialog-title" className="mt-3 text-2xl font-semibold tracking-[-0.04em] text-black">{sampleTitle}</h2></div><button type="button" aria-label="Close dialog" onClick={() => setSampleOpen(false)} className="rounded-full p-2 text-zinc-500 transition hover:bg-zinc-100 hover:text-black"><X size={19} /></button></div>
