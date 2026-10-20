@@ -12,10 +12,7 @@ type PortfolioPanel = "work" | "design" | "strategy" | "services";
 
 const App: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
-  const [activePanel, setActivePanel] = useState<PortfolioPanel>(() => {
-    const section = new URLSearchParams(window.location.search).get("section");
-    return section === "work" || section === "design" || section === "strategy" || section === "services" ? section : "services";
-  });
+  const [activePanel, setActivePanel] = useState<PortfolioPanel>("services");
   const handleProjectClick = useCallback((project: Project) => setSelectedProject(project), []);
   const closeProjectModal = useCallback(() => setSelectedProject(null), []);
   const showWork = useCallback(() => {
